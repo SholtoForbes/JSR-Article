@@ -1,0 +1,247 @@
+\begin{figure}[ht]
+\centering
+\includegraphics[width=.8\linewidth]{ASM0002}
+\caption{Model of the first stage rocket and scramjet vehicle.}
+\label{fig:ASM0002}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.7\linewidth]{CARTcontour}
+\caption{Normalised density contours of first stage flight, Mach 2, $-1^\circ$ angle of attack.}
+\label{fig:CARTcontour}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.7\linewidth]{CARTmesh}
+\caption{Adaptive mesh generated close to vehicle by CART3D for Mach 2, $-1^\circ$ angle of attack flight conditions.}
+\label{fig:CARTmesh}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.4\linewidth]{CART}
+\caption{CART3D verification parameters.}
+\label{fig:CART}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.8\linewidth]{SPARTAN}
+\caption{CAD model of the SPARTAN accelerator \cite{Preller2015a}.}
+\label{fig:SPARTAN}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.8\linewidth]{Schematic}
+\caption{Internal schematic view of the SPARTAN accelerator \cite{Preller2015a}.}
+\label{fig:Schematic}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.7\linewidth]{3rdStage}
+\caption{Schematic of the third stage rocket.}
+\label{fig:ThirdStage}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.7\linewidth]{ThirdStageCART}
+\caption{Third stage rocket normalised density contours for Mach 9, $10^\circ$ angle of attack conditions.}
+\label{fig:ThirdStageCART}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.7\linewidth]{ThirdStageCartmesh}
+\caption{Adaptive mesh generated close to third stage rocket by CART3D for Mach 9, $10^\circ$ angle of attack conditions.}
+\label{fig:ThirdStageCartmesh}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[H]
+   \begin{center}
+   \includegraphics[width=0.6\linewidth]{contours}
+   \caption{Payload mass results with variation in rocket stage release point for $v$ = 2750m/s, heading angle = 1.70 rad and latitude = -0.1271 rad.}
+   \label{fig:contours}
+   \end{center}
+  \end{figure}
+
+ In order to increase the computational efficiency of the optimisation, it was decided to consider the third stage rocket as an end point cost of the scramjet stage trajectory, as opposed to optimising the entirety of the trajectory at once.
+ Payload to orbit (used as the end cost for second stage optimisation, $C_3(\textbf{x}_{2 \rightarrow 3})$) was calculated over a 5 degree grid of separation conditions (velocity, altitude, trajectory angle, heading angle and latitude). For each condition, the in-atmosphere portion of the rocket stage trajectory is optimised for maximum payload to orbit using a 5 degree of freedom trajectory simulation. A simple minimum search is performed for three variables; burn time ($t_b$), angle of attack at start of burn ($\alpha_{3,2\rightarrow 3}$), and angle of attack at end of burn ($\alpha_{3,b}$). The MATLAB function fminsearch adjusts the values of these variables iteratively until an optimal payload to orbit is found. Payload to orbit results for a 2750m/s third stage release are shown in Figure \ref{fig:contours}.
+
+
+
+
+
+
+
+
+\section{Results and Discussion} \label{section:results}
+The program LODESTAR (Launch Optimisation and Data Evaluation for Scramjet Trajectory Analysis Research) has been developed to produce an optimal trajectory path for a rocket-scramjet-rocket launch vehicle. LODESTAR utilises DIDO \cite{Ross} to optimise a trajectory towards a customisable objective (i.e. constant dynamic pressures or optimal payload mass).
+LODESTAR was used to investigate the suitability of a pseudospectral method approach to optimisation of scramjet-rocket trajectories. The following simulations were developed:
+\begin{enumerate}
+\item: $q = $ 50kPa fixed SPARTAN trajectory \newline$\rightarrow$ Verifies approach by comparison to previous results.
+\item: Trajectory optimised for payload-to-orbit, $q_{max} = $ 50kPa \newline$\rightarrow$ Demonstrates the advantages of trajectory generation through coupled optimisation.
+\item: Trajectory optimised for payload-to-orbit, $q_{max} = $ 45kPa \& $q_{max} = $ 55kPa \newline$\rightarrow$ Comparison of these simulations allows investigation into the effect of $q$ max on payload-to-orbit.
+\item: Trajectory optimised for payload-to-orbit,  $q_{max} = $ 50kpa, 110\% SPARTAN Drag \newline$\rightarrow$ Comparison of optimal trajectories at 100\% and 110\% drag allows investigation of the robustness of the solution with variation in vehicle design.
+\end{enumerate}
+
+Table \ref{table:Summary} details key results for comparison.
+
+
+\begin{table}[htb]
+\centering
+\caption{Summary of Simulation Results}
+\small
+\begin{tabular}{l c c c c c}
+ & \textbf{1} & \textbf{2} & \textbf{3a} & \textbf{3b} & \textbf{4}  \\
+
+\hline \textbf{Trajectory Condition} & \textbf{$q = $ 50kPa} & \textbf{$q \leq $ 50kPa} & \textbf{ $q \leq $ 45kPa} & \textbf{$q \leq $ 55kPa} & \textbf{$q \leq $ 50kPa, 110\% $c_d$} \\
+\hline \textbf{Payload to Orbit (kg)}  & \PayloadToOrbitConstq & \PayloadToOrbitFiftykPa & \PayloadToOrbitFortyFivekPa & \PayloadToOrbitFiftyFivekPa & \PayloadToOrbitHighDrag \\
+\textbf{Separation Alt 1$\rightarrow$2 (km)}  & \FirstStageAltFifty & \FirstStageAltFifty & \FirstStageAltFortyFive &  \FirstStageAltFiftyFive &\FirstStageAltFifty \\
+\textbf{Separation $v$ 1$\rightarrow$2(m/s)} & \FirstStagevFifty & \FirstStagevFifty &  \FirstStagevFortyFive& \FirstStagevFiftyFive  & \FirstStagevFifty\\
+ \textbf{Separation Alt 2$\rightarrow$3(km)}  & \SeparationAltConstq & \SeparationAltFiftykPa & \SeparationAltFortyFivekPa & \SeparationAltFiftyFivekPa & \SeparationAltHighDrag\\
+ \textbf{Separation $v$ 2$\rightarrow$3(m/s)} & \SeparationvConstq  & \SeparationvFiftykPa & \SeparationvFortyFivekPa &  \SeparationvFiftyFivekPa & \SeparationvHighDrag\\
+ \textbf{Separation $\gamma$ (deg)} & \SeparationAngleConstq& \SeparationAngleFiftykPa &\SeparationAngleFortyFivekPa& \SeparationAngleFiftyFivekPa&\SeparationAngleHighDrag \\
+ \textbf{Separation $q$ (kPa)} & \SeparationqConstq  &\SeparationqFiftykPa&\SeparationqFortyFivekPa &\SeparationqFiftyFivekPa& \SeparationqHighDrag \\
+ \textbf{Separation L/d} & \SeparationLDConstq&\SeparationLDFiftykPa & \SeparationLDFortyFivekPa & \SeparationLDFiftyFivekPa &\SeparationLDHighDrag\\
+ \textbf{2$^{nd}$ Stage Flight Time (s)} & \FlightTimeConstq & \FlightTimeFiftykPa & \FlightTimeFortyFivekPa & \FlightTimeFiftyFivekPa & \FlightTimeHighDrag\\
+ \textbf{3$^{rd}$ Stage Max $q$ (kPa)} &\MaxqConstq  &\MaxqFiftykPa & \MaxqFortyFivekPa &\MaxqFiftyFivekPa & \MaxqHighDrag\\
+ \textbf{3$^{rd}$ Stage $t$ $>$ 20kpa (s)} &\toverConstq &\toverFiftykPa &\toverFortyFivekPa &\toverFiftyFivekPa & \toverHighDrag\\
+
+
+\hline
+\end{tabular}
+
+
+\label{table:Summary}
+\end{table}
+
+
+\subsection{First Stage Evaluation}
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=.8\linewidth]{FirstStage}
+\caption{First stage trajectory, optimised for maximum velocity and a release point of 50kPa.}
+\label{fig:FirstStage}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[H]
+\centering
+\includegraphics[width=.8\linewidth]{Constq}
+\caption{Trajectory path of the 2$^{nd}$ stage SPARTAN vehicle flying at 50kPa constant dynamic pressure.}
+\label{fig:constq}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[ht]
+\centering
+\includegraphics[width=.7\linewidth]{Constq-Aero}
+\caption{Trajectory data for 50kPa constant dynamic pressure trajectory.}
+\label{fig:constq aero}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[ht]
+\centering
+\includegraphics[width=.7\linewidth]{Constq-Vehicle}
+\caption{Vehicle performance data for 50kPa constant dynamic pressure trajectory. Note: Flap deflection is positive down.}
+\label{fig:constq vehicle}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.8\linewidth]{ThirdStageConstQ}
+\caption{Third stage rocket trajectory simulated from the end of the 50kPa constant dynamic pressure SPARTAN trajectory.}
+\label{fig:ThirdStageConstQ}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[H]
+\centering
+\includegraphics[width=.8\linewidth]{qlimited50kPa}
+\caption{Maximum payload trajectory path of the 2$^{nd}$ stage SPARTAN vehicle when limited to 50kPa dynamic pressure.}
+\label{fig:qlimited}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[ht]
+\centering
+\includegraphics[width=.7\linewidth]{qlimited50kPa-aero}
+\caption{Trajectory data for 50kpa dynamic pressure limited trajectory.}
+\label{fig:qlimited aero}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[ht]
+\centering
+\includegraphics[width=.7\linewidth]{qlimited-Vehicle}
+\caption{Vehicle performance data for 50kpa dynamic pressure limited trajectory. Note: Flap deflection is positive down.}
+\label{fig:qlimited vehicle}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[ht]
+
+\centering
+\includegraphics[width=0.8\linewidth]{ThirdStage50kpaConstrained}
+\caption{Third stage rocket trajectory simulated from the end of the 50kPa dynamic pressure limited maximum payload SPARTAN trajectory.}
+\label{fig:ThirdStage50kPa}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[H]
+\centering
+\includegraphics[width=.8\linewidth]{Multipleq}
+\caption{Comparison of 45kPa / 55kpa dynamic pressure limited trajectory paths for maximum payload to orbit.}
+\label{fig:multipleq}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[ht]
+\centering
+
+\includegraphics[width=.7\linewidth]{MultipleqAero}
+\caption{Comparison of trajectory data for 45kPa / 55kpa dynamic pressure limited trajectories.}
+\label{fig:multipleq aero}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[ht]
+\centering
+\includegraphics[width=.7\linewidth]{Multipleq-Vehicle}
+\caption{Comparison of vehicle performance data for 45kPa / 55kpa dynamic pressure limited trajectories.}
+\label{fig:multipleq vehicle}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[ht]
+\centering
+\includegraphics[width=.8\linewidth]{DragComparisonTraj}
+\caption{Comparison of trajectory paths for 100\% and 110\% drag cases for a 50kPa dynamic pressure limited maximum payload trajectory.}
+\label{fig:DragCompTraj}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[ht]
+\centering
+\includegraphics[width=.7\linewidth]{DragComparisonOther}
+\caption{Comparison of $v$ and $I_{sp_{net}}$ for 100\% and 110\% drag cases for a 50kPa dynamic pressure limited maximum payload trajectory.}
+\label{fig:DragCompOther}
+\end{figure}
+\efloatseparator
+ 

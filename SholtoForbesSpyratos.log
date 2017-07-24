@@ -1,0 +1,566 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.8)  18 JUL 2017 13:09
+entering extended mode
+**./SholtoForbesSpyratos.tex
+(SholtoForbesSpyratos.tex
+LaTeX2e <2017-04-15>
+Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
+(aiaa-tc.cls
+Document Class: aiaa-tc 2004/11/23 v3.8 AIAA technical conference paper
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count87
+\Gm@cntv=\count88
+\c@Gm@tempcnt=\count89
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks15
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg")) (overcite.sty
+Package: overcite 2003/05/27  v 4.0
+) (cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+LaTeX Info: Redefining \cite on input line 441.
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+Package: fancyhdr 2016/10/11 v3.9 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip43
+\f@nch@O@elh=\skip44
+\f@nch@O@erh=\skip45
+\f@nch@O@olh=\skip46
+\f@nch@O@orh=\skip47
+\f@nch@O@elf=\skip48
+\f@nch@O@erf=\skip49
+\f@nch@O@olf=\skip50
+\f@nch@O@orf=\skip51
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\lastpage\lastpage.sty"
+Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count90
+))
+\Gin@req@height=\dimen111
+\Gin@req@width=\dimen112
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen113
+\extrarowheight=\dimen114
+\NC@list=\toks16
+\extratabsurround=\skip52
+\backup@length=\skip53
+)
+\aiaa@overhang=\skip54
+\c@aiaa@cthanks=\count91
+\c@aiaa@cfootnote=\count92
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\bm.sty"
+Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup4
+\symboldletters=\mathgroup5
+\symboldsymbols=\mathgroup6
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
+LaTeX Info: Redefining \bm on input line 207.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count93
+\float@exts=\toks17
+\float@box=\box26
+\@float@everytoks=\toks18
+\@floatcapt=\box27
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(SholtoForbesSpyratos.aux)
+\openout1 = `SholtoForbesSpyratos.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(54.2025pt, 668.4975pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=668.4975pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-55.06749pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             https://www.ctan.org/pkg/pageslts
+(lastpage)             ! on input line 91.
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count94
+\scratchdimen=\dimen115
+\scratchbox=\box28
+\nofMPsegments=\count95
+\nofMParguments=\count96
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count97
+\MPscratchDim=\dimen116
+\MPnumerator=\count98
+\makeMPintoPDFobject=\count99
+\everyMPtoPDFconversion=\toks20
+) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 128.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 128.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 128.
+ [1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 132.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 132.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 132.
+
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 132.
+
+Overfull \hbox (9.23877pt too wide) in paragraph at lines 132--132
+ [][] 
+ []
+
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <6> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 132.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 136.
+
+Underfull \hbox (badness 7099) in paragraph at lines 167--167
+\OML/cmm/m/it/10 $\OT1/cmr/m/n/10 , $\OML/cmm/m/it/10 M$\OT1/cmr/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 7522) in paragraph at lines 188--189
+[]|\OT1/cmr/m/n/10 Gravitational Ac-cel-er-a-tion at
+ []
+
+
+Overfull \hbox (14.18668pt too wide) in paragraph at lines 135--264
+[] []
+ []
+
+
+Overfull \hbox (14.18668pt too wide) in paragraph at lines 135--264
+[] []
+ []
+
+
+Overfull \hbox (14.18668pt too wide) in paragraph at lines 135--264
+[] []
+ []
+
+
+Overfull \hbox (14.18668pt too wide) in paragraph at lines 135--264
+[] []
+ []
+
+
+Overfull \hbox (14.18668pt too wide) in paragraph at lines 135--264
+[] []
+ []
+
+
+Overfull \hbox (14.18668pt too wide) in paragraph at lines 135--264
+[] []
+ []
+
+
+Overfull \hbox (14.18668pt too wide) in paragraph at lines 135--264
+[] []
+ []
+
+
+Overfull \hbox (14.18668pt too wide) in paragraph at lines 135--264
+[] []
+ []
+
+
+Overfull \hbox (14.18668pt too wide) in paragraph at lines 135--264
+[] []
+ []
+
+
+Overfull \hbox (14.18668pt too wide) in paragraph at lines 135--264
+[] []
+ []
+
+
+Overfull \hbox (14.18668pt too wide) in paragraph at lines 135--264
+[] []
+ []
+
+
+Overfull \hbox (14.18668pt too wide) in paragraph at lines 135--264
+[] []
+ []
+
+
+Overfull \hbox (14.18668pt too wide) in paragraph at lines 135--264
+[] []
+ []
+
+
+Overfull \hbox (14.18668pt too wide) in paragraph at lines 135--264
+[] []
+ []
+
+
+Overfull \hbox (14.18668pt too wide) in paragraph at lines 135--264
+[] []
+ []
+
+
+Overfull \hbox (14.18668pt too wide) in paragraph at lines 135--264
+[] []
+ []
+
+
+Overfull \hbox (14.18668pt too wide) in paragraph at lines 135--264
+[] []
+ []
+
+
+Overfull \hbox (14.18668pt too wide) in paragraph at lines 135--264
+[] []
+ []
+
+
+Overfull \hbox (14.18668pt too wide) in paragraph at lines 135--264
+[] [] 
+ []
+
+[2] [3] [4] [5] <NoInternal.png, id=32, 1166.10657pt x 504.38437pt>
+File: NoInternal.png Graphic file (type png)
+
+<use NoInternal.png>
+Package pdftex.def Info: NoInternal.png used on input line 320.
+(pdftex.def)             Requested size: 375.79514pt x 162.54533pt.
+ <INTERNALS.jpg, id=34, 1408.51219pt x 306.39468pt>
+File: INTERNALS.jpg Graphic file (type jpg)
+
+<use INTERNALS.jpg>
+Package pdftex.def Info: INTERNALS.jpg used on input line 328.
+(pdftex.def)             Requested size: 375.79002pt x 81.74586pt.
+ [6 <./NoInternal.png> <./INTERNALS.jpg>]
+<3rdStage.jpg, id=41, 1150.2975pt x 240.14719pt>
+File: 3rdStage.jpg Graphic file (type jpg)
+ <use 3rdStage.jpg>
+Package pdftex.def Info: 3rdStage.jpg used on input line 353.
+(pdftex.def)             Requested size: 281.85168pt x 58.84206pt.
+ [7 <./3rdStage.jpg>] <CARTcontour.png, id=46, 783.67781pt x 366.61969pt>
+File: CARTcontour.png Graphic file (type png)
+
+<use CARTcontour.png>
+Package pdftex.def Info: CARTcontour.png used on input line 376.
+(pdftex.def)             Requested size: 281.86072pt x 131.85991pt.
+ <CARTmesh.png, id=47, 788.19469pt x 371.88937pt>
+File: CARTmesh.png Graphic file (type png)
+
+<use CARTmesh.png>
+Package pdftex.def Info: CARTmesh.png used on input line 382.
+(pdftex.def)             Requested size: 281.84962pt x 132.98349pt.
+ <CART.png, id=48, 421.575pt x 316.18124pt>
+File: CART.png Graphic file (type png)
+ <use CART.png>
+Package pdftex.def Info: CART.png used on input line 388.
+(pdftex.def)             Requested size: 187.8994pt x 140.92455pt.
+
+[8 <./CARTcontour.png>] [9 <./CARTmesh.png> <./CART.png (PNG copy)>] [10]
+[11] [12] <contours.png, id=72, 421.575pt x 316.18124pt>
+File: contours.png Graphic file (type png)
+ <use contours.png>
+Package pdftex.def Info: contours.png used on input line 520.
+(pdftex.def)             Requested size: 281.86197pt x 211.39647pt.
+
+[13] [14 <./contours.png (PNG copy)>] [15]
+<FirstStage.png, id=84, 421.575pt x 316.18124pt>
+File: FirstStage.png Graphic file (type png)
+ <use FirstStage.png>
+Package pdftex.def Info: FirstStage.png used on input line 626.
+(pdftex.def)             Requested size: 328.8336pt x 246.6252pt.
+ [16]
+<Constq.png, id=88, 615.0478pt x 323.70938pt>
+File: Constq.png Graphic file (type png)
+ <use Constq.png>
+Package pdftex.def Info: Constq.png used on input line 649.
+(pdftex.def)             Requested size: 328.82678pt x 173.06673pt.
+
+<Constq-Aero.png, id=89, 571.38469pt x 347.04657pt>
+File: Constq-Aero.png Graphic file (type png)
+ <use Constq-Aero.png>
+Package pdftex.def Info: Constq-Aero.png used on input line 655.
+(pdftex.def)             Requested size: 281.85544pt x 171.19283pt.
+
+[17 <./FirstStage.png (PNG copy)>]
+<Constq-Vehicle.png, id=95, 573.64313pt x 307.1475pt>
+File: Constq-Vehicle.png Graphic file (type png)
+ <use Constq-Vehicle.png>
+Package pdftex.def Info: Constq-Vehicle.png used on input line 661.
+(pdftex.def)             Requested size: 281.85786pt x 150.91602pt.
+
+[18 <./Constq.png> <./Constq-Aero.png> <./Constq-Vehicle.png>]
+<qlimited50kPa.png, id=102, 612.78937pt x 322.20375pt>
+File: qlimited50kPa.png Graphic file (type png)
+ <use qlimited50kPa.png>
+Package pdftex.def Info: qlimited50kPa.png used on input line 686.
+(pdftex.def)             Requested size: 328.82555pt x 172.89598pt.
+
+<qlimited50kPa-aero.png, id=103, 563.85657pt x 339.51843pt>
+File: qlimited50kPa-aero.png Graphic file (type png)
+
+<use qlimited50kPa-aero.png>
+Package pdftex.def Info: qlimited50kPa-aero.png used on input line 692.
+(pdftex.def)             Requested size: 281.85876pt x 169.71735pt.
+
+<qlimited-Vehicle.png, id=104, 569.87906pt x 303.38344pt>
+File: qlimited-Vehicle.png Graphic file (type png)
+
+<use qlimited-Vehicle.png>
+Package pdftex.def Info: qlimited-Vehicle.png used on input line 698.
+(pdftex.def)             Requested size: 281.85187pt x 150.04796pt.
+ [19 <./qlimited50kPa.png>] [20 <./qlimited50kPa-aero.png> <./qlimited-Vehicle.
+png>]
+<Multipleq.png, id=115, 616.55344pt x 323.70938pt>
+File: Multipleq.png Graphic file (type png)
+ <use Multipleq.png>
+Package pdftex.def Info: Multipleq.png used on input line 728.
+(pdftex.def)             Requested size: 328.83208pt x 172.64688pt.
+
+<MultipleqAero.png, id=116, 567.62062pt x 371.88937pt>
+File: MultipleqAero.png Graphic file (type png)
+ <use MultipleqAero.png>
+Package pdftex.def Info: MultipleqAero.png used on input line 735.
+(pdftex.def)             Requested size: 281.86084pt x 184.66745pt.
+
+<Multipleq-Vehicle.png, id=117, 572.89032pt x 306.39468pt>
+File: Multipleq-Vehicle.png Graphic file (type png)
+
+<use Multipleq-Vehicle.png>
+Package pdftex.def Info: Multipleq-Vehicle.png used on input line 741.
+(pdftex.def)             Requested size: 281.85512pt x 150.74248pt.
+ [21 <./Multipleq.png>] [22 <./MultipleqAero.png> <./Multipleq-Vehicle.png>]
+<DragComparisonTraj.png, id=127, 617.30624pt x 322.20375pt>
+File: DragComparisonTraj.png Graphic file (type png)
+
+<use DragComparisonTraj.png>
+Package pdftex.def Info: DragComparisonTraj.png used on input line 760.
+(pdftex.def)             Requested size: 328.83797pt x 171.63737pt.
+
+<DragComparisonOther.png, id=128, 570.63188pt x 307.90031pt>
+File: DragComparisonOther.png Graphic file (type png)
+
+<use DragComparisonOther.png>
+Package pdftex.def Info: DragComparisonOther.png used on input line 767.
+(pdftex.def)             Requested size: 281.8585pt x 152.0846pt.
+ [23 <./DragComparisonTraj.png> <./DragComparisonOther.png>] <ThirdStageConstQ.
+png, id=134, 602.25pt x 451.6875pt>
+File: ThirdStageConstQ.png Graphic file (type png)
+
+<use ThirdStageConstQ.png>
+Package pdftex.def Info: ThirdStageConstQ.png used on input line 790.
+(pdftex.def)             Requested size: 375.81718pt x 281.86288pt.
+
+<ThirdStage50kpaConstrained.png, id=135, 602.25pt x 451.6875pt>
+File: ThirdStage50kpaConstrained.png Graphic file (type png)
+
+<use ThirdStage50kpaConstrained.png>
+Package pdftex.def Info: ThirdStage50kpaConstrained.png used on input line 797.
+
+(pdftex.def)             Requested size: 375.81718pt x 281.86288pt.
+ [24] [25 <./ThirdStageConstQ.png (PNG copy)> <./ThirdStage50kpaConstrained.png
+ (PNG copy)>] [26]
+(SholtoForbesSpyratos.bbl [27]
+Missing character: There is no â in font cmr8!
+Missing character: There is no € in font cmr8!
+Missing character: There is no ™ in font cmr8!
+ [28]) 
+AED: lastpage setting LastPage
+[29] (SholtoForbesSpyratos.aux) ) 
+Here is how much of TeX's memory you used:
+ 2833 strings out of 493323
+ 40484 string characters out of 3139058
+ 120689 words of memory out of 3000000
+ 6289 multiletter control sequences out of 15000+200000
+ 15398 words of font info for 52 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 39i,11n,45p,1282b,354s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+bx7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmmib10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
+y5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmti8.pfb>
+Output written on SholtoForbesSpyratos.pdf (29 pages, 1204439 bytes).
+PDF statistics:
+ 240 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+
