@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.8)  18 JUL 2017 13:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.8)  17 AUG 2017 10:47
 entering extended mode
 **./SholtoForbesSpyratos.tex
 (SholtoForbesSpyratos.tex
@@ -384,84 +384,84 @@ File: NoInternal.png Graphic file (type png)
 <use NoInternal.png>
 Package pdftex.def Info: NoInternal.png used on input line 320.
 (pdftex.def)             Requested size: 375.79514pt x 162.54533pt.
- <INTERNALS.jpg, id=34, 1408.51219pt x 306.39468pt>
+ <INTERNALS.jpg, id=34, 1412.27625pt x 245.41687pt>
 File: INTERNALS.jpg Graphic file (type jpg)
 
 <use INTERNALS.jpg>
 Package pdftex.def Info: INTERNALS.jpg used on input line 328.
-(pdftex.def)             Requested size: 375.79002pt x 81.74586pt.
+(pdftex.def)             Requested size: 375.803pt x 65.30478pt.
  [6 <./NoInternal.png> <./INTERNALS.jpg>]
-<3rdStage.jpg, id=41, 1150.2975pt x 240.14719pt>
+<3rdStage.jpg, id=40, 1372.37718pt x 283.81032pt>
 File: 3rdStage.jpg Graphic file (type jpg)
  <use 3rdStage.jpg>
 Package pdftex.def Info: 3rdStage.jpg used on input line 353.
-(pdftex.def)             Requested size: 281.85168pt x 58.84206pt.
- [7 <./3rdStage.jpg>] <CARTcontour.png, id=46, 783.67781pt x 366.61969pt>
+(pdftex.def)             Requested size: 281.84172pt x 58.28542pt.
+ [7 <./3rdStage.jpg>] <CARTcontour.png, id=45, 783.67781pt x 366.61969pt>
 File: CARTcontour.png Graphic file (type png)
 
 <use CARTcontour.png>
 Package pdftex.def Info: CARTcontour.png used on input line 376.
 (pdftex.def)             Requested size: 281.86072pt x 131.85991pt.
- <CARTmesh.png, id=47, 788.19469pt x 371.88937pt>
+ <CARTmesh.png, id=46, 788.19469pt x 371.88937pt>
 File: CARTmesh.png Graphic file (type png)
 
 <use CARTmesh.png>
 Package pdftex.def Info: CARTmesh.png used on input line 382.
 (pdftex.def)             Requested size: 281.84962pt x 132.98349pt.
- <CART.png, id=48, 421.575pt x 316.18124pt>
+ <CART.png, id=47, 421.575pt x 316.18124pt>
 File: CART.png Graphic file (type png)
  <use CART.png>
 Package pdftex.def Info: CART.png used on input line 388.
 (pdftex.def)             Requested size: 187.8994pt x 140.92455pt.
 
 [8 <./CARTcontour.png>] [9 <./CARTmesh.png> <./CART.png (PNG copy)>] [10]
-[11] [12] <contours.png, id=72, 421.575pt x 316.18124pt>
+[11] [12] <contours.png, id=71, 421.575pt x 316.18124pt>
 File: contours.png Graphic file (type png)
  <use contours.png>
 Package pdftex.def Info: contours.png used on input line 520.
 (pdftex.def)             Requested size: 281.86197pt x 211.39647pt.
 
 [13] [14 <./contours.png (PNG copy)>] [15]
-<FirstStage.png, id=84, 421.575pt x 316.18124pt>
+<FirstStage.png, id=83, 421.575pt x 316.18124pt>
 File: FirstStage.png Graphic file (type png)
  <use FirstStage.png>
 Package pdftex.def Info: FirstStage.png used on input line 626.
 (pdftex.def)             Requested size: 328.8336pt x 246.6252pt.
  [16]
-<Constq.png, id=88, 615.0478pt x 323.70938pt>
+<Constq.png, id=87, 615.0478pt x 323.70938pt>
 File: Constq.png Graphic file (type png)
  <use Constq.png>
 Package pdftex.def Info: Constq.png used on input line 649.
 (pdftex.def)             Requested size: 328.82678pt x 173.06673pt.
 
-<Constq-Aero.png, id=89, 571.38469pt x 347.04657pt>
+<Constq-Aero.png, id=88, 571.38469pt x 347.04657pt>
 File: Constq-Aero.png Graphic file (type png)
  <use Constq-Aero.png>
 Package pdftex.def Info: Constq-Aero.png used on input line 655.
 (pdftex.def)             Requested size: 281.85544pt x 171.19283pt.
 
 [17 <./FirstStage.png (PNG copy)>]
-<Constq-Vehicle.png, id=95, 573.64313pt x 307.1475pt>
+<Constq-Vehicle.png, id=94, 573.64313pt x 307.1475pt>
 File: Constq-Vehicle.png Graphic file (type png)
  <use Constq-Vehicle.png>
 Package pdftex.def Info: Constq-Vehicle.png used on input line 661.
 (pdftex.def)             Requested size: 281.85786pt x 150.91602pt.
 
 [18 <./Constq.png> <./Constq-Aero.png> <./Constq-Vehicle.png>]
-<qlimited50kPa.png, id=102, 612.78937pt x 322.20375pt>
+<qlimited50kPa.png, id=101, 612.78937pt x 322.20375pt>
 File: qlimited50kPa.png Graphic file (type png)
  <use qlimited50kPa.png>
 Package pdftex.def Info: qlimited50kPa.png used on input line 686.
 (pdftex.def)             Requested size: 328.82555pt x 172.89598pt.
 
-<qlimited50kPa-aero.png, id=103, 563.85657pt x 339.51843pt>
+<qlimited50kPa-aero.png, id=102, 563.85657pt x 339.51843pt>
 File: qlimited50kPa-aero.png Graphic file (type png)
 
 <use qlimited50kPa-aero.png>
 Package pdftex.def Info: qlimited50kPa-aero.png used on input line 692.
 (pdftex.def)             Requested size: 281.85876pt x 169.71735pt.
 
-<qlimited-Vehicle.png, id=104, 569.87906pt x 303.38344pt>
+<qlimited-Vehicle.png, id=103, 569.87906pt x 303.38344pt>
 File: qlimited-Vehicle.png Graphic file (type png)
 
 <use qlimited-Vehicle.png>
@@ -469,47 +469,47 @@ Package pdftex.def Info: qlimited-Vehicle.png used on input line 698.
 (pdftex.def)             Requested size: 281.85187pt x 150.04796pt.
  [19 <./qlimited50kPa.png>] [20 <./qlimited50kPa-aero.png> <./qlimited-Vehicle.
 png>]
-<Multipleq.png, id=115, 616.55344pt x 323.70938pt>
+<Multipleq.png, id=114, 616.55344pt x 323.70938pt>
 File: Multipleq.png Graphic file (type png)
  <use Multipleq.png>
 Package pdftex.def Info: Multipleq.png used on input line 728.
 (pdftex.def)             Requested size: 328.83208pt x 172.64688pt.
 
-<MultipleqAero.png, id=116, 567.62062pt x 371.88937pt>
+<MultipleqAero.png, id=115, 567.62062pt x 371.88937pt>
 File: MultipleqAero.png Graphic file (type png)
  <use MultipleqAero.png>
 Package pdftex.def Info: MultipleqAero.png used on input line 735.
 (pdftex.def)             Requested size: 281.86084pt x 184.66745pt.
 
-<Multipleq-Vehicle.png, id=117, 572.89032pt x 306.39468pt>
+<Multipleq-Vehicle.png, id=116, 572.89032pt x 306.39468pt>
 File: Multipleq-Vehicle.png Graphic file (type png)
 
 <use Multipleq-Vehicle.png>
 Package pdftex.def Info: Multipleq-Vehicle.png used on input line 741.
 (pdftex.def)             Requested size: 281.85512pt x 150.74248pt.
  [21 <./Multipleq.png>] [22 <./MultipleqAero.png> <./Multipleq-Vehicle.png>]
-<DragComparisonTraj.png, id=127, 617.30624pt x 322.20375pt>
+<DragComparisonTraj.png, id=126, 617.30624pt x 322.20375pt>
 File: DragComparisonTraj.png Graphic file (type png)
 
 <use DragComparisonTraj.png>
 Package pdftex.def Info: DragComparisonTraj.png used on input line 760.
 (pdftex.def)             Requested size: 328.83797pt x 171.63737pt.
 
-<DragComparisonOther.png, id=128, 570.63188pt x 307.90031pt>
+<DragComparisonOther.png, id=127, 570.63188pt x 307.90031pt>
 File: DragComparisonOther.png Graphic file (type png)
 
 <use DragComparisonOther.png>
 Package pdftex.def Info: DragComparisonOther.png used on input line 767.
 (pdftex.def)             Requested size: 281.8585pt x 152.0846pt.
  [23 <./DragComparisonTraj.png> <./DragComparisonOther.png>] <ThirdStageConstQ.
-png, id=134, 602.25pt x 451.6875pt>
+png, id=133, 602.25pt x 451.6875pt>
 File: ThirdStageConstQ.png Graphic file (type png)
 
 <use ThirdStageConstQ.png>
 Package pdftex.def Info: ThirdStageConstQ.png used on input line 790.
 (pdftex.def)             Requested size: 375.81718pt x 281.86288pt.
 
-<ThirdStage50kpaConstrained.png, id=135, 602.25pt x 451.6875pt>
+<ThirdStage50kpaConstrained.png, id=134, 602.25pt x 451.6875pt>
 File: ThirdStage50kpaConstrained.png Graphic file (type png)
 
 <use ThirdStage50kpaConstrained.png>
@@ -558,9 +558,9 @@ y5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/cm/cmti8.pfb>
-Output written on SholtoForbesSpyratos.pdf (29 pages, 1204439 bytes).
+Output written on SholtoForbesSpyratos.pdf (29 pages, 1224457 bytes).
 PDF statistics:
- 240 PDF objects out of 1000 (max. 8388607)
+ 239 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  106 words of extra memory for PDF output out of 10000 (max. 10000000)
 
