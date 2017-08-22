@@ -59,8 +59,9 @@ Tsuchiya, T. and Mori, T., \enquote{{Optimal Design of Two-Stage-To-Orbit Space
   Rockets\/}, Vol.~42, No.~1, 2005, pp.~90--97.
 
 \bibitem{Wilhite1991}
-Wilhite, A.~W., \enquote{{Technology and staging effects on two-stage-to-orbit
-  systems},} Vol.~31, No.~1, 1991, pp.~31--39.
+Wilhite, A.~W., Engelund, W.~C., Stanley, D.~O., and Naftel, J.~C.,
+  \enquote{{Technology and staging effects on two-stage-to-orbit systems},}
+  Vol.~31, No.~1, 1991, pp.~31--39.
 
 \bibitem{Mehta2001}
 Mehta, U.~B. and Bowles, J.~V., \enquote{{Two-Stage-to-Orbit Spaceplane Concept
@@ -159,17 +160,25 @@ Jazra, T. and Smart, M., \enquote{{Development of an Aerodynamics Code for the
   Meeting Including The New Horizons Forum and Aerospace Exposition\/},
   Orlando, Florida, 2009, p. 2009.
 
-\bibitem{Administration1976}
-NASA, {\em {U.S. Standard Atmosphere, 1976}\/}, U.S. Government Printing
-  Office, Washington, D.C., 1976.
-
 \bibitem{Blake1998}
 Blake, W.~B., \enquote{{Missile Datcom, User Manual, AFRL-VA-WP-TR-1998-3009},}
   Tech. Rep. December 1997, Air Force Research Laboratory, Wright-Patterson Air
   Force Base, Ohio, 1998.
 
+\bibitem{Zandbergen}
+Zandbergen, B., \enquote{{Modern Liquid Propellant Rocket Engines , 2000
+  Outlook},} Tech. Rep. October, Delft university of Technology, 2000.
+
+\bibitem{Administration1976}
+NASA, {\em {U.S. Standard Atmosphere, 1976}\/}, U.S. Government Printing
+  Office, Washington, D.C., 1976.
+
+\bibitem{RPE}
+Sutton, G. and Biblarz, O., {\em {Rocket propulsion Elements}\/}, John Wiley \&
+  Sons, 8th ed., 2010.
+
 \bibitem{Josselyn2002a}
-Josselyn, S. and Ross, I.~M., \enquote{{Rapid Veri cation Method for the
+Josselyn, S. and Ross, I.~M., \enquote{{Rapid Verification Method for the
   Trajectory Optimization of Reentry Vehicles},} {\em Notes\/}, Vol.~26, No.~3,
   2002, pp.~505--508.
 
