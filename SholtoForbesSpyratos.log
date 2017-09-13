@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.8)  31 AUG 2017 08:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.8)  13 SEP 2017 14:06
 entering extended mode
 **./SholtoForbesSpyratos.tex
 (SholtoForbesSpyratos.tex
@@ -279,7 +279,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 154--154
  []
 
 
-Underfull \hbox (badness 7522) in paragraph at lines 175--176
+Underfull \hbox (badness 7522) in paragraph at lines 181--182
 []|\OT1/cmr/m/n/10 Gravitational Ac-cel-er-a-tion at
  []
 
@@ -335,12 +335,12 @@ Overfull \hbox (14.18668pt too wide) in paragraph at lines 137--273
 
 
 Overfull \hbox (14.18668pt too wide) in paragraph at lines 137--273
-[] [] 
+[] []
  []
 
 
 Overfull \hbox (14.18668pt too wide) in paragraph at lines 137--273
-[] []
+[] [] 
  []
 
 
@@ -409,128 +409,128 @@ Package pdftex.def Info: 3rdStage.jpg used on input line 362.
 File: CARTcontour.png Graphic file (type png)
 
 <use CARTcontour.png>
-Package pdftex.def Info: CARTcontour.png used on input line 385.
+Package pdftex.def Info: CARTcontour.png used on input line 383.
 (pdftex.def)             Requested size: 281.86072pt x 131.85991pt.
  <CARTmesh.png, id=46, 788.19469pt x 371.88937pt>
 File: CARTmesh.png Graphic file (type png)
 
 <use CARTmesh.png>
-Package pdftex.def Info: CARTmesh.png used on input line 391.
+Package pdftex.def Info: CARTmesh.png used on input line 389.
 (pdftex.def)             Requested size: 281.84962pt x 132.98349pt.
  <CART.png, id=47, 421.575pt x 316.18124pt>
 File: CART.png Graphic file (type png)
  <use CART.png>
-Package pdftex.def Info: CART.png used on input line 397.
+Package pdftex.def Info: CART.png used on input line 395.
 (pdftex.def)             Requested size: 187.8994pt x 140.92455pt.
 
 [8 <./CARTcontour.png>] [9 <./CARTmesh.png> <./CART.png (PNG copy)>] [10]
-[11] [12] <contours.png, id=71, 421.575pt x 316.18124pt>
+[11] [12] [13] <contours.png, id=75, 421.575pt x 316.18124pt>
 File: contours.png Graphic file (type png)
- <use contours.png>
-Package pdftex.def Info: contours.png used on input line 533.
-(pdftex.def)             Requested size: 281.86197pt x 211.39647pt.
 
-[13] [14 <./contours.png (PNG copy)>] [15] [16]
-Overfull \hbox (54.5299pt too wide) in paragraph at lines 611--630
+<use contours.png>
+Package pdftex.def Info: contours.png used on input line 532.
+(pdftex.def)             Requested size: 281.86197pt x 211.39647pt.
+ [14 <./contours.png (PNG copy)>] [15] [16]
+Overfull \hbox (13.41818pt too wide) in paragraph at lines 610--634
  [][] 
  []
 
 <FirstStage.png, id=86, 421.575pt x 316.18124pt>
 File: FirstStage.png Graphic file (type png)
  <use FirstStage.png>
-Package pdftex.def Info: FirstStage.png used on input line 639.
+Package pdftex.def Info: FirstStage.png used on input line 643.
 (pdftex.def)             Requested size: 328.8336pt x 246.6252pt.
  [17 <./FirstStage.png (PNG copy)>] <Constq.png, id=93, 637.63219pt x 335.75438
 pt>
 File: Constq.png Graphic file (type png)
 
 <use Constq.png>
-Package pdftex.def Info: Constq.png used on input line 657.
+Package pdftex.def Info: Constq.png used on input line 661.
 (pdftex.def)             Requested size: 328.82693pt x 173.14853pt.
  <Constq-Aero.png, id=94, 562.35094pt x 355.3275pt>
 File: Constq-Aero.png Graphic file (type png)
 
 <use Constq-Aero.png>
-Package pdftex.def Info: Constq-Aero.png used on input line 663.
+Package pdftex.def Info: Constq-Aero.png used on input line 667.
 (pdftex.def)             Requested size: 281.85266pt x 178.09163pt.
  <Constq-Vehicle.png, id=95, 572.1375pt x 313.17pt>
 File: Constq-Vehicle.png Graphic file (type png)
 
 <use Constq-Vehicle.png>
-Package pdftex.def Info: Constq-Vehicle.png used on input line 669.
+Package pdftex.def Info: Constq-Vehicle.png used on input line 673.
 (pdftex.def)             Requested size: 281.86012pt x 154.28133pt.
  [18 <./Constq.png> <./Constq-Aero.png>]
 <qlimited50kPa.png, id=101, 612.78937pt x 324.46219pt>
 File: qlimited50kPa.png Graphic file (type png)
  <use qlimited50kPa.png>
-Package pdftex.def Info: qlimited50kPa.png used on input line 692.
+Package pdftex.def Info: qlimited50kPa.png used on input line 696.
 (pdftex.def)             Requested size: 328.82555pt x 174.10786pt.
 
 <qlimited50kPa-aero.png, id=102, 566.115pt x 356.83313pt>
 File: qlimited50kPa-aero.png Graphic file (type png)
 
 <use qlimited50kPa-aero.png>
-Package pdftex.def Info: qlimited50kPa-aero.png used on input line 698.
+Package pdftex.def Info: qlimited50kPa-aero.png used on input line 702.
 (pdftex.def)             Requested size: 281.86473pt x 177.66473pt.
 
 <qlimited-Vehicle.png, id=103, 582.67688pt x 322.95656pt>
 File: qlimited-Vehicle.png Graphic file (type png)
 
 <use qlimited-Vehicle.png>
-Package pdftex.def Info: qlimited-Vehicle.png used on input line 704.
+Package pdftex.def Info: qlimited-Vehicle.png used on input line 708.
 (pdftex.def)             Requested size: 281.86pt x 156.22472pt.
  [19 <./Constq-Vehicle.png>] [20 <./qlimited50kPa.png> <./qlimited50kPa-aero.pn
 g>]
 <Multipleq.png, id=114, 621.07031pt x 320.69812pt>
 File: Multipleq.png Graphic file (type png)
  <use Multipleq.png>
-Package pdftex.def Info: Multipleq.png used on input line 734.
+Package pdftex.def Info: Multipleq.png used on input line 737.
 (pdftex.def)             Requested size: 328.82452pt x 169.79301pt.
 
 <MultipleqAero.png, id=115, 559.33969pt x 377.15906pt>
 File: MultipleqAero.png Graphic file (type png)
  <use MultipleqAero.png>
-Package pdftex.def Info: MultipleqAero.png used on input line 741.
+Package pdftex.def Info: MultipleqAero.png used on input line 744.
 (pdftex.def)             Requested size: 281.8626pt x 190.05809pt.
 
 <Multipleq-Vehicle.png, id=116, 569.87906pt x 306.39468pt>
 File: Multipleq-Vehicle.png Graphic file (type png)
 
 <use Multipleq-Vehicle.png>
-Package pdftex.def Info: Multipleq-Vehicle.png used on input line 747.
+Package pdftex.def Info: Multipleq-Vehicle.png used on input line 750.
 (pdftex.def)             Requested size: 281.85187pt x 151.53726pt.
  [21 <./qlimited-Vehicle.png>] [22 <./Multipleq.png> <./MultipleqAero.png>]
-<DragComparisonTraj.png, id=126, 614.295pt x 328.22626pt>
+<DragComparisonTraj.png, id=126, 608.2725pt x 314.67563pt>
 File: DragComparisonTraj.png Graphic file (type png)
 
 <use DragComparisonTraj.png>
-Package pdftex.def Info: DragComparisonTraj.png used on input line 764.
-(pdftex.def)             Requested size: 328.82735pt x 175.69696pt.
+Package pdftex.def Info: DragComparisonTraj.png used on input line 767.
+(pdftex.def)             Requested size: 328.83353pt x 170.11436pt.
 
-<DragComparisonOther.png, id=127, 571.38469pt x 307.1475pt>
+<DragComparisonOther.png, id=127, 566.115pt x 304.88907pt>
 File: DragComparisonOther.png Graphic file (type png)
 
 <use DragComparisonOther.png>
-Package pdftex.def Info: DragComparisonOther.png used on input line 771.
-(pdftex.def)             Requested size: 281.85544pt x 151.51122pt.
+Package pdftex.def Info: DragComparisonOther.png used on input line 774.
+(pdftex.def)             Requested size: 281.86473pt x 151.80214pt.
  [23 <./Multipleq-Vehicle.png> <./DragComparisonTraj.png>] [24 <./DragCompariso
 nOther.png>]
 <ThirdStageConstQ.png, id=137, 978.65625pt x 526.96875pt>
 File: ThirdStageConstQ.png Graphic file (type png)
 
 <use ThirdStageConstQ.png>
-Package pdftex.def Info: ThirdStageConstQ.png used on input line 796.
+Package pdftex.def Info: ThirdStageConstQ.png used on input line 798.
 (pdftex.def)             Requested size: 375.80571pt x 202.3569pt.
 
 <ThirdStage50kpaConstrained.png, id=138, 978.65625pt x 526.96875pt>
 File: ThirdStage50kpaConstrained.png Graphic file (type png)
 
 <use ThirdStage50kpaConstrained.png>
-Package pdftex.def Info: ThirdStage50kpaConstrained.png used on input line 803.
+Package pdftex.def Info: ThirdStage50kpaConstrained.png used on input line 805.
 
 (pdftex.def)             Requested size: 375.80571pt x 202.3569pt.
  [25 <./ThirdStageConstQ.png (PNG copy)> <./ThirdStage50kpaConstrained.png (PNG
- copy)>] (SholtoForbesSpyratos.bbl [26]
+ copy)>] [26] (SholtoForbesSpyratos.bbl
 [27]
 Missing character: There is no â in font cmr8!
 Missing character: There is no € in font cmr8!
@@ -539,13 +539,13 @@ Missing character: There is no ™ in font cmr8!
 AED: lastpage setting LastPage
 [29] (SholtoForbesSpyratos.aux) ) 
 Here is how much of TeX's memory you used:
- 2833 strings out of 493323
- 40483 string characters out of 3139058
- 120876 words of memory out of 3000000
- 6289 multiletter control sequences out of 15000+200000
+ 2834 strings out of 493323
+ 40501 string characters out of 3139058
+ 120889 words of memory out of 3000000
+ 6290 multiletter control sequences out of 15000+200000
  15398 words of font info for 52 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,11n,45p,1393b,356s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,15n,45p,1764b,356s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
 ts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
@@ -571,7 +571,7 @@ y5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/cm/cmti8.pfb>
-Output written on SholtoForbesSpyratos.pdf (29 pages, 1321724 bytes).
+Output written on SholtoForbesSpyratos.pdf (29 pages, 1333765 bytes).
 PDF statistics:
  239 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
