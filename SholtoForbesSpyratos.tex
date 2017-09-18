@@ -124,7 +124,7 @@
 
 The integration of a reusable scramjet vehicle as one of the stages of a multi-stage space launch system has the potential to reduce the cost of small payload orbital launches. 
 This paper determines the maximum payload to orbit trajectory of a multi-stage rocket-scramjet-rocket system. This trajectory is calculated by formulating the problem as an optimal control problem, then solving it using the pseudospectral method. 
-The optimal trajectory for the scramjet stage is found to involve an initial decrease in dynamic pressure, followed by constant dynamic pressure flight, and finally a pull-up manoeuvre. This optimal trajectory results in a \PayloadImprovement\ improvement in payload mass to orbit when compared to a constant dynamic pressure trajectory with minimum pull-up. 
+Using this method, it is determined that the optimal trajectory for the scramjet stage involves an initial decrease in dynamic pressure, followed by constant dynamic pressure flight, and finally a pull-up manoeuvre. This optimal trajectory results in a \PayloadImprovement\ improvement in payload mass to orbit when compared to a constant dynamic pressure trajectory with minimum pull-up. 
 Furthermore, the optimal pull-up manoeuvre decreases the maximum dynamic pressure experienced by the final rocket stage by \qDecrease. 
 The sensitivity of the trajectory is tested by varying the maximum allowable dynamic pressure, and the drag produced by the vehicle. 
 A maximum dynamic pressure variation of $\pm$5kPa is shown to produce only a \qVariationPlus\ and \qVariationMinus\ variation in the payload mass to orbit. A drag increase of 10\% is shown to produce a similar optimal trajectory shape, indicating that the solution is robust to variation in trajectory and vehicle aerodynamics. 
@@ -287,14 +287,18 @@ Scramjets can accelerate a launch vehicle without the need to carry oxidiser on 
 However, a launch system must contain three stages, a first stage rocket capable of accelerating the scramjet vehicle to its operating speed and a final rocket stage for placing the payload in orbit. 
 
 
-This paper presents a trajectory for a rocket-scramjet-rocket launch system, designed using optimal control methods. This paper utilises a rocket-scramjet-rocket multi-stage launch system that has been proposed by the Centre for Hypersonics at The University of Queensland \cite{Smart2009a}. 
-The trajectory profile of multi-stage vehicles has typically been designed around the scramjet stage flying a constant dynamic pressure trajectory \cite{Kimura1999,Olds1998,Preller2015a}.
- A constant dynamic pressure trajectory follows the maximum dynamic pressure that the scramjet-powered vehicle is able to withstand structurally, ensuring maximum thrust production from the scramjet engines. 
- Such a trajectory produces maximum acceleration from the scramjet stage but may not be optimal for the overall multi-stage system. 
- A constant dynamic pressure trajectory releases the final stage into a high dynamic pressure environment, at a potentially suboptimal trajectory angle. This release point may result in suboptimal performance of the final stage rocket  and the inclusion of unnecessary design constraints. Calculating a trajectory using optimal control methods allows for a trade-off between the efficiency of the stages, to produce a maximum payload trajectory that does not necessarily involve the scramjet stage flying at maximum dynamic pressure for its entire flight.
+This paper presents a trajectory designed using optimal control methods, for a rocket-scramjet-rocket, small satellite launch system proposed by the Centre for Hypersonics at The University of Queensland\cite{Preller2017}. 
+The trajectory profile of a rocket-scramjet-rocket system utilising the SPARTAN scramjet accelerator and a third stage rocket powered by a Pratt \& Whitney RL-10A-3A Engine, has previously been designed around the scramjet stage flying a constant dynamic pressure trajectory\cite{Preller2017}, in-line with similar multi-stage vehicles\cite{Kimura1999,Olds1998}.
+ A constant dynamic pressure trajectory follows the maximum dynamic pressure that the scramjet-powered vehicle is able to withstand structurally, ensuring maximum thrust production from the scramjet engines. However, this results in the release of the third stage rocket into a high dynamic pressure trajectory, at low trajectory angle. Release at these conditions requires sufficient thrust for the third stage rocket to accelerate under the effects of the high drag produced by the maximum dynamic pressure flight conditions.  
+ 
+ This study utilises a modified SpaceX Kestrel engine\cite{Vehicle2008} as the propulsion system for the third stage rocket, rather than the Pratt \& Whitney RL-10A-3A Engine, which has been used previously in launch systems involving the SPARTAN scramjet accelerator\cite{Preller2017}. The Kestrel engine is a pressure-fed engine, which has been chosen for cost-efficiency, while trading off for decreased thrust and efficiency compared to the RL-10A-3A. This reduced thrust causes the rocket to not be able to reach orbit after release at the end of a constant dynamic pressure trajectory, necessitating release at a lower-than-maximum dynamic pressure. To lower the dynamic pressure, the scramjet stage must perform a pull-up manoeuvre before third stage separation. 
+ 
+ A minimum pull-up trajectory to the point which allows the third stage rocket to reach orbit will produce maximum acceleration from the scramjet stage but may not be optimal for the overall multi-stage system. 
+ For example, a constant dynamic pressure trajectory with minimum pull-up may still release the final stage into a high dynamic pressure environment, at a potentially suboptimal trajectory angle. This release point may result in suboptimal performance of the final stage rocket  and the inclusion of unnecessary design constraints. Calculating a trajectory using optimal control methods allows for a trade-off between the efficiency of the stages, to produce a maximum payload trajectory that does not necessarily involve the scramjet stage flying at maximum dynamic pressure for its entire flight.
+ The inherent intricacies of a multi-stage partially-airbreathing system, particularly the complexity of transition between airbreathing and rocket stages, necessitates an investigation into the optimal launch trajectory design. 
  
   
- Launch vehicles utilising rocket and airbreathing propulsion within a single stage have previously been shown to fly at maximum dynamic pressure for the majority of airbreathing operation, followed by a pull-up before airbreathing engine cut-off \cite{Powell1991,Lu1993,Trefny1999}. 
+ The trajectories of launch vehicles utilising rocket and airbreathing propulsion within a single stage have previously been analysed using optimal control\cite{Powell1991,Lu1993,Trefny1999}. The optimised trajectories for these single stage vehicles show flight at maximum dynamic pressure for the majority of airbreathing operation, followed by a pull-up before airbreathing engine cut-off\cite{Powell1991,Lu1993,Trefny1999}. 
 A pull-up produces an overall favourable trade-off by allowing for the airbreathing engines to be used to increase the altitude of the launch vehicle, with the downside of reducing the thrust of the airbreathing engine due to a lower mass flow rate into the engine. The increase in altitude and trajectory angle produced by a pull-up manoeuvre results in the rocket engines being ignited at higher altitude, allowing the rocket to operate with reduced drag. A trajectory involving a pull-up has been shown to be the optimal trajectory for vehicles where the rocket engines are not ignited until circularization altitude \cite{Powell1991,Lu1993} as well as vehicles where the rocket engine is ignited immediately after airbreathing engine cut-off \cite{Trefny1999}.
 
 
@@ -309,7 +313,11 @@ A pull-up produces an overall favourable trade-off by allowing for the airbreath
 
 
   A pull-up manoeuvre has previously been identified as having potential advantages for multi-stage airbreathing-rocket systems\cite{Tsuchiya2005,Wilhite1991,Mehta2001}. 
-  However, these pull-up manoeuvres were performed in order to decrease the dynamic pressure to the operable limit of the rocket stage\cite{Tsuchiya2005,Wilhite1991}, or were prescribed in a suboptimal trajectory with variation in dynamic pressure\cite{Mehta2001}. The inherent intricacies of a multi-stage partially-airbreathing system, particularly the complexity of transition between airbreathing and rocket stages, necessitates an investigation into the optimal launch trajectory design. 
+  However, these pull-up manoeuvres were minimum pull-ups performed in order to decrease the dynamic pressure to the operable limit of the rocket stage\cite{Tsuchiya2005,Wilhite1991}, or were prescribed in a suboptimal trajectory with variation in dynamic pressure\cite{Mehta2001}. 
+  
+
+   
+   
 
 This paper utilises optimal control theory to generate the optimal trajectory path for a rocket-scramjet-rocket multi-stage vehicle.
 Optimal control theory allows a trajectory to be optimised in its entirety and has been widely used in aerospace applications for computing trajectories when there is a global objective to be optimised, such as minimum fuel or maximum payload delivery \cite{Bedrossian,Josselyn2002,Sekhavat2005}. 
@@ -344,7 +352,7 @@ The system to be optimised, shown in Figures \ref{fig:NoInternal} and \ref{fig:I
 
 
 
-The first stage rocket is required to deliver the second stage to near horizontal flight at Mach 5.1 flight conditions, after which it is discarded. To achieve this, the first stage rocket is modelled as a Falcon-1e first stage scaled down lengthwise to 9.5m, keeping the original diameter of 1.67m\cite{Vehicle2008}. The first stage is attached to the rear of the scramjet second stage and is powered by a single LOX-kerosene Merlin 1-C engine.  This scaled first stage has a structural mass of 1356kg, determined by scaling of the structural mass of the Falcon-1e. Engine mass is kept constant. The mass of the fuel in the first stage is scaled as part of the optimisation routine, as the dynamics of the vehicle, and its ability to reach a given separation point, are very closely coupled to the available fuel mass. 
+The first stage rocket is required to deliver the second stage to near horizontal flight at Mach 5.1 flight conditions, after which it is discarded. To achieve this, the first stage rocket is modelled as a Falcon-1e first stage scaled down lengthwise to 9.5m, keeping the original diameter of 1.67m\cite{Vehicle2008}. The first stage is attached to the rear of the scramjet second stage and is powered by a single LOX-kerosene Merlin 1-C engine.  This first stage has a structural mass of 1356kg, determined by scaling of the structural mass of the Falcon-1e. Engine mass is kept constant. The mass of the fuel in the first stage is scaled as part of the optimisation routine, as the dynamics of the vehicle, and its ability to reach a given separation point, are very closely coupled to the available fuel mass. 
 
 
 
@@ -367,7 +375,7 @@ The SPARTAN is powered by four scramjet engines located on the bottom portion of
 The third stage rocket is initially housed within the SPARTAN fuselage, as shown in Figure \ref{fig:INTERNALS}. After separation from the SPARTAN, the third stage rocket initiates a burn, and performs an altitude increasing manoeuvre. 
 At the end of the initial burn, the third stage rocket is allowed to coast until reaching apogee, at which point it must have an altitude of at least 100km to ensure that the rocket is in an exoatmospheric orbit. The orbit is circularised using a further short burn, after which the payload delivery to heliosynchronous orbit is completed using a Hohmann transfer. The payload-to-orbit is determined by calculating the mass of the vehicle at the end of the Hohmann transfer. The structural mass is removed, and the remaining mass is taken to be the payload-to-orbit capability of the vehicle. 
 
-To achieve this manoeuvre, the third stage rocket (Figure \ref{fig:ThirdStage}) has a total length of 9m, diameter of 1.1m and a total initial mass of 3300kg. It is modelled to be powered by a modified SpaceX LOX-kerosene Kestrel engine \cite{Vehicle2008}, weighing 52kg. Previous studies used a LOX-LH2 upper stage based on the RL-10-3A engine\cite{Preller2017}. In this study the pressure-fed Kestrel engine is used rather than the pump-fed RL-10-3A to reduce the cost of the disposable third stage rocket. The third stage has a structural mass of 285.7kg, equivalent to a structural mass fraction of 0.09 (calculated without heat shield), similar to the Falcon-1e second stage \cite{Vehicle2008}. The in-atmosphere, high dynamic pressure separation of the rocket stage requires the use of a heat shield that envelopes the rocket stage. The heat shield is constructed from a Tungsten nose piece, a Carbon-Carbon cone, and a phenolic cork cylinder. The heat shield weighs 130.9kg in total, and is discarded when the rocket reaches a dynamic pressure of 10Pa (atmospheric heating is assumed to be negligible at this point) \cite{Preller2015a,Preller2017}. 
+To achieve this, the third stage rocket (Figure \ref{fig:ThirdStage}) has a total length of 9m, diameter of 1.1m and a total initial mass of 3300kg. It is modelled to be powered by a modified SpaceX LOX-kerosene Kestrel engine \cite{Vehicle2008}, weighing 52kg. Previous studies used a LOX-LH2 upper stage based on the RL-10-3A engine\cite{Preller2017}. In this study the pressure-fed Kestrel engine is used rather than the pump-fed RL-10-3A to reduce the cost of the disposable third stage rocket. The third stage has a structural mass of 285.7kg, equivalent to a structural mass fraction of 0.09 (calculated without heat shield), similar to the Falcon-1e second stage \cite{Vehicle2008}. The in-atmosphere, high dynamic pressure separation of the rocket stage requires the use of a heat shield that envelopes the rocket stage. The heat shield is constructed from a Tungsten nose piece, a Carbon-Carbon cone, and a phenolic cork cylinder. The heat shield weighs 130.9kg in total, and is discarded when the rocket reaches a dynamic pressure of 10Pa (atmospheric heating is assumed to be negligible at this point) \cite{Preller2015a,Preller2017}. 
 
 
 \section{Aerodynamics, Propulsion and Dynamic Modelling}\label{section:aero}
@@ -500,9 +508,12 @@ as well as a set of inequality constraints defining the bounds of the problem:
 The first and second stage trajectory solutions utilise the pseudospectral method, a form of direct spectral collocation \cite{Fahroo2000}. The pseudospectral method offers good convergence properties and relatively good computational speed, while not compromising the accuracy of the optimal solution \cite{Fasano2013}. These properties make the pseudospectral method appropriate for optimising a hypersonic vehicle system. 
 The pseudospectral method utilises a spectral collocation method to approximate the optimal control problem as a nonlinear programming problem. The use of the spectral method ensures that higher order terms of the dynamic equations are solved, and facilitates solution with high accuracy, even with relatively few collocation points\cite{Fahroo1999}. The accuracy and validity of this method has been demonstrated for a variety of aerospace applications \cite{Bedrossian,Huntington2008,Josselyn2002,Yan2007}. 
 
+\subsubsection{The Direct Single Shooting Method for Optimal Control}
+The third stage trajectory utilises the direct single shooting method, the simplest form of direct optimal control\cite{Diehl2006}. The direct single shooting method involves discretising the controls of the system, and simulating the trajectory as a forward simulation\cite{Diehl2006}. The direct single shooting method allows a problem to be solved from only a guess of the controls, enabling the initial conditions of the optimal control problem to vary without significant changes to the guess or bounds of the problem. The direct single shooting method is widely used in engineering applications due to its ease of application to a wide variety of problems\cite{Diehl2006}.
+
 \subsection{Optimisation Methodology}
-	 The three stages are considered as separate optimisation problems, which are coupled at the stage separation points.  
-	 The first and second stages are coupled by a separation point which is determined by the optimal start point for the second stage trajectory, and used as an end condition on the first stage optimisation.
+	 The three stages are considered as separate optimisation problems, which are coupled at the stage separation points.
+	 The first and second stages are coupled by a separation point which is determined by the optimal altitude and trajectory angle for the second stage trajectory, as well as the minimum starting velocity of the scramjet. This separation point is used as an end condition on the first stage optimisation.
 	 
 	 For the minimum pull-up case, the second and third stages are coupled by the end point of the second stage simulation, which is reached when the second stage has expended all of its fuel. The third stage trajectory is optimised for maximum payload from the end of the second stage trajectory.
 	 
@@ -535,7 +546,7 @@ The pseudospectral method utilises a spectral collocation method to approximate 
 	    	\end{center}
 	    \end{figure}
 	    
-	    Tabulated optimal payload to orbit results for a 2875m/s third stage release velocity are shown in Figure~\ref{fig:contours}. Payload increases with both altitude and release angle, however it is clear that the potential payload increase due to increasing the separation altitude lessens as release angle increases.  
+	    As an example, tabulated optimal payload to orbit results for a 2875m/s third stage release velocity are shown in Figure~\ref{fig:contours}. Payload increases with both altitude and release angle, however it is clear that the potential payload increase due to increasing the separation altitude lessens as release angle increases.  
 	    
 	 
 	 
@@ -575,8 +586,7 @@ The pseudospectral method utilises a spectral collocation method to approximate 
 After launch, the first stage flies vertically until 100m altitude, when a pitchover is initiated. 
 From pitchover, the first stage is optimised for the minimum fuel mass necessary to reach the first-second stage separation conditions, $\textbf{x}_1(t_{1,f})$, of 1520m/s velocity, and altitude and flight path angle determined by the second stage trajectory. 
 
-The separation velocity of 1520m/s corresponds to Mach 5.1 at 50kPa, the minimum operating point of the proposed scramjet\cite{Preller2017}. This velocity is held constant to allow for meaningful comparisons to be made between cases.   The minimum operating Mach number of the scramjet is chosen due to increasing velocity at first to second stage separation resulting in higher first stage fuel mass and lower scramjet stage specific impulse. Verification tests showed that a 3\% increase in separation velocity results in a 3.7\% increase in first stage mass, and only a 1.8\% increase in payload to orbit. This indicates that increasing the fuel mass of the first stage is inefficient, as the increased stage separation velocity decreases the scramjet efficiency and provides diminishing returns in payload to orbit.  
-
+The separation velocity of 1520m/s corresponds to Mach 5.1 at 50kPa, the minimum operating point of the proposed scramjet\cite{Preller2017}. Release at the minimum operable point is advantageous, as the scramjet specific impulse increases at low velocities\cite{Preller2017}.
 The altitude and flight path angle at first-second stage separation is defined by the optimised second stage. This approach is used on account of the selected first stage being able to reach the required range of altitudes and flight angles at 1520m/s  with small fuel mass variations. 
 Nevertheless small variation in fuel mass can have an important effect on the capabilities of the first stage, determining the velocity achievable at first to second stage separation, as well as the rate at which the rocket is able to pitch, and consequentially, the altitude and flight path angle range of the first stage.
  The optimum (lowest fuel consumption) trajectory for the first stage stack that can reach first-second stage separation condition $\textbf{x}_1(t_{1,f})$ is found by setting a cost function to minimise fuel mass:
@@ -617,16 +627,16 @@ Table \ref{table:Summary} details key results for comparison.
 		
 		
 		\hline \textbf{Payload to Orbit (kg)}  & \PayloadToOrbitConstq & \PayloadToOrbitFiftykPa & \PayloadToOrbitFortyFivekPa & \PayloadToOrbitFiftyFivekPa & \PayloadToOrbitHighDrag \\ 
-		\textbf{Separation Alt 1$\rightarrow$2 (km)}  & \FirstStageAltConstq & \FirstStageAltFifty & \FirstStageAltFortyFive &  \FirstStageAltFiftyFive &\FirstStageAltHighDrag \\ 
+		\textbf{Separation Alt, 1$\rightarrow$2 (km)}  & \FirstStageAltConstq & \FirstStageAltFifty & \FirstStageAltFortyFive &  \FirstStageAltFiftyFive &\FirstStageAltHighDrag \\ 
 		\textbf{First Stage Mass (kg)} & \FirstStagemConstq & \FirstStagemFifty &  \FirstStagemFortyFive& \FirstStagemFiftyFive  & \FirstStagemHighDrag\\ 
-		 \textbf{Separation Alt 2$\rightarrow$3(km)}  & \SeparationAltConstq & \SeparationAltFiftykPa & \SeparationAltFortyFivekPa & \SeparationAltFiftyFivekPa & \SeparationAltHighDrag\\ 
-		 \textbf{Separation $v$ 2$\rightarrow$3(m/s)} & \SeparationvConstq  & \SeparationvFiftykPa & \SeparationvFortyFivekPa &  \SeparationvFiftyFivekPa & \SeparationvHighDrag\\ 
-		 \textbf{Separation $\gamma$ 2$\rightarrow$3(deg)} & \SeparationAngleConstq& \SeparationAngleFiftykPa &\SeparationAngleFortyFivekPa& \SeparationAngleFiftyFivekPa&\SeparationAngleHighDrag \\ 
-		 \textbf{Separation $q$ 2$\rightarrow$3(kPa)} & \SeparationqConstq  &\SeparationqFiftykPa&\SeparationqFortyFivekPa &\SeparationqFiftyFivekPa& \SeparationqHighDrag \\ 
-		 \textbf{Separation L/d 2$\rightarrow$3} & \SeparationLDConstq&\SeparationLDFiftykPa & \SeparationLDFortyFivekPa & \SeparationLDFiftyFivekPa &\SeparationLDHighDrag\\
+		 \textbf{Separation Alt, 2$\rightarrow$3(km)}  & \SeparationAltConstq & \SeparationAltFiftykPa & \SeparationAltFortyFivekPa & \SeparationAltFiftyFivekPa & \SeparationAltHighDrag\\ 
+		 \textbf{Separation $v$, 2$\rightarrow$3(m/s)} & \SeparationvConstq  & \SeparationvFiftykPa & \SeparationvFortyFivekPa &  \SeparationvFiftyFivekPa & \SeparationvHighDrag\\ 
+		 \textbf{Separation $\gamma$, 2$\rightarrow$3(deg)} & \SeparationAngleConstq& \SeparationAngleFiftykPa &\SeparationAngleFortyFivekPa& \SeparationAngleFiftyFivekPa&\SeparationAngleHighDrag \\ 
+		 \textbf{Separation $q$, 2$\rightarrow$3(kPa)} & \SeparationqConstq  &\SeparationqFiftykPa&\SeparationqFortyFivekPa &\SeparationqFiftyFivekPa& \SeparationqHighDrag \\ 
+		 \textbf{2$^{nd}$ Stage L/d, 2$\rightarrow$3} & \SeparationLDConstq&\SeparationLDFiftykPa & \SeparationLDFortyFivekPa & \SeparationLDFiftyFivekPa &\SeparationLDHighDrag\\
 		 \textbf{2$^{nd}$ Stage Flight Time (s)} & \FlightTimeConstq & \FlightTimeFiftykPa & \FlightTimeFortyFivekPa & \FlightTimeFiftyFivekPa & \FlightTimeHighDrag\\ 
 		 %\textbf{3$^{rd}$ Stage Max $q$ (kPa)} &\MaxqConstq  &\MaxqFiftykPa & \MaxqFortyFivekPa &\MaxqFiftyFivekPa & \MaxqHighDrag\\ 
-		 \textbf{3$^{rd}$ Stage $t$ $>$ 20kpa (s)} &\toverConstq &\toverFiftykPa &\toverFortyFivekPa &\toverFiftyFivekPa & \toverHighDrag\\ 
+		 \textbf{3$^{rd}$ Stage $t$, $q >$ 20kpa (s)} &\toverConstq &\toverFiftykPa &\toverFortyFivekPa &\toverFiftyFivekPa & \toverHighDrag\\ 
 		 
 		 
 		\hline 
@@ -640,15 +650,15 @@ Table \ref{table:Summary} details key results for comparison.
 \subsection{First Stage Evaluation - q=50kpa Second Stage Separation}
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[width=.7\linewidth]{FirstStage}
+	\includegraphics[width=.9\linewidth]{FirstStage}
 	\caption{First stage trajectory, optimised for minimum fuel mass and a release point of 50kPa.}
 	\label{fig:FirstStage}
 \end{figure}
-Figure \ref{fig:FirstStage} shows an example first stage trajectory, optimised for minimum mass, with end conditions of 24.4km altitude and 1.56$^\circ$ separation angle. These separation conditions correspond to the second stage separation conditions for a 50kpa dynamic pressure trajectory. 
+Figure \ref{fig:FirstStage} shows an example first stage trajectory, optimised for minimum mass, with end conditions of 24.4km altitude and 1.56$^\circ$ trajectory angle. These separation conditions correspond to the second stage separation conditions for a 50kpa dynamic pressure trajectory. 
 
 The first stage flies a fixed vertical trajectory for 3.74s, after which a pitchover is initiated. 
 After pitchover the angle of attack reduces gradually to the minimum of -5$^\circ$, adjusting in stages in order to reach the desired end conditions. 
- 24.4km altitude is reached after a total flight time of 94.0s. 
+An altitude of 24.4km is reached after a total flight time of 94.0s. 
 This trajectory shape is very similar for all first stage simulation cases. 
 
 
@@ -676,12 +686,12 @@ This trajectory shape is very similar for all first stage simulation cases.
 \end{figure}
 
 
-A constant dynamic pressure trajectory with a pull-up to 1.5$^\circ$ trajectory angle at third stage release is produced as a baseline for comparison with a payload-optimised trajectory, and to verify that LODESTAR is able to optimise a complex airbreathing trajectory. Due to the clear objective of a constant dynamic pressure trajectory, any deviations from the target dynamic pressure are readily apparent, allowing the efficacy of the optimiser to be verified. 
-A pull-up to 1.5$^\circ$ trajectory angle is the minimum necessary for the third stage to reach orbit. At release angles below 1.5$^\circ$, the thrust vector limitations necessary to produce a trimmed trajectory constrain the angle of attack of the third stage so that rocket does not generate the lift required to exit the atmosphere. This angle of attack limitation, imposed by the maximum thrust vector, necessitates a scramjet-stage pull-up manoeuvre in order the third stage rocket to operate successfully.
+A constant dynamic pressure trajectory with a pull-up to 1.5$^\circ$ trajectory angle at third stage release is produced as a baseline for comparison with a payload-optimised trajectory, and to verify that LODESTAR is able to optimise a complex airbreathing trajectory. A pull-up to 1.5$^\circ$ trajectory angle is the minimum necessary for the third stage to reach orbit. At release angles below 1.5$^\circ$, the thrust vector limitations necessary to produce a trimmed trajectory constrain the angle of attack of the third stage so that the rocket does not generate the lift required to exit the atmosphere. This angle of attack limitation, imposed by the maximum thrust vector, necessitates a scramjet-stage pull-up manoeuvre in order for the third stage rocket to operate successfully. 
 
- The constant dynamic pressure, minimum pull-up trajectory for the SPARTAN stage is shown in Figures \ref{fig:constq}, \ref{fig:constq aero} and \ref{fig:constq vehicle} with key results summarised in Table \ref{table:Summary}. 
+
+ The constant dynamic pressure, minimum pull-up trajectory for the SPARTAN stage is shown in Figures \ref{fig:constq}, \ref{fig:constq aero} and \ref{fig:constq vehicle} with key results summarised in Table \ref{table:Summary}. Due to the clear objective of a constant dynamic pressure trajectory, any deviations from the target dynamic pressure are readily apparent, allowing the efficacy of the optimiser to be verified. 
  These results show very close adherence to 50kPa dynamic pressure (maximum 0.29\% deviation) until pull-up at 336.4s. Third stage release occurs at \FlightTimeConstq s at \SeparationAltConstq km altitude. 
- Over the trajectory the Mach no. increases from 5.10 to 9.52 and the velocity from 1520m/s to \SeparationvConstq m/s. The flap deflection shows an overall increase from $-0.53^\circ$ to $5.76^\circ$ over the trajectory.  The net specific impulse ($I_{sp_{net}} = \frac{T-F_d}{\dot{m}_f g}$) generally decreases over the trajectory, as the efficiency of the scramjet engines decreases. However, at the beginning of the trajectory the equivalence ratio increases as the capture limitations are relaxed with increasing Mach number. This causes the net specific impulse to increase during the first 19.45s flight time. 
+ Over the trajectory the Mach no. increases from 5.10 to 9.52 and the velocity from 1520m/s to \SeparationvConstq m/s. The flap deflection shows an overall increase from $-0.53^\circ$ to $5.76^\circ$ over the trajectory.  The net specific impulse ($I_{sp_{net}} = \frac{T-F_d}{\dot{m}_f g}$) generally decreases over the trajectory, as the efficiency of the scramjet engines decreases. However, at the beginning of the trajectory the equivalence ratio increases as the capture limitations are relaxed with increasing Mach number. This causes the net specific impulse to increase, to a maximum of 1739s, during the first 19.45s flight time. 
 
 Figure \ref{fig:ThirdStageConstQ} shows the corresponding third stage atmospheric exit trajectory after release, evaluated as described in Section \ref{section:rocket}. After atmospheric exit, this trajectory is followed by a Hohmann transfer to a heliosynchronous orbit, resulting in a total payload to orbit of \PayloadToOrbitConstq kg.
 
@@ -810,7 +820,7 @@ The release of the third stage rocket from an optimised scramjet trajectory is s
 \section{Conclusions}
 
 
-In this paper an optimal control program, LODESTAR, is used to design the trajectory of a rocket-scramjet-rocket multi-stage system. This system consists of a rocket-powered first stage, modelled on a scaled down LOX-kerosene Falcon-1e; the SPARTAN, a scramjet accelerator being developed at the University of Queensland; and a LOX-kerosene rocket-powered third stage based on the Kestrel engine. Applied to full trajectory optimisation, LODESTAR is able to generate optimised trajectories that increased the payload to orbit of the multi-stage system.
+In this paper an optimal control program, LODESTAR, is used to design the trajectory of a rocket-scramjet-rocket multi-stage system. This system consists of a rocket-powered first stage, modelled on a scaled down LOX-kerosene SpaceX Falcon-1e; the SPARTAN, a scramjet accelerator being developed at the University of Queensland; and a LOX-kerosene rocket-powered third stage based on the SpaceX Kestrel engine. Applied to full trajectory optimisation, LODESTAR is able to generate optimised trajectories that increased the payload to orbit of the multi-stage system.
 
    When flying at a constant 50kPa dynamic pressure, results indicate that a scramjet-stage pull-up, to a minimum of \SeparationAngleConstq $^\circ$ trajectory angle, is necessary in order for the third stage rocket to reach orbit successfully. Trajectory optimisation for maximum payload indicates that the optimal scramjet flight path for a system transitioning between separate airbreathing and rocket-powered stages is to fly at lower than maximum dynamic pressure while equivalence ratio is less than 1, followed by constant dynamic pressure flight at maximum dynamic pressure, and finally a pull-up manoeuvre. The optimal pull-up manoeuvre trades off velocity (a decrease of 24m/s) for altitude (an increase of 1.32km) and improved trajectory angle (an increase of 1.41$^\circ$), when compared to the minimum pull-up case. The optimal flight path increases payload mass to heliocentric orbit by 13.1kg (\PayloadImprovement) compared to a constant dynamic pressure trajectory with minimum necessary pull-up. The larger pull up manoeuvre in the payload-optimised trajectory also reduces third stage dynamic pressure to \SeparationqFiftykPa kPa, a decrease of \qDecrease\ compared to a trajectory with minimum pull-up. This decrease in maximum dynamic pressure decreases the stress experienced by the rocket stage proportionally, as well as decreasing the heat flux into the rocket, both of which lead to significant benefits for the design of the rocket stage (which are not taken into account in this study). A decrease in structural stress allows for less internal reinforcement, and a decrease in heat flux allows for reduction of the heat shield size, potentially resulting in further increases in payload mass.
   
@@ -818,9 +828,7 @@ In this paper an optimal control program, LODESTAR, is used to design the trajec
 As part of a dynamic pressure sensitivity evaluation, the maximum dynamic pressure limit of the SPARTAN vehicle is varied by $\pm$5kPa. This produces only a \qVariationPlus\ and \qVariationMinus \space variation on the payload mass delivered to orbit. This small variation in payload-to-orbit indicates that a scramjet-powered stage designed for operation at lower dynamic pressure may be advantageous.
 If efficient, low dynamic pressure scramjet engines are available, operating at lower dynamic pressure enables lighter vehicles due to reduced structural and thermal loads. This reduction in mass potentially leads to further performance improvements and operational benefits including increased payload to orbit and extended range.
  
- To investigate the effect of changes in second stage vehicle properties, the drag of the scramjet is increased by 10\% and the optimal trajectory evaluated. This resulted in a pull-up manoeuvre with a lower second-third stage transition point when compared to the original result, indicating that the rocket is favoured at an earlier point in the climb manoeuvre. This variation in the optimal trajectory is minor, indicating that the presented trajectory shape is robust with respect to changes in vehicle design and, by extension, changes in engine performance or vehicle aerodynamics. Thus re-optimisation of the trajectory, while taking account of the new aerodynamic performance, is a good approach to minimise impacts on the aggregate performance of the system.
-
- Overall this work provides new insight into the preferred operating ranges for scramjet vehicles incorporated in multi-stage to orbit systems.
+ To investigate the effect of changes in second stage vehicle properties, the drag of the scramjet is increased by 10\% and the optimal trajectory evaluated. This resulted in a pull-up manoeuvre with a lower second-third stage transition point when compared to the original result. This variation in the optimal trajectory is minor, indicating that the presented trajectory shape is robust with respect to changes in vehicle design and, by extension, changes in engine performance or vehicle aerodynamics. Overall this work provides new insight into the preferred operating ranges for scramjet vehicles incorporated in multi-stage to orbit systems.
 
  
 

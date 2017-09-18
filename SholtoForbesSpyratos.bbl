@@ -210,6 +210,11 @@ Yan, H., Ross, I.~M., and Alfriend, K.~T., \enquote{{Pseudospectral Feedback
   {\em Journal of Guidance, Control, and Dynamics\/}, Vol.~30, No.~4, 2007,
   pp.~1107--1115.
 
+\bibitem{Diehl2006}
+Diehl, M., Bock, H.~G., Diedam, H., and Wieber, P.~B., \enquote{{Fast direct
+  multiple shooting algorithms for optimal robot control},} {\em Lecture Notes
+  in Control and Information Sciences\/}, Vol.~340, 2006, pp.~65--93.
+
 \bibitem{Ross2004}
 Ross, I.~M. and Fahroo, F., \enquote{{Pseudospectral Knotting Methods for
   Solving Nonsmooth Optimal Control Problems},} {\em Journal of Guidance,
