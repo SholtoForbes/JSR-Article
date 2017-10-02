@@ -22,6 +22,11 @@ Flaherty, K.~W., Andrews, K.~M., and Liston, G.~W., \enquote{{Operability
   Space},} {\em Journal of Spacecraft and Rockets\/}, Vol.~47, No.~2, 2010,
   pp.~280--287.
 
+\bibitem{Preller2017}
+Preller, D. and Smart, M.~K., \enquote{{Scramjets for Reusable Launch of Small
+  Satellites},} {\em Journal of Spacecraft and Rockets\/}, Vol.~Advance On,
+  2017, pp.~1--13.
+
 \bibitem{Kimura1999}
 Kimura, T. and Sawada, K., \enquote{{Three-Stage Launch System with
   Scramjets},} {\em Journal of Spacecraft and Rockets\/}, Vol.~36, No.~5, 1999,
@@ -32,11 +37,10 @@ Olds, J. and Budianto, I., \enquote{{Constant Dynamic Pressure Trajectory
   Simulation with POST},} {\em Aerospace Sciences Meeting \& Exhibit\/}, Reno,
   NV, 1998, pp. 1--13.
 
-\bibitem{Preller2015a}
-Preller, D. and Smart, M.~K., \enquote{{Scramjets for Reusable Launch of Small
-  Satellites},} {\em 20th AIAA International Space Planes and Hypersonic
-  Systems and Technologies Conference\/}, No. July, Glasgow, Scotland, 2015,
-  pp. 1--23.
+\bibitem{Vehicle2008}
+{Space Exploration technologies}, \enquote{{Falcon 1 Launch Vehicle Payload
+  User’s Guide},} Tech. rep., Space Exploration Technologies, Hawthorne, CA,
+  2008.
 
 \bibitem{Powell1991}
 Powell, R.~W., Shaughnessy, J.~D., Cruz, C.~I., and Naftel, J.~C.,
@@ -100,20 +104,16 @@ Elnagar, G., Kazemi, M.~a., and Razzaghi, M., \enquote{{The Pseudospectral
   Legendre Method for Discetizing Optimal Control Problems},} {\em IEEE
   Transactions on Automatic Control\/}, Vol.~40, No.~10, 1995, pp.~1793--1796.
 
+\bibitem{Preller2015a}
+Preller, D. and Smart, M.~K., \enquote{{Scramjets for Reusable Launch of Small
+  Satellites},} {\em 20th AIAA International Space Planes and Hypersonic
+  Systems and Technologies Conference\/}, No. July, Glasgow, Scotland, 2015,
+  pp. 1--23.
+
 \bibitem{Jazra2013}
 Jazra, T., Preller, D., and Smart, M.~K., \enquote{{Design of an Airbreathing
   Second Stage for a Rocket-Scramjet-Rocket Launch Vehicle},} {\em Journal of
   Spacecraft and Rockets\/}, Vol.~50, No.~2, 2013, pp.~411--422.
-
-\bibitem{Preller2017}
-Preller, D. and Smart, M., \enquote{{Reusable Launch of Small Satellites using
-  Scramjets},} {\em Journal of Spacecraft and Rockets\/}, Vol.~(In Press),
-  2017.
-
-\bibitem{Vehicle2008}
-{Space Exploration technologies}, \enquote{{Falcon 1 Launch Vehicle Payload
-  User’s Guide},} Tech. rep., Space Exploration Technologies, Hawthorne, CA,
-  2008.
 
 \bibitem{Suraweera2009}
 Suraweera, M. and Smart, M.~K., \enquote{{Shock Tunnel Experiments with a Mach

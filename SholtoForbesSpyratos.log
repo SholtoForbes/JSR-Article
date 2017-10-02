@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.8)  18 SEP 2017 13:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.8)  3 OCT 2017 08:53
 entering extended mode
 **./SholtoForbesSpyratos.tex
 (SholtoForbesSpyratos.tex
@@ -138,18 +138,18 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 (SholtoForbesSpyratos.aux)
 \openout1 = `SholtoForbesSpyratos.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -187,7 +187,7 @@ LaTeX Font Info:    ... okay on input line 93.
 
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 93.
+(lastpage)             ! on input line 99.
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count94
@@ -244,142 +244,142 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 130.
+(Font)              <9> on input line 136.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 130.
+(Font)              <6> on input line 136.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 130.
+(Font)              <5> on input line 136.
  [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 134.
+(Font)              <12> on input line 140.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 134.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 134.
+(Font)              <8> on input line 140.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 140.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 134.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 140.
 
-Overfull \hbox (9.23877pt too wide) in paragraph at lines 134--134
+Overfull \hbox (9.23877pt too wide) in paragraph at lines 140--140
  [][] 
  []
 
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <6> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 134.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 140.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 138.
+(Font)              <7> on input line 144.
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--154
+Underfull \hbox (badness 10000) in paragraph at lines 160--160
 []|$\OML/cmm/m/it/10  $\OT1/cmr/m/n/10 , $\OML/cmm/m/it/10 $\OT1/cmr/m/n/10 ,
  []
 
 
-Underfull \hbox (badness 7522) in paragraph at lines 181--182
+Underfull \hbox (badness 7522) in paragraph at lines 187--188
 []|\OT1/cmr/m/n/10 Gravitational Ac-cel-er-a-tion at
  []
 
 
-Overfull \hbox (14.18668pt too wide) in paragraph at lines 137--273
+Overfull \hbox (14.18668pt too wide) in paragraph at lines 143--279
 [] []
  []
 
 
-Overfull \hbox (14.18668pt too wide) in paragraph at lines 137--273
+Overfull \hbox (14.18668pt too wide) in paragraph at lines 143--279
 [] []
  []
 
 
-Overfull \hbox (14.18668pt too wide) in paragraph at lines 137--273
+Overfull \hbox (14.18668pt too wide) in paragraph at lines 143--279
 [] []
  []
 
 
-Overfull \hbox (14.18668pt too wide) in paragraph at lines 137--273
+Overfull \hbox (14.18668pt too wide) in paragraph at lines 143--279
 [] []
  []
 
 
-Overfull \hbox (14.18668pt too wide) in paragraph at lines 137--273
+Overfull \hbox (14.18668pt too wide) in paragraph at lines 143--279
 [] []
  []
 
 
-Overfull \hbox (14.18668pt too wide) in paragraph at lines 137--273
+Overfull \hbox (14.18668pt too wide) in paragraph at lines 143--279
 [] []
  []
 
 
-Overfull \hbox (14.18668pt too wide) in paragraph at lines 137--273
+Overfull \hbox (14.18668pt too wide) in paragraph at lines 143--279
 [] []
  []
 
 
-Overfull \hbox (14.18668pt too wide) in paragraph at lines 137--273
+Overfull \hbox (14.18668pt too wide) in paragraph at lines 143--279
 [] []
  []
 
 
-Overfull \hbox (14.18668pt too wide) in paragraph at lines 137--273
+Overfull \hbox (14.18668pt too wide) in paragraph at lines 143--279
 [] []
  []
 
 
-Overfull \hbox (14.18668pt too wide) in paragraph at lines 137--273
+Overfull \hbox (14.18668pt too wide) in paragraph at lines 143--279
 [] []
  []
 
 
-Overfull \hbox (14.18668pt too wide) in paragraph at lines 137--273
+Overfull \hbox (14.18668pt too wide) in paragraph at lines 143--279
 [] []
  []
 
 
-Overfull \hbox (14.18668pt too wide) in paragraph at lines 137--273
+Overfull \hbox (14.18668pt too wide) in paragraph at lines 143--279
 [] [] 
  []
 
 
-Overfull \hbox (14.18668pt too wide) in paragraph at lines 137--273
+Overfull \hbox (14.18668pt too wide) in paragraph at lines 143--279
 [] []
  []
 
 
-Overfull \hbox (14.18668pt too wide) in paragraph at lines 137--273
+Overfull \hbox (14.18668pt too wide) in paragraph at lines 143--279
 [] []
  []
 
 
-Overfull \hbox (14.18668pt too wide) in paragraph at lines 137--273
+Overfull \hbox (14.18668pt too wide) in paragraph at lines 143--279
 [] []
  []
 
 
-Overfull \hbox (14.18668pt too wide) in paragraph at lines 137--273
+Overfull \hbox (14.18668pt too wide) in paragraph at lines 143--279
 [] []
  []
 
 
-Overfull \hbox (14.18668pt too wide) in paragraph at lines 137--273
+Overfull \hbox (14.18668pt too wide) in paragraph at lines 143--279
 [] []
  []
 
 
-Overfull \hbox (14.18668pt too wide) in paragraph at lines 137--273
+Overfull \hbox (14.18668pt too wide) in paragraph at lines 143--279
 [] []
  []
 
 
-Overfull \hbox (14.18668pt too wide) in paragraph at lines 137--273
+Overfull \hbox (14.18668pt too wide) in paragraph at lines 143--279
 [] []
  []
 
 
-Overfull \hbox (14.18668pt too wide) in paragraph at lines 137--273
+Overfull \hbox (14.18668pt too wide) in paragraph at lines 143--279
 [] [] 
  []
 
@@ -391,160 +391,161 @@ Overfull \vbox (0.89891pt too high) has occurred while \output is active []
 File: NoInternal.png Graphic file (type png)
 
 <use NoInternal.png>
-Package pdftex.def Info: NoInternal.png used on input line 337.
+Package pdftex.def Info: NoInternal.png used on input line 347.
 (pdftex.def)             Requested size: 375.79514pt x 162.54533pt.
  <INTERNALS.jpg, id=34, 1412.27625pt x 245.41687pt>
 File: INTERNALS.jpg Graphic file (type jpg)
 
 <use INTERNALS.jpg>
-Package pdftex.def Info: INTERNALS.jpg used on input line 345.
+Package pdftex.def Info: INTERNALS.jpg used on input line 355.
 (pdftex.def)             Requested size: 375.803pt x 65.30478pt.
- [6 <./NoInternal.png>]
+ [6 <./NoInternal.png> <./INTERNALS.jpg>]
 <3rdStage.jpg, id=40, 1372.37718pt x 283.81032pt>
 File: 3rdStage.jpg Graphic file (type jpg)
  <use 3rdStage.jpg>
-Package pdftex.def Info: 3rdStage.jpg used on input line 370.
+Package pdftex.def Info: 3rdStage.jpg used on input line 380.
 (pdftex.def)             Requested size: 281.84172pt x 58.28542pt.
- [7 <./INTERNALS.jpg>] <CARTcontour.png, id=45, 783.67781pt x 366.61969pt>
+ [7 <./3rdStage.jpg>] <CARTcontour.png, id=45, 783.67781pt x 366.61969pt>
 File: CARTcontour.png Graphic file (type png)
 
 <use CARTcontour.png>
-Package pdftex.def Info: CARTcontour.png used on input line 391.
+Package pdftex.def Info: CARTcontour.png used on input line 401.
 (pdftex.def)             Requested size: 281.86072pt x 131.85991pt.
  <CARTmesh.png, id=46, 788.19469pt x 371.88937pt>
 File: CARTmesh.png Graphic file (type png)
 
 <use CARTmesh.png>
-Package pdftex.def Info: CARTmesh.png used on input line 397.
+Package pdftex.def Info: CARTmesh.png used on input line 407.
 (pdftex.def)             Requested size: 281.84962pt x 132.98349pt.
  <CART.png, id=47, 421.575pt x 316.18124pt>
 File: CART.png Graphic file (type png)
  <use CART.png>
-Package pdftex.def Info: CART.png used on input line 403.
+Package pdftex.def Info: CART.png used on input line 413.
 (pdftex.def)             Requested size: 187.8994pt x 140.92455pt.
 
-[8 <./3rdStage.jpg>] [9 <./CARTcontour.png> <./CARTmesh.png> <./CART.png (PNG c
-opy)>] [10] [11] [12] [13] <contours.png, id=75, 421.575pt x 316.18124pt>
+[8] [9 <./CARTcontour.png> <./CARTmesh.png>] [10 <./CART.png (PNG copy)>]
+[11] [12] [13] <contours.png, id=75, 421.575pt x 316.18124pt>
 File: contours.png Graphic file (type png)
 
 <use contours.png>
-Package pdftex.def Info: contours.png used on input line 543.
+Package pdftex.def Info: contours.png used on input line 546.
 (pdftex.def)             Requested size: 281.86197pt x 211.39647pt.
- [14] [15 <./contours.png (PNG copy)>] [16]
-Overfull \hbox (16.37648pt too wide) in paragraph at lines 620--644
+ [14 <./contours.png (PNG copy)>] [15] [16]
+Overfull \hbox (56.79568pt too wide) in paragraph at lines 639--663
  [][] 
  []
 
 <FirstStage.png, id=86, 813.79031pt x 316.18124pt>
 File: FirstStage.png Graphic file (type png)
  <use FirstStage.png>
-Package pdftex.def Info: FirstStage.png used on input line 653.
+Package pdftex.def Info: FirstStage.png used on input line 673.
 (pdftex.def)             Requested size: 422.77605pt x 164.2608pt.
 
-[17] <Constq.png, id=90, 637.63219pt x 335.75438pt>
+[17] <Constq.png, id=93, 637.63219pt x 335.75438pt>
 File: Constq.png Graphic file (type png)
  <use Constq.png>
-Package pdftex.def Info: Constq.png used on input line 671.
+Package pdftex.def Info: Constq.png used on input line 692.
 (pdftex.def)             Requested size: 328.82693pt x 173.14853pt.
 
-<Constq-Aero.png, id=91, 562.35094pt x 355.3275pt>
+<Constq-Aero.png, id=94, 562.35094pt x 355.3275pt>
 File: Constq-Aero.png Graphic file (type png)
  <use Constq-Aero.png>
-Package pdftex.def Info: Constq-Aero.png used on input line 677.
+Package pdftex.def Info: Constq-Aero.png used on input line 698.
 (pdftex.def)             Requested size: 281.85266pt x 178.09163pt.
 
-[18 <./FirstStage.png (PNG copy)>]
-<Constq-Vehicle.png, id=98, 572.1375pt x 313.17pt>
+<Constq-Vehicle.png, id=95, 572.1375pt x 313.17pt>
 File: Constq-Vehicle.png Graphic file (type png)
  <use Constq-Vehicle.png>
-Package pdftex.def Info: Constq-Vehicle.png used on input line 683.
+Package pdftex.def Info: Constq-Vehicle.png used on input line 704.
 (pdftex.def)             Requested size: 281.86012pt x 154.28133pt.
 
-[19 <./Constq.png> <./Constq-Aero.png> <./Constq-Vehicle.png>]
-<qlimited50kPa.png, id=106, 612.78937pt x 324.46219pt>
+[18 <./FirstStage.png (PNG copy)> <./Constq.png>] [19 <./Constq-Aero.png> <./Co
+nstq-Vehicle.png>] <qlimited50kPa.png, id=106, 612.78937pt x 324.46219pt>
 File: qlimited50kPa.png Graphic file (type png)
- <use qlimited50kPa.png>
-Package pdftex.def Info: qlimited50kPa.png used on input line 706.
+
+<use qlimited50kPa.png>
+Package pdftex.def Info: qlimited50kPa.png used on input line 727.
 (pdftex.def)             Requested size: 328.82555pt x 174.10786pt.
 
 <qlimited50kPa-aero.png, id=107, 566.115pt x 356.83313pt>
 File: qlimited50kPa-aero.png Graphic file (type png)
 
 <use qlimited50kPa-aero.png>
-Package pdftex.def Info: qlimited50kPa-aero.png used on input line 712.
+Package pdftex.def Info: qlimited50kPa-aero.png used on input line 733.
 (pdftex.def)             Requested size: 281.86473pt x 177.66473pt.
 
 <qlimited-Vehicle.png, id=108, 582.67688pt x 322.95656pt>
 File: qlimited-Vehicle.png Graphic file (type png)
 
 <use qlimited-Vehicle.png>
-Package pdftex.def Info: qlimited-Vehicle.png used on input line 718.
+Package pdftex.def Info: qlimited-Vehicle.png used on input line 739.
 (pdftex.def)             Requested size: 281.86pt x 156.22472pt.
- [20] [21 <./qlimited50kPa.png> <./qlimited50kPa-aero.png>] <Multipleq.png, id=
-117, 621.07031pt x 320.69812pt>
+ [20 <./qlimited50kPa.png> <./qlimited50kPa-aero.png>] [21 <./qlimited-Vehicle.
+png>]
+<Multipleq.png, id=118, 621.07031pt x 320.69812pt>
 File: Multipleq.png Graphic file (type png)
  <use Multipleq.png>
-Package pdftex.def Info: Multipleq.png used on input line 747.
+Package pdftex.def Info: Multipleq.png used on input line 768.
 (pdftex.def)             Requested size: 328.82452pt x 169.79301pt.
 
-<MultipleqAero.png, id=118, 559.33969pt x 377.15906pt>
+<MultipleqAero.png, id=119, 559.33969pt x 377.15906pt>
 File: MultipleqAero.png Graphic file (type png)
  <use MultipleqAero.png>
-Package pdftex.def Info: MultipleqAero.png used on input line 754.
+Package pdftex.def Info: MultipleqAero.png used on input line 775.
 (pdftex.def)             Requested size: 281.8626pt x 190.05809pt.
 
-<Multipleq-Vehicle.png, id=119, 569.87906pt x 306.39468pt>
+<Multipleq-Vehicle.png, id=120, 569.87906pt x 306.39468pt>
 File: Multipleq-Vehicle.png Graphic file (type png)
 
 <use Multipleq-Vehicle.png>
-Package pdftex.def Info: Multipleq-Vehicle.png used on input line 760.
+Package pdftex.def Info: Multipleq-Vehicle.png used on input line 781.
 (pdftex.def)             Requested size: 281.85187pt x 151.53726pt.
- [22 <./qlimited-Vehicle.png>] [23 <./Multipleq.png> <./MultipleqAero.png>]
-<DragComparisonTraj.png, id=129, 608.2725pt x 314.67563pt>
+ [22 <./Multipleq.png>] [23 <./MultipleqAero.png> <./Multipleq-Vehicle.png>]
+<DragComparisonTraj.png, id=130, 608.2725pt x 314.67563pt>
 File: DragComparisonTraj.png Graphic file (type png)
 
 <use DragComparisonTraj.png>
-Package pdftex.def Info: DragComparisonTraj.png used on input line 777.
+Package pdftex.def Info: DragComparisonTraj.png used on input line 798.
 (pdftex.def)             Requested size: 328.83353pt x 170.11436pt.
 
-<DragComparisonOther.png, id=130, 566.115pt x 304.88907pt>
+<DragComparisonOther.png, id=131, 566.115pt x 304.88907pt>
 File: DragComparisonOther.png Graphic file (type png)
 
 <use DragComparisonOther.png>
-Package pdftex.def Info: DragComparisonOther.png used on input line 784.
+Package pdftex.def Info: DragComparisonOther.png used on input line 805.
 (pdftex.def)             Requested size: 281.86473pt x 151.80214pt.
- [24 <./Multipleq-Vehicle.png> <./DragComparisonTraj.png>] <ThirdStageConstQ.pn
-g, id=136, 978.65625pt x 526.96875pt>
+ [24 <./DragComparisonTraj.png> <./DragComparisonOther.png>] <ThirdStageConstQ.
+png, id=137, 978.65625pt x 526.96875pt>
 File: ThirdStageConstQ.png Graphic file (type png)
 
 <use ThirdStageConstQ.png>
-Package pdftex.def Info: ThirdStageConstQ.png used on input line 808.
+Package pdftex.def Info: ThirdStageConstQ.png used on input line 829.
 (pdftex.def)             Requested size: 375.80571pt x 202.3569pt.
 
-<ThirdStage50kpaConstrained.png, id=137, 978.65625pt x 526.96875pt>
+<ThirdStage50kpaConstrained.png, id=138, 978.65625pt x 526.96875pt>
 File: ThirdStage50kpaConstrained.png Graphic file (type png)
 
 <use ThirdStage50kpaConstrained.png>
-Package pdftex.def Info: ThirdStage50kpaConstrained.png used on input line 815.
+Package pdftex.def Info: ThirdStage50kpaConstrained.png used on input line 836.
 
 (pdftex.def)             Requested size: 375.80571pt x 202.3569pt.
- [25 <./DragComparisonOther.png>] [26 <./ThirdStageConstQ.png (PNG copy)> <./Th
-irdStage50kpaConstrained.png (PNG copy)>]
-(SholtoForbesSpyratos.bbl [27] [28]
+ [25 <./ThirdStageConstQ.png (PNG copy)>]
+[26 <./ThirdStage50kpaConstrained.png (PNG copy)>] (SholtoForbesSpyratos.bbl
+[27]
 Missing character: There is no â in font cmr8!
 Missing character: There is no € in font cmr8!
 Missing character: There is no ™ in font cmr8!
-) 
+ [28]) 
 AED: lastpage setting LastPage
 [29] (SholtoForbesSpyratos.aux) ) 
 Here is how much of TeX's memory you used:
  2835 strings out of 493323
- 40512 string characters out of 3139058
- 120893 words of memory out of 3000000
+ 40522 string characters out of 3139058
+ 120894 words of memory out of 3000000
  6291 multiletter control sequences out of 15000+200000
  15398 words of font info for 52 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,15n,45p,1764b,358s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,15n,45p,1764b,354s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
 ts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
@@ -570,7 +571,7 @@ y5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/cm/cmti8.pfb>
-Output written on SholtoForbesSpyratos.pdf (29 pages, 1339308 bytes).
+Output written on SholtoForbesSpyratos.pdf (29 pages, 1308249 bytes).
 PDF statistics:
  239 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
