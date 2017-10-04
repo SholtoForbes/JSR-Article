@@ -1,0 +1,27 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{The SPARTAN System}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{The First Stage Rocket}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{The Scramjet Accelerator}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{The Third Stage Rocket}{section.2}% 5
+\BOOKMARK [1][-]{section.3}{Aerodynamics, Propulsion and Dynamic Modelling}{}% 6
+\BOOKMARK [2][-]{subsection.3.1}{Aerodynamics}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.2}{Propulsion}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.3}{Dynamic Model}{section.3}% 9
+\BOOKMARK [1][-]{section.4}{Trajectory Optimisation}{}% 10
+\BOOKMARK [2][-]{subsection.4.1}{Trajectory Planning as an Optimal Control Problem}{section.4}% 11
+\BOOKMARK [3][-]{subsubsection.4.1.1}{The Pseudospectral Method for Optimal Control}{subsection.4.1}% 12
+\BOOKMARK [3][-]{subsubsection.4.1.2}{The Direct Single Shooting Method for Optimal Control}{subsection.4.1}% 13
+\BOOKMARK [2][-]{subsection.4.2}{Optimisation Methodology}{section.4}% 14
+\BOOKMARK [3][-]{subsubsection.4.2.1}{Third Stage Optimisation}{subsection.4.2}% 15
+\BOOKMARK [3][-]{subsubsection.4.2.2}{Second Stage Optimisation - Constant Dynamic Pressure, Minimum Pull-Up}{subsection.4.2}% 16
+\BOOKMARK [3][-]{subsubsection.4.2.3}{Second Stage Optimisation - Maximised Payload}{subsection.4.2}% 17
+\BOOKMARK [3][-]{subsubsection.4.2.4}{First Stage Optimisation}{subsection.4.2}% 18
+\BOOKMARK [1][-]{section.5}{Results and Discussion}{}% 19
+\BOOKMARK [2][-]{subsection.5.1}{First Stage Evaluation - q=50kpa Second Stage Separation}{section.5}% 20
+\BOOKMARK [2][-]{subsection.5.2}{Second Stage Evaluation}{section.5}% 21
+\BOOKMARK [3][-]{subsubsection.5.2.1}{Fixed Dynamic Pressure Trajectory, Minimum Pull-Up}{subsection.5.2}% 22
+\BOOKMARK [3][-]{subsubsection.5.2.2}{Dynamic Pressure Limited Trajectory}{subsection.5.2}% 23
+\BOOKMARK [3][-]{subsubsection.5.2.3}{Dynamic Pressure Sensitivity}{subsection.5.2}% 24
+\BOOKMARK [3][-]{subsubsection.5.2.4}{Drag Sensitivity Analysis}{subsection.5.2}% 25
+\BOOKMARK [2][-]{subsection.5.3}{Third Stage Evaluation}{section.5}% 26
+\BOOKMARK [1][-]{section.6}{Conclusions}{}% 27

@@ -1,10 +1,18 @@
-\documentclass[]{aiaa-tc}
+\documentclass[journal]{new-aiaa}
 \usepackage{bm}
 \usepackage{float}
 \usepackage{setspace}
 
-\doublespacing
-\def\bibsection{\section*{References}}
+\usepackage[utf8]{inputenc}
+
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage[version=4]{mhchem}
+\usepackage{siunitx}
+\usepackage{longtable,tabularx}
+\setlength\LTleft{0pt} 
+%\doublespacing
+%\def\bibsection{\section*{References}}
 
 \newcommand{\FirstStageAltConstq}{24.4}
 \newcommand{\FirstStageAltFifty}{25.0}
@@ -54,7 +62,7 @@
 \newcommand{\SeparationvFiftyFivekPa}{2893}
 \newcommand{\SeparationvHighDrag}{2829}
 
-\newcommand{\SeparationAngleConstq}{1.5}
+\newcommand{\SeparationAngleConstq}{1.50}
 \newcommand{\SeparationAngleFiftykPa}{2.91}
 \newcommand{\SeparationAngleFortyFivekPa}{2.31}
 \newcommand{\SeparationAngleFiftyFivekPa}{3.39}
@@ -124,7 +132,7 @@
 
 
 
-
+\maketitle
 
 \begin{abstract}
 
@@ -133,11 +141,11 @@ This paper determines the maximum payload to orbit trajectory of a multi-stage r
 Using this method, it is determined that the optimal trajectory for the scramjet stage involves an initial decrease in dynamic pressure, followed by constant dynamic pressure flight, and finally a pull-up manoeuvre. This optimal trajectory results in a \PayloadImprovement\ improvement in payload mass to orbit when compared to a constant dynamic pressure trajectory with minimum pull-up. 
 Furthermore, the optimal pull-up manoeuvre decreases the maximum dynamic pressure experienced by the final rocket stage by \qDecrease. 
 The sensitivity of the trajectory is tested by varying the maximum allowable dynamic pressure, and the drag produced by the vehicle. 
-A maximum dynamic pressure variation of $\pm$5kPa is shown to produce only a \qVariationPlus\ and \qVariationMinus\ variation in the payload mass to orbit. A drag increase of 10\% is shown to produce a similar optimal trajectory shape, indicating that the solution is robust to variation in trajectory and vehicle aerodynamics. 
+A maximum dynamic pressure variation of $\pm$5kPa is shown to produce only a \qVariationPlus\ and \qVariationMinus\ variation in payload mass. A drag increase of 10\% is shown to produce a similar optimal trajectory shape, indicating robustness with variation of vehicle aerodynamics. 
 
 
 \end{abstract}
-\maketitle
+
 
 \section*{Nomenclature}
 \noindent
@@ -541,7 +549,7 @@ Due to the strong dependence on the control history, the direct single shooting 
 	 
 	  \subsubsection{Third Stage Optimisation} \label{section:thirdstage}
 	  
-	   \begin{figure}[H]
+	   \begin{figure}[t]
 	   	\begin{center}
 	   		\includegraphics[width=0.6\linewidth]{contours}
 	   		\caption{Payload mass results with variation in rocket stage release point for $v$ = 2875m/s, heading angle = 1.78 rad and latitude = -0.136 rad.}
@@ -562,9 +570,6 @@ Due to the strong dependence on the control history, the direct single shooting 
 	  
 	  
 	  The payload mass is calculated after the Hohmann transfer to the desired orbit, by taking the remaining fuel to be the effective payload capacity. Sequential quadratic programming (SQP) is used to find the optimal solution, utilising MATLAB's \textit{fmincon} solver.
-	  
-	   
-	    
 	    As an example, tabulated optimal payload to orbit results for a 2875m/s third stage release velocity are shown in Figure~\ref{fig:contours}. Payload increases with both altitude and release angle, however it is clear that the potential payload increase due to increasing the separation altitude lessens as release angle increases.  
 	    
 	
@@ -860,7 +865,7 @@ The authors would like to thank Dawid Preller for his work on the SPARTAN vehicl
 
 \footnotesize
 
-\bibliographystyle{AIAA}
+%\bibliographystyle{AIAA}
 \bibliography{library}
 
 \end{document}
