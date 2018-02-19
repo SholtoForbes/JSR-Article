@@ -743,7 +743,7 @@
 \def\@tocrmarg {2.55em}%
 \def\@dotsep{2}%
 \def\ltxu@dotsep{4.5pt}%
-\setcounter{tocdepth}{4}%
+\setcounter{tocdepth}{3}%
 \def\tableofcontents{%
  \addtocontents{toc}{\string\tocdepth@munge}%
  \print@toc{toc}%

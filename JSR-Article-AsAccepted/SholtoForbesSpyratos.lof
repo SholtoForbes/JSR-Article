@@ -1,0 +1,24 @@
+\contentsline {figure}{\numberline {1}{\ignorespaces Model of the first stage rocket and scramjet vehicle.}}{14}
+\contentsline {figure}{\numberline {2}{\ignorespaces Normalised density contours of first stage flight, Mach 2, $-1^\circ $ angle of attack.}}{15}
+\contentsline {figure}{\numberline {3}{\ignorespaces Adaptive mesh generated close to vehicle by CART3D for Mach 2, $-1^\circ $ angle of attack flight conditions.}}{16}
+\contentsline {figure}{\numberline {4}{\ignorespaces CART3D verification parameters.}}{17}
+\contentsline {figure}{\numberline {5}{\ignorespaces CAD model of the SPARTAN accelerator \cite {Preller2015a}.}}{18}
+\contentsline {figure}{\numberline {6}{\ignorespaces Internal schematic view of the SPARTAN accelerator \cite {Preller2015a}.}}{19}
+\contentsline {figure}{\numberline {7}{\ignorespaces Schematic of the third stage rocket.}}{20}
+\contentsline {figure}{\numberline {8}{\ignorespaces Third stage rocket normalised density contours for Mach 9, $10^\circ $ angle of attack conditions.}}{21}
+\contentsline {figure}{\numberline {9}{\ignorespaces Adaptive mesh generated close to third stage rocket by CART3D for Mach 9, $10^\circ $ angle of attack conditions.}}{22}
+\contentsline {figure}{\numberline {10}{\ignorespaces Payload mass results with variation in rocket stage release point for $v$ = 2750m/s, heading angle = 1.70 rad and latitude = -0.1271 rad.}}{24}
+\contentsline {figure}{\numberline {11}{\ignorespaces First stage trajectory, optimised for maximum velocity and a release point of 50kPa.}}{24}
+\contentsline {figure}{\numberline {12}{\ignorespaces Trajectory path of the 2$^{nd}$ stage SPARTAN vehicle flying at 50kPa constant dynamic pressure.}}{25}
+\contentsline {figure}{\numberline {13}{\ignorespaces Trajectory data for 50kPa constant dynamic pressure trajectory.}}{26}
+\contentsline {figure}{\numberline {14}{\ignorespaces Vehicle performance data for 50kPa constant dynamic pressure trajectory. Note: Flap deflection is positive down.}}{27}
+\contentsline {figure}{\numberline {15}{\ignorespaces Third stage rocket trajectory simulated from the end of the 50kPa constant dynamic pressure SPARTAN trajectory.}}{28}
+\contentsline {figure}{\numberline {16}{\ignorespaces Maximum payload trajectory path of the 2$^{nd}$ stage SPARTAN vehicle when limited to 50kPa dynamic pressure.}}{29}
+\contentsline {figure}{\numberline {17}{\ignorespaces Trajectory data for 50kpa dynamic pressure limited trajectory.}}{30}
+\contentsline {figure}{\numberline {18}{\ignorespaces Vehicle performance data for 50kpa dynamic pressure limited trajectory. Note: Flap deflection is positive down.}}{31}
+\contentsline {figure}{\numberline {19}{\ignorespaces Third stage rocket trajectory simulated from the end of the 50kPa dynamic pressure limited maximum payload SPARTAN trajectory.}}{32}
+\contentsline {figure}{\numberline {20}{\ignorespaces Comparison of 45kPa / 55kpa dynamic pressure limited trajectory paths for maximum payload to orbit.}}{33}
+\contentsline {figure}{\numberline {21}{\ignorespaces Comparison of trajectory data for 45kPa / 55kpa dynamic pressure limited trajectories.}}{34}
+\contentsline {figure}{\numberline {22}{\ignorespaces Comparison of vehicle performance data for 45kPa / 55kpa dynamic pressure limited trajectories.}}{35}
+\contentsline {figure}{\numberline {23}{\ignorespaces Comparison of trajectory paths for 100\% and 110\% drag cases for a 50kPa dynamic pressure limited maximum payload trajectory.}}{36}
+\contentsline {figure}{\numberline {24}{\ignorespaces Comparison of $v$ and $I_{sp_{net}}$ for 100\% and 110\% drag cases for a 50kPa dynamic pressure limited maximum payload trajectory.}}{37}

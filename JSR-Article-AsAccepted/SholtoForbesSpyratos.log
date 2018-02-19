@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.6)  19 FEB 2018 14:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.6)  6 FEB 2018 15:55
 entering extended mode
 **./SholtoForbesSpyratos.tex
 (SholtoForbesSpyratos.tex
@@ -1012,20 +1012,6 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks30
 \@floatcapt=\box33
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
-Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package color Info: Driver file: pdftex.def on input line 147.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
-File: pdftex.def 2017/12/07 v1.0i Graphics/color driver for pdftex
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def"
-File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
-))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -1039,7 +1025,10 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
-)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2017/12/07 v1.0i Graphics/color driver for pdftex
+))
 \Gin@req@height=\dimen156
 \Gin@req@width=\dimen157
 )
@@ -1495,68 +1484,68 @@ Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
 \TX@ftn=\toks33
 )
 LaTeX Font Info:    Try loading font information for T1+ntxtlf on input line 10
-9.
+8.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\newtx\t1ntxtlf.fd"
 File: t1ntxtlf.fd 2015/01/17 v1.0 font definition file for T1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 109.
+(Font)              scaled to size 10.0pt on input line 108.
 
 (SholtoForbesSpyratos.aux)
 \openout1 = `SholtoForbesSpyratos.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 109.
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 108.
 LaTeX Font Info:    Try loading font information for OML+ntxmi on input line 10
-9.
+8.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\newtx\omlntxmi.fd"
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 109.
-LaTeX Font Info:    Try loading font information for U+ntxexa on input line 109
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 108.
+LaTeX Font Info:    Try loading font information for U+ntxexa on input line 108
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\newtx\untxexa.fd"
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 109.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 109.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 108.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 108.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 108.
 LaTeX Font Info:    Try loading font information for LMS+ntxsy on input line 10
-9.
+8.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\newtx\lmsntxsy.fd"
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 108.
 LaTeX Font Info:    Try loading font information for LMX+ntxexx on input line 1
-09.
+08.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\newtx\lmxntxexx.fd"
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Info: Redefining \microtypecontext on input line 109.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Info: Redefining \microtypecontext on input line 108.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1616,7 +1605,7 @@ Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box61
-Package hyperref Info: Link coloring OFF on input line 109.
+Package hyperref Info: Link coloring OFF on input line 108.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1626,9 +1615,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count316
 )
-LaTeX Info: Redefining \ref on input line 109.
-LaTeX Info: Redefining \pageref on input line 109.
-LaTeX Info: Redefining \nameref on input line 109.
+LaTeX Info: Redefining \ref on input line 108.
+LaTeX Info: Redefining \pageref on input line 108.
+LaTeX Info: Redefining \nameref on input line 108.
 
 (SholtoForbesSpyratos.out) (SholtoForbesSpyratos.out)
 \@outlinefile=\write3
@@ -1664,7 +1653,7 @@ G,.JBIG2,.JB2,.eps]
 .................................................
 . chemgreek info: "mapping-activated"
 . 
-. Activating mapping `newtx' on line 109.
+. Activating mapping `newtx' on line 108.
 .................................................
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\translator\translator-basic-dictionary-
@@ -1676,201 +1665,403 @@ File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
 \c__siunitx_mathsf_int=\count323
 LaTeX Font Info:    Try loading font information for OT1+ntxtlf on input line 1
-09.
+08.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\newtx\ot1ntxtlf.fd"
 File: ot1ntxtlf.fd 2015/01/17 v1.0 font definition file for OT1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 109.
+(Font)              scaled to size 10.0pt on input line 108.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.3pt on input line 109.
+(Font)              scaled to size 7.3pt on input line 108.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 5.5pt on input line 109.
-LaTeX Font Info:    Try loading font information for U+ntxmia on input line 109
+(Font)              scaled to size 5.5pt on input line 108.
+LaTeX Font Info:    Try loading font information for U+ntxmia on input line 108
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\newtx\untxmia.fd"
 File: untxmia.fd 2016/01/31 Fontinst v1.933 font definitions for U/ntxmia.
 )
-LaTeX Font Info:    Try loading font information for U+ntxsym on input line 109
+LaTeX Font Info:    Try loading font information for U+ntxsym on input line 108
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\newtx\untxsym.fd"
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
-LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 109
+LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 108
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\newtx\untxsyc.fd"
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.0pt on input line 109.
+(Font)              scaled to size 10.0pt on input line 108.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 7.3pt on input line 109.
+(Font)              scaled to size 7.3pt on input line 108.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 5.5pt on input line 109.
-LaTeX Font Info:    Try loading font information for T1+qhv on input line 109.
+(Font)              scaled to size 5.5pt on input line 108.
+LaTeX Font Info:    Try loading font information for T1+qhv on input line 108.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tex-gyre\t1qhv.fd"
 File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
 )
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 109.
+(Font)              scaled to size 8.99994pt on input line 108.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `qhv' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 6.56995pt on input line 109.
+(Font)              scaled to size 6.56995pt on input line 108.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 4.94997pt on input line 109.
+(Font)              scaled to size 4.94997pt on input line 108.
 \c__siunitx_mathtt_int=\count324
-LaTeX Font Info:    Try loading font information for T1+ntxtt on input line 109
+LaTeX Font Info:    Try loading font information for T1+ntxtt on input line 108
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\newtx\t1ntxtt.fd"
 File: t1ntxtt.fd 2012/04/20 v3.1
 )
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 109.
+(Font)              scaled to size 10.0pt on input line 108.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `ntxtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 7.3pt on input line 109.
+(Font)              scaled to size 7.3pt on input line 108.
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 5.5pt on input line 109.
+(Font)              scaled to size 5.5pt on input line 108.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 17.28pt on input line 138.
+(Font)              scaled to size 17.28pt on input line 137.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 138.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 137.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 17.28pt on input line 138.
+(Font)              scaled to size 17.28pt on input line 137.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.3pt on input line 138.
+(Font)              scaled to size 7.3pt on input line 137.
 LaTeX Font Info:    Try loading font information for TS1+ntxtlf on input line 1
-38.
+37.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\newtx\ts1ntxtlf.fd"
 File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.3pt on input line 138.
+(Font)              scaled to size 7.3pt on input line 137.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 10.0pt on input line 138.
+(Font)              scaled to size 10.0pt on input line 137.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <10> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 139.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 138.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.0pt on input line 139.
+(Font)              scaled to size 10.0pt on input line 138.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 152.
+(Font)              scaled to size 12.0pt on input line 151.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <12> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 152.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 151.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 12.0pt on input line 152.
+(Font)              scaled to size 12.0pt on input line 151.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 5.5pt on input line 161.
+(Font)              scaled to size 5.5pt on input line 160.
 
-Overfull \hbox (13.4644pt too wide) in paragraph at lines 153--304
+Overfull \hbox (13.4644pt too wide) in paragraph at lines 152--288
 [] []
  []
 
 
-Overfull \hbox (13.4644pt too wide) in paragraph at lines 153--304
+Overfull \hbox (13.4644pt too wide) in paragraph at lines 152--288
 [] []
  []
 
 
-Overfull \hbox (13.4644pt too wide) in paragraph at lines 153--304
+Overfull \hbox (13.4644pt too wide) in paragraph at lines 152--288
 [] []
  []
 
 
-Overfull \hbox (13.4644pt too wide) in paragraph at lines 153--304
+Overfull \hbox (13.4644pt too wide) in paragraph at lines 152--288
 [] []
  []
 
 
-Overfull \hbox (13.4644pt too wide) in paragraph at lines 153--304
+Overfull \hbox (13.4644pt too wide) in paragraph at lines 152--288
 [] []
  []
 
 
-Overfull \hbox (13.4644pt too wide) in paragraph at lines 153--304
+Overfull \hbox (13.4644pt too wide) in paragraph at lines 152--288
 [] []
  []
 
 
-Overfull \hbox (13.4644pt too wide) in paragraph at lines 153--304
+Overfull \hbox (13.4644pt too wide) in paragraph at lines 152--288
 [] []
  []
 
 
-Overfull \hbox (13.4644pt too wide) in paragraph at lines 153--304
+Overfull \hbox (13.4644pt too wide) in paragraph at lines 152--288
 [] []
  []
 
 
-Overfull \hbox (13.4644pt too wide) in paragraph at lines 153--304
+Overfull \hbox (13.4644pt too wide) in paragraph at lines 152--288
 [] []
  []
 
 
-Overfull \hbox (13.4644pt too wide) in paragraph at lines 153--304
+Overfull \hbox (13.4644pt too wide) in paragraph at lines 152--288
 [] []
  []
 
 
-Overfull \hbox (13.4644pt too wide) in paragraph at lines 153--304
+Overfull \hbox (13.4644pt too wide) in paragraph at lines 152--288
 [] []
  []
 
 
-Overfull \hbox (13.4644pt too wide) in paragraph at lines 153--304
+Overfull \hbox (13.4644pt too wide) in paragraph at lines 152--288
+[] [] 
+ []
+
+
+Overfull \hbox (13.4644pt too wide) in paragraph at lines 152--288
 [] []
  []
 
 
-Overfull \hbox (13.4644pt too wide) in paragraph at lines 153--304
+Overfull \hbox (13.4644pt too wide) in paragraph at lines 152--288
 [] []
  []
 
 
-Overfull \hbox (13.4644pt too wide) in paragraph at lines 153--304
+Overfull \hbox (13.4644pt too wide) in paragraph at lines 152--288
 [] []
  []
 
 
-Overfull \hbox (13.4644pt too wide) in paragraph at lines 153--304
+Overfull \hbox (13.4644pt too wide) in paragraph at lines 152--288
 [] []
  []
 
 
-Overfull \hbox (13.4644pt too wide) in paragraph at lines 153--304
+Overfull \hbox (13.4644pt too wide) in paragraph at lines 152--288
 [] []
  []
 
 
-Overfull \hbox (13.4644pt too wide) in paragraph at lines 153--304
+Overfull \hbox (13.4644pt too wide) in paragraph at lines 152--288
 [] []
  []
 
 
-Overfull \hbox (13.4644pt too wide) in paragraph at lines 153--304
+Overfull \hbox (13.4644pt too wide) in paragraph at lines 152--288
 [] []
  []
 
 
-Overfull \hbox (13.4644pt too wide) in paragraph at lines 153--304
-[] []
+Overfull \hbox (13.4644pt too wide) in paragraph at lines 152--288
+[] [] 
  []
 
+[1
 
-Overfull \hbox (13.4644pt too wide) in paragraph at lines 153--304
-[] []
+{C:/Users/sholt/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
+[3] [4]
+<NoInternal.png, id=195, 1166.10657pt x 504.38437pt>
+File: NoInternal.png Graphic file (type png)
+<use NoInternal.png>
+Package pdftex.def Info: NoInternal.png  used on input line 356.
+(pdftex.def)             Requested size: 375.80544pt x 162.54533pt.
+<INTERNALS.jpg, id=197, 1412.27625pt x 245.41687pt>
+File: INTERNALS.jpg Graphic file (type jpg)
+<use INTERNALS.jpg>
+Package pdftex.def Info: INTERNALS.jpg  used on input line 364.
+(pdftex.def)             Requested size: 375.80544pt x 65.30478pt.
+ [5 <./NoInternal.png> <./INTERNALS.jpg>]
+<3rdStage.jpg, id=214, 1372.37718pt x 283.81032pt>
+File: 3rdStage.jpg Graphic file (type jpg)
+<use 3rdStage.jpg>
+Package pdftex.def Info: 3rdStage.jpg  used on input line 389.
+(pdftex.def)             Requested size: 281.85587pt x 58.28542pt.
+ [6 <./3rdStage.jpg>]
+<CARTcontour.png, id=235, 783.67781pt x 366.61969pt>
+File: CARTcontour.png Graphic file (type png)
+<use CARTcontour.png>
+Package pdftex.def Info: CARTcontour.png  used on input line 410.
+(pdftex.def)             Requested size: 281.85587pt x 131.85991pt.
+<CARTmesh.png, id=236, 788.19469pt x 371.88937pt>
+File: CARTmesh.png Graphic file (type png)
+<use CARTmesh.png>
+Package pdftex.def Info: CARTmesh.png  used on input line 416.
+(pdftex.def)             Requested size: 281.85587pt x 132.98349pt.
+<CART.png, id=237, 421.575pt x 316.18124pt>
+File: CART.png Graphic file (type png)
+<use CART.png>
+Package pdftex.def Info: CART.png  used on input line 422.
+(pdftex.def)             Requested size: 187.89914pt x 140.92455pt.
+ [7 <./CARTcontour.png>] [8 <./CARTmesh.png> <./CART.png (PNG copy)>] [9] [10] 
+[11]
+<contours.png, id=334, 421.575pt x 316.18124pt>
+File: contours.png Graphic file (type png)
+<use contours.png>
+Package pdftex.def Info: contours.png  used on input line 555.
+(pdftex.def)             Requested size: 281.85587pt x 211.39647pt.
+
+[12]
+LaTeX Font Info:    Font shape `T1/ntxtlf/bx/it' in size <10> not available
+(Font)              Font shape `T1/ntxtlf/b/it' tried instead on input line 588
+.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
+(Font)              scaled to size 10.0pt on input line 588.
+ [13 <./contours.png (PNG copy)>] [14]
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 9.0pt on input line 644.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 9.0pt on input line 645.
+LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
+(Font)              scaled to size 8.09995pt on input line 645.
+LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
+(Font)              scaled to size 9.0pt on input line 645.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 9.0pt on input line 645.
+LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <9> not available
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 646.
+
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 9.0pt on input line 646.
+
+Overfull \hbox (10.07283pt too wide) in paragraph at lines 645--669
+ [][] 
+ []
+
+<FirstStage.png, id=368, 813.79031pt x 316.18124pt>
+File: FirstStage.png Graphic file (type png)
+<use FirstStage.png>
+Package pdftex.def Info: FirstStage.png  used on input line 679.
+(pdftex.def)             Requested size: 422.77664pt x 164.2608pt.
+[15]
+<Constq.png, id=381, 637.63219pt x 335.75438pt>
+File: Constq.png Graphic file (type png)
+<use Constq.png>
+Package pdftex.def Info: Constq.png  used on input line 698.
+(pdftex.def)             Requested size: 328.82707pt x 173.14853pt.
+<Constq-Aero.png, id=382, 562.35094pt x 355.3275pt>
+File: Constq-Aero.png Graphic file (type png)
+<use Constq-Aero.png>
+Package pdftex.def Info: Constq-Aero.png  used on input line 704.
+(pdftex.def)             Requested size: 281.85587pt x 178.09163pt.
+ [16 <./FirstStage.png (PNG copy)>]
+<Constq-Vehicle.png, id=388, 572.1375pt x 313.17pt>
+File: Constq-Vehicle.png Graphic file (type png)
+<use Constq-Vehicle.png>
+Package pdftex.def Info: Constq-Vehicle.png  used on input line 710.
+(pdftex.def)             Requested size: 281.85587pt x 154.28133pt.
+ [17 <./Constq.png> <./Constq-Aero.png>]
+<qlimited50kPa.png, id=403, 612.78937pt x 324.46219pt>
+File: qlimited50kPa.png Graphic file (type png)
+<use qlimited50kPa.png>
+Package pdftex.def Info: qlimited50kPa.png  used on input line 733.
+(pdftex.def)             Requested size: 328.82707pt x 174.10786pt.
+<qlimited50kPa-aero.png, id=404, 566.115pt x 356.83313pt>
+File: qlimited50kPa-aero.png Graphic file (type png)
+<use qlimited50kPa-aero.png>
+Package pdftex.def Info: qlimited50kPa-aero.png  used on input line 739.
+(pdftex.def)             Requested size: 281.85587pt x 177.66473pt.
+<qlimited-Vehicle.png, id=405, 582.67688pt x 322.95656pt>
+File: qlimited-Vehicle.png Graphic file (type png)
+<use qlimited-Vehicle.png>
+Package pdftex.def Info: qlimited-Vehicle.png  used on input line 745.
+(pdftex.def)             Requested size: 281.85587pt x 156.22472pt.
+[18 <./Constq-Vehicle.png>] [19 <./qlimited50kPa.png> <./qlimited50kPa-aero.png
+>]
+<Multipleq.png, id=432, 621.07031pt x 320.69812pt>
+File: Multipleq.png Graphic file (type png)
+<use Multipleq.png>
+Package pdftex.def Info: Multipleq.png  used on input line 774.
+(pdftex.def)             Requested size: 328.82707pt x 169.79301pt.
+<MultipleqAero.png, id=433, 559.33969pt x 377.15906pt>
+File: MultipleqAero.png Graphic file (type png)
+<use MultipleqAero.png>
+Package pdftex.def Info: MultipleqAero.png  used on input line 781.
+(pdftex.def)             Requested size: 281.85587pt x 190.05809pt.
+<Multipleq-Vehicle.png, id=434, 569.87906pt x 306.39468pt>
+File: Multipleq-Vehicle.png Graphic file (type png)
+<use Multipleq-Vehicle.png>
+Package pdftex.def Info: Multipleq-Vehicle.png  used on input line 787.
+(pdftex.def)             Requested size: 281.85587pt x 151.53726pt.
+ [20 <./qlimited-Vehicle.png>] [21 <./Multipleq.png> <./MultipleqAero.png>]
+<DragComparisonTraj.png, id=454, 608.2725pt x 314.67563pt>
+File: DragComparisonTraj.png Graphic file (type png)
+<use DragComparisonTraj.png>
+Package pdftex.def Info: DragComparisonTraj.png  used on input line 804.
+(pdftex.def)             Requested size: 328.82707pt x 170.11436pt.
+<DragComparisonOther.png, id=455, 566.115pt x 304.88907pt>
+File: DragComparisonOther.png Graphic file (type png)
+<use DragComparisonOther.png>
+Package pdftex.def Info: DragComparisonOther.png  used on input line 811.
+(pdftex.def)             Requested size: 281.85587pt x 151.80214pt.
+
+[22 <./Multipleq-Vehicle.png> <./DragComparisonTraj.png>]
+<ThirdStageConstQ.png, id=472, 978.65625pt x 526.96875pt>
+File: ThirdStageConstQ.png Graphic file (type png)
+<use ThirdStageConstQ.png>
+Package pdftex.def Info: ThirdStageConstQ.png  used on input line 835.
+(pdftex.def)             Requested size: 375.80544pt x 202.3569pt.
+<ThirdStage50kpaConstrained.png, id=473, 978.65625pt x 526.96875pt>
+File: ThirdStage50kpaConstrained.png Graphic file (type png)
+<use ThirdStage50kpaConstrained.png>
+Package pdftex.def Info: ThirdStage50kpaConstrained.png  used on input line 842
+.
+(pdftex.def)             Requested size: 375.80544pt x 202.3569pt.
+ [23 <./DragComparisonOther.png>] [24 <./ThirdStageConstQ.png (PNG copy)> <./Th
+irdStage50kpaConstrained.png (PNG copy)>]
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 8.0pt on input line 867.
+ (SholtoForbesSpyratos.bbl
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
+(Font)              scaled to size 9.0pt on input line 16.
+ [25] [26] [27])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 872.
+ [28]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 872.
+
+(SholtoForbesSpyratos.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 872.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 872.
+Package rerunfilecheck Info: File `SholtoForbesSpyratos.out' has not changed.
+(rerunfilecheck)             Checksum: B3DA7E5D1DCBFAF39AB4220EDE14F528;2192.
+ ) 
+Here is how much of TeX's memory you used:
+ 25320 strings out of 493308
+ 464537 string characters out of 3138769
+ 561213 words of memory out of 3000000
+ 28153 multiletter control sequences out of 15000+200000
+ 649166 words of font info for 240 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 60i,15n,94p,10384b,938s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{C:/Program
+ Files/MiKTeX 2.9/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{C:/Program Files/MiKTe
+X 2.9/fonts/enc/dvips/base/8r.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/
+tex-gyre/q-ts1.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/tex-gyre/qtm
+b.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/tex-gyre/qtmbi.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/tex-gyre/qtmr.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/tex-gyre/qtmri.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/newtx/rntxmi.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/newtx/rntxmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/newtx/rntx
+mi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/newtx/rtxbmi-rev.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/txfonts/rtxmi.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/newtx/rtxmi5.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/newtx/rtxmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/txfonts/rtxr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/txfonts/t
+1xtt.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/newtx/txexas.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/newtx/txexs.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/newtx/txsys.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/urw/times/utmri8a.pfb>
+Output written on SholtoForbesSpyratos.pdf (28 pages, 1196099 bytes).
+PDF statistics:
+ 609 PDF objects out of 1000 (max. 8388607)
+ 151 named destinations out of 1000 (max. 500000)
+ 34626 words of extra memory for PDF output out of 35830 (max. 10000000)
+
