@@ -330,10 +330,10 @@ The trajectory profile of this rocket-scramjet-rocket system, which utilises the
  A larger pull-up may produce an overall favourable trade-off, by allowing for the scramjet stage to be used to increase the altitude and flight path angle of the launch vehicle, enabling the final stage rocket to operate with reduced drag.
  However, as the altitude increases, the thrust of the airbreathing engine is reduced, due to a lower mass flow rate into the engine. 
 
- 
+
   
- In previous studies, \textcolor{red}{the optimised trajectories for launch vehicles utilising rocket and airbreathing propulsion within a single stage have been shown to exhibit flight at maximum dynamic pressure for the majority of airbreathing operation}, followed by a pull-up before airbreathing engine cut-off\cite{Powell1991,Lu1993,Trefny1999}. 
- A trajectory involving a pull-up has been shown to be the optimal trajectory for vehicles where the rocket engines are not ignited until circularization altitude\cite{Powell1991,Lu1993} as well as vehicles where the rocket engine is ignited immediately after airbreathing engine cut-off\cite{Trefny1999}.
+ In previous studies, \textcolor{red}{the optimised trajectories for launch vehicles utilising rocket and airbreathing propulsion within a single stage have been shown to exhibit flight at maximum dynamic pressure for the majority of airbreathing operation}, followed by a pull-up before airbreathing engine cut-off\textcolor{red}{\cite{Powell1991,Lu1993,Trefny1999,Roche2000,Pescetelli2012,Young2006,Bradford2000}}. 
+ A trajectory involving a pull-up has been shown to be the optimal trajectory for vehicles where the rocket engines are not ignited until circularization altitude\cite{Powell1991,Lu1993}\textcolor{red}{,} vehicles where the rocket engine is ignited immediately after airbreathing engine cut-off\textcolor{red}{\cite{Trefny1999,Roche2000,Pescetelli2012} as well as for vehicles which operate in combined scramjet-rocket mode\cite{Young2006,Bradford2000}}.
 
 
  For launch systems with airbreathing and rocket propulsion combined within a single stage, an optimised pull-up manoeuvre is a simple trade-off between velocity and altitude. However, for the proposed scramjet-rocket multi-stage system, the scramjet stage and rocket stage are sequential and separate completely.
@@ -355,11 +355,11 @@ The trajectory profile of this rocket-scramjet-rocket system, which utilises the
    
 
 This paper utilises optimal control theory to generate the optimal trajectory path for a rocket-scramjet-rocket multi-stage vehicle.
-Optimal control theory allows a trajectory to be optimised in its entirety and has been widely used in aerospace applications for computing trajectories when there is a global objective to be optimised, such as minimum fuel or maximum payload delivery\textcolor{red}{\cite{Bedrossian,Josselyn2002}}. 
+Optimal control theory allows a trajectory to be optimised in its entirety and has been widely used in aerospace applications for computing trajectories when there is a global objective to be optimised, such as minimum fuel\textcolor{red}{\cite{Bedrossian,Josselyn2002,Yang2017} or maximum crossrange\cite{Rizvi2015,Chai2015,Moshman2014}}. 
 Optimal control is also extremely flexible, as the optimal control problem can be modified easily to investigate a range of trajectory objectives\cite{Ranieri2005}. 
-Highly nonlinear control problems (such as a complex model of hypersonic flight) necessitate the use of direct methods such as direct single shooting, multiple shooting, or collocation. 
-Direct methods discretise the problem, and solve the nonlinear programming problem that results\cite{Fahroo2000}. 
-The pseudospectral collocation method of optimal control is utilised in this study due to its accuracy, efficiency, and radius of convergence when compared to other optimal control techniques\cite{Fahroo2000,Elganar}.
+Highly nonlinear control problems (such as a complex model of hypersonic flight) necessitate the use of direct methods such as direct single shooting, multiple shooting, or collocation.
+Direct methods discretise the \textcolor{red}{trajectory optimisation }problem, and solve the nonlinear programming \textcolor{red}{(NLP)} problem that results \textcolor{red}{computationally\cite{Fahroo2000,Stryk1992}. This solution is calculated using an NLP solving technique such as sequential quadratic programming (SQP), which is widely used for trajectory optimisation due to its high efficacy\cite{Rao2009,Boggs2000}. The most powerful methods of optimal control are arguably direct collocation methods, in which the state and control variables are approximated using specified basis functions of splines or polynomials\cite{Rao2009,Fahroo2000,Elganar}. The use of global orthogonal polynomials as basis functions, collocated at nodes obtained from a Gaussian quadrature, is referred to as the pseudospectral method, due to the resultant accuracy of the problem converging spectrally (at an exponential rate) as the number of collocation nodes increases\cite{Rao2009,Garg2009}.}
+The pseudospectral method is utilised in this study due to its accuracy, efficiency, and radius of convergence when compared to other optimal control techniques\cite{Fahroo2000,Elganar}.
 
 The remainder of the paper is as follows: Section \ref{section:system} presents the design characteristics of all three stages. Section \ref{section:aero} presents the aerodynamic modelling of the system. Section \ref{section:optimisation} presents an overview of the optimal control theory used including the problem definition and a description of the pseudospectral method. Section \ref{section:results} presents optimal trajectory results for all three stages, including results verifying the use of the pseudospectral method, optimal trajectory results for a range of maximum dynamic pressure conditions, and optimal trajectory results with variation in the vehicle's aerodynamic characteristics.
 
@@ -419,7 +419,7 @@ Multiple analysis tools are used to model the aerodynamics and propulsion of the
 
 \subsection{Aerodynamics}
 
-An aerodynamic database of the first stage stack is generated using CART3D\cite{CART3D}, a high-fidelity inviscid analysis CFD package with adjoint based mesh refinement. The CART3D package uses a Cartesian cut-cell approach\cite{Aftosmis1998} resulting in a mesh of cubes everywhere except at body-intersecting cells. CART3D is used to analyse the first stage stack due to its applicability over a wide range of Mach numbers. CART3D has been used successfully in a variety of aerospace applications including hypersonic launch systems\cite{Mehta2015} and has shown \textcolor{red}{fair} agreement when compared to experimental results \textcolor{red}{for winged boosters at hypersonic speeds\cite{Sagerman2017}, as well as for supersonic missiles \cite{Abeynayake} and sonic boom prediction \cite{Aftosmis2011}}.
+An aerodynamic database of the first stage stack is generated using CART3D\cite{CART3D}, a high-fidelity inviscid analysis CFD package with adjoint based mesh refinement. The CART3D package uses a Cartesian cut-cell approach\cite{Aftosmis1998} resulting in a mesh of cubes everywhere except at body-intersecting cells. CART3D is used to analyse the first stage stack due to its applicability over a wide range of Mach numbers. CART3D has been used successfully in a variety of aerospace applications including hypersonic launch systems\cite{Mehta2015} and has shown \textcolor{red}{fair} agreement when compared to experimental results \textcolor{red}{for winged boosters at hypersonic speeds\cite{Sagerman2017}, as well as for supersonic missiles\cite{Abeynayake} and aircraft\cite{Aftosmis2011}}.
 For the simulation the vehicle geometry is created using Creo Parametric 3.0\cite{CREO} and a body fitted triangular mesh is generated using Pointwise 18.0\cite{Pointwise}.
 \begin{figure}[ht]
 	\centering
@@ -545,7 +545,7 @@ The pseudospectral method utilises a spectral collocation method to approximate 
 \subsubsection{The Direct Single Shooting Method for Optimal Control}
 
 The third stage trajectory optimization is performed using the direct single shooting method~\cite{Diehl2006}. The direct single shooting method is selected for the third stage trajectory optimisation due to its ease of initialization, allowing it to automatically solve repeated instances of the problem with different initial conditions. 
-The direct single shooting method uses \textcolor{red}{a sequential quadratic programming (SQP)} algorithm to directly solve for the optimal time-discretised control history.
+The direct single shooting method uses \textcolor{red}{a sequential quadratic programming} algorithm to directly solve for the optimal time-discretised control history.
 This control history is optimised subject to the dynamics, cost and constraints of the system, which are evaluated at each iteration using forward simulation.
 Due to the strong dependence on the control history, the direct single shooting method is highly sensitive to the initial guess for nonlinear problems, and is mostly suited to solving well-conditioned problems.
 
@@ -554,7 +554,7 @@ Due to the strong dependence on the control history, the direct single shooting 
 
 \subsection{Optimisation Methodology}
 
-\textcolor{red}{The program LODESTAR (Launch Optimisation and Data Evaluation for Scramjet Trajectory Analysis Research) has been developed to produce an optimal trajectory path for a rocket-scramjet-rocket launch vehicle. LODESTAR provides subroutines which enable the simulation of rocket and scramjet vehicles in 6 degrees of freedom, designed specifically for use within an optimisation routine, including aerodynamic and engine performance calculations as well as trim analysis. LODESTAR also adaptively provides bound and guess inputs to the optimisation program. In this study LODESTAR utilises a direct single shooting method for the third stage, and DIDO\cite{Ross,Ross2004}, a proprietary pseudospectral method optimisation package, for the first and second stages. DIDO solves the optimisation problem at shifted Legendre-Gauss-Lobatto points, using a spetral algorithm based on an active-set method within SNOPT, an SQP solver\cite{Ross,Gill2002}.} 
+\textcolor{red}{The program LODESTAR (Launch Optimisation and Data Evaluation for Scramjet Trajectory Analysis Research) has been developed to produce an optimal trajectory path for a rocket-scramjet-rocket launch vehicle. LODESTAR provides subroutines which enable the simulation of rocket and scramjet vehicles in 6 degrees of freedom, designed specifically for use within an optimisation routine, including aerodynamic and engine performance calculations as well as trim analysis. LODESTAR also adaptively provides bound and guess inputs to the optimisation routines. In this study LODESTAR utilises a direct single shooting method for the third stage, and DIDO\cite{Ross,Ross2004}, a proprietary pseudospectral method optimisation package, for the first and second stages. DIDO solves the optimisation problem at shifted Legendre-Gauss-Lobatto points, using a spetral algorithm based on an active-set method within SNOPT, an SQP solver\cite{Ross,Gill2002}.} 
 
 
 	 The three stages are considered as separate optimisation problems, which are coupled at the stage separation points.
@@ -605,9 +605,9 @@ Due to the strong dependence on the control history, the direct single shooting 
 	 	 \begin{equation}
 	 	 C_2(\textbf{x}_{2}(t_2),\textbf{u}_{2}(t_2)) = \int_{t_{2,0}}^{t_{2,f}} \frac{(\textit{\textbf{q}}-50\times 10^3)^2+10^5}{10^5} \, dt
 	 	 \end{equation}
-	This quadratic function provides a smooth, continuous function to increase solver stability and ensure uniform dynamic pressure. \textcolor{red}{Scaling and translating constants of $10^5$ have been included in this cost function to change the relative scaling of the cost function, in order to improve the accuracy and stability of the solution}. Second-third stage separation occurs when the scramjet has expended all of its fuel.  The third stage is then optimised for maximum payload from the calculated second-third stage separation point. 
+	This quadratic function provides a smooth, continuous function to increase solver stability and ensure uniform dynamic pressure. \textcolor{red}{Scaling and translating constants of $10^5$ are included in this cost function to change the relative scaling of the cost function, in order to improve the accuracy and stability of the solution}. Second-third stage separation occurs when the scramjet has expended all of its fuel.  The third stage is then optimised for maximum payload from the calculated second-third stage separation point. 
 	
-	\textcolor{red}{In order to ensure an optimal solution, the number of nodes which DIDO uses is manually varied between 96-105, and a solution computed for each node value. The final solution chosen corresponds to the node value which minimises the cost function, and thus minimises the deviation from 50kPa dynamic pressure. The node values chosen were observed to produce accurate solutions, with efficient computation times. Ten solutions has been judged to provide a sufficient number of node variation, as the solutions within this range are suitably similar.}
+	\textcolor{red}{In order to ensure an optimal solution, the number of nodes which DIDO uses is manually varied between 96-105, and a solution computed for each node value. Ten solutions is observed to provide a sufficient number of node variation, with the solutions converging to similar local minima. The range of node values is chosen to produce accurate solutions, with efficient computation times. The final solution chosen corresponds to the node value which most minimises the cost function, and thus minimises the deviation from the 50kPa dynamic pressure trajectory. }
 	 	 
 	 	 \subsubsection{Second Stage Optimisation - Maximised Payload}
 	 For the maximum payload optimisation, the second and third stages are considered using a dynamic programming approach. First, in order to increase the computational efficiency of the optimisation, optimal third stage payloads are tabulated  over a 3 degree grid of separation conditions, $\textbf{x}_2(t_{2,f})$, as described in Section \ref{section:thirdstage}, providing the optimal payload for a range of velocity, altitude and \textcolor{red}{flight path angle}s at separation as shown in Figure \ref{fig:contours}. Then, the interpolated third stage payload is used as the terminal cost $C_{2 \rightarrow 3}(\textbf{x}_2(t_{2,f}))$ for the calculation of the second stage trajectory optimisation, which optimises both the second and third stages by setting the cost function to maximise payload:
@@ -622,7 +622,7 @@ Due to the strong dependence on the control history, the direct single shooting 
 	  C_{2 \rightarrow 3}(\textbf{x}_2(t_{2,f})) = -m_{payload}.
 	  \end{equation}
 	   $C_{2}(\textbf{x}_{2}(t_2),\textbf{u}_{2}(t_2))$ is included to improve numerical stability and is \textcolor{red}{scaled by a constant, 0.01, in order} to have negligible effect on the resultant trajectory.
-	 This problem is solved using the pseudospectral method\cite{Ross2004}.  \textcolor{red}{As with the constant dynamic pressure case, the number of nodes is manually varied between 95-105, and a solution computed for each node value. The final solution chosen corresponds to the node value which maximises the payload-to-orbit of the vehicle.} 
+	 This problem is solved using the pseudospectral method\cite{Ross2004}.  \textcolor{red}{As with the constant dynamic pressure case, the number of nodes is manually varied between 96-105, and a solution computed for each node value, converging to similar local minima. The final solution chosen corresponds to the node value which most maximises the payload-to-orbit of the vehicle.} 
 	 The third stage is optimised for maximum payload from the calculated second-third stage separation point, as a check to ensure that the interpolation has provided an accurate payload-to-orbit result. 
 	 
  
@@ -642,7 +642,7 @@ where
 \begin{equation}
 C_{1 \rightarrow 2}(\textbf{x}_1(t_{1,f})) = m_{fuel}
 \end{equation}
-and the end point is fixed by the optimal second stage start conditions. The first stage is limited to -5$^\circ$ angle of attack to produce a conservative trajectory solution, within the capabilities of the vehicle. The optimal trajectory is determined using the pseudospectral method. \textcolor{red}{Three results are obtained by varying the number of nodes in DIDO between 90-92. The final result is chosen as the solution which uses the lease fuel mass. Only three solutions are used as the end fuel mass for the first stage optimisation has been observed to vary very little across solutions.}
+and the end point is fixed by the optimal second stage start conditions. The first stage is limited to -5$^\circ$ angle of attack to produce a conservative trajectory solution, within the capabilities of the vehicle. The optimal trajectory is determined using the pseudospectral method. \textcolor{red}{Three results are obtained by varying the number of nodes in DIDO between 90-92. The computation of three solutions is judged to be sufficient, as the solutions converge to very similar minima, and the fuel mass usage is observed to vary very little. The final result is chosen as the solution which uses the least fuel.}
 
 
 \section{Results and Discussion} \label{section:results}
@@ -880,7 +880,8 @@ If efficient, low dynamic pressure scramjet engines are available, operating at 
  To investigate the effect of changes in second stage vehicle properties, the drag of the scramjet is increased by 10\% and the optimal trajectory evaluated. This resulted in a pull-up manoeuvre with a lower second-third stage transition point when compared to the original result. This variation in the optimal trajectory is minor, indicating that the presented trajectory shape is robust with respect to changes in vehicle design and, by extension, changes in engine performance or vehicle aerodynamics. Overall this work provides new insight into the preferred operating ranges for scramjet vehicles incorporated in multi-stage to orbit systems.
 
  
-
+\section*{Funding Information}
+This research was supported in part by an Australian Government Research Training Program (RTP) Scholarship.
 
 \section*{Acknowledgments}
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.6)  19 FEB 2018 14:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.6)  28 FEB 2018 14:18
 entering extended mode
 **./SholtoForbesSpyratos.tex
 (SholtoForbesSpyratos.tex
@@ -1874,3 +1874,214 @@ Overfull \hbox (13.4644pt too wide) in paragraph at lines 153--304
 
 Overfull \hbox (13.4644pt too wide) in paragraph at lines 153--304
 [] []
+ []
+
+
+Overfull \hbox (13.4644pt too wide) in paragraph at lines 153--304
+[] []
+ []
+
+
+Overfull \hbox (13.4644pt too wide) in paragraph at lines 153--304
+[] [] 
+ []
+
+[1
+
+{C:/Users/sholt/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
+[3] [4]
+<NoInternal.png, id=214, 1166.10657pt x 504.38437pt>
+File: NoInternal.png Graphic file (type png)
+<use NoInternal.png>
+Package pdftex.def Info: NoInternal.png  used on input line 372.
+(pdftex.def)             Requested size: 375.80544pt x 162.54533pt.
+<INTERNALS.jpg, id=216, 1412.27625pt x 245.41687pt>
+File: INTERNALS.jpg Graphic file (type jpg)
+<use INTERNALS.jpg>
+Package pdftex.def Info: INTERNALS.jpg  used on input line 380.
+(pdftex.def)             Requested size: 375.80544pt x 65.30478pt.
+ [5 <./NoInternal.png> <./INTERNALS.jpg>]
+<3rdStage.jpg, id=234, 1372.37718pt x 283.81032pt>
+File: 3rdStage.jpg Graphic file (type jpg)
+<use 3rdStage.jpg>
+Package pdftex.def Info: 3rdStage.jpg  used on input line 405.
+(pdftex.def)             Requested size: 281.85587pt x 58.28542pt.
+ [6 <./3rdStage.jpg>]
+<CARTcontour.png, id=257, 783.67781pt x 366.61969pt>
+File: CARTcontour.png Graphic file (type png)
+<use CARTcontour.png>
+Package pdftex.def Info: CARTcontour.png  used on input line 426.
+(pdftex.def)             Requested size: 281.85587pt x 131.85991pt.
+<CARTmesh.png, id=258, 788.19469pt x 371.88937pt>
+File: CARTmesh.png Graphic file (type png)
+<use CARTmesh.png>
+Package pdftex.def Info: CARTmesh.png  used on input line 432.
+(pdftex.def)             Requested size: 281.85587pt x 132.98349pt.
+<CART.png, id=259, 421.575pt x 316.18124pt>
+File: CART.png Graphic file (type png)
+<use CART.png>
+Package pdftex.def Info: CART.png  used on input line 438.
+(pdftex.def)             Requested size: 187.89914pt x 140.92455pt.
+ [7]
+[8 <./CARTcontour.png> <./CARTmesh.png>] [9 <./CART.png (PNG copy)>] [10]
+[11] [12]
+<contours.png, id=367, 421.575pt x 316.18124pt>
+File: contours.png Graphic file (type png)
+<use contours.png>
+Package pdftex.def Info: contours.png  used on input line 573.
+(pdftex.def)             Requested size: 281.85587pt x 211.39647pt.
+ [13 <./contours.png (PNG copy)>]
+LaTeX Font Info:    Font shape `T1/ntxtlf/bx/it' in size <10> not available
+(Font)              Font shape `T1/ntxtlf/b/it' tried instead on input line 606
+.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
+(Font)              scaled to size 10.0pt on input line 606.
+ [14] [15]
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 9.0pt on input line 666.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 9.0pt on input line 667.
+LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
+(Font)              scaled to size 8.09995pt on input line 667.
+LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
+(Font)              scaled to size 9.0pt on input line 667.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 9.0pt on input line 667.
+LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <9> not available
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 668.
+
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 9.0pt on input line 668.
+
+Overfull \hbox (10.07283pt too wide) in paragraph at lines 667--691
+ [][] 
+ []
+
+<FirstStage.png, id=399, 813.79031pt x 316.18124pt>
+File: FirstStage.png Graphic file (type png)
+<use FirstStage.png>
+Package pdftex.def Info: FirstStage.png  used on input line 701.
+(pdftex.def)             Requested size: 422.77664pt x 164.2608pt.
+[16]
+<Constq.png, id=411, 637.63219pt x 335.75438pt>
+File: Constq.png Graphic file (type png)
+<use Constq.png>
+Package pdftex.def Info: Constq.png  used on input line 720.
+(pdftex.def)             Requested size: 328.82707pt x 173.14853pt.
+<Constq-Aero.png, id=412, 562.35094pt x 355.3275pt>
+File: Constq-Aero.png Graphic file (type png)
+<use Constq-Aero.png>
+Package pdftex.def Info: Constq-Aero.png  used on input line 726.
+(pdftex.def)             Requested size: 281.85587pt x 178.09163pt.
+ [17 <./FirstStage.png (PNG copy)> <./Constq.png>]
+<Constq-Vehicle.png, id=420, 572.1375pt x 313.17pt>
+File: Constq-Vehicle.png Graphic file (type png)
+<use Constq-Vehicle.png>
+Package pdftex.def Info: Constq-Vehicle.png  used on input line 732.
+(pdftex.def)             Requested size: 281.85587pt x 154.28133pt.
+ [18 <./Constq-Aero.png> <./Constq-Vehicle.png>]
+<qlimited50kPa.png, id=435, 612.78937pt x 324.46219pt>
+File: qlimited50kPa.png Graphic file (type png)
+<use qlimited50kPa.png>
+Package pdftex.def Info: qlimited50kPa.png  used on input line 755.
+(pdftex.def)             Requested size: 328.82707pt x 174.10786pt.
+<qlimited50kPa-aero.png, id=436, 566.115pt x 356.83313pt>
+File: qlimited50kPa-aero.png Graphic file (type png)
+<use qlimited50kPa-aero.png>
+Package pdftex.def Info: qlimited50kPa-aero.png  used on input line 761.
+(pdftex.def)             Requested size: 281.85587pt x 177.66473pt.
+<qlimited-Vehicle.png, id=437, 582.67688pt x 322.95656pt>
+File: qlimited-Vehicle.png Graphic file (type png)
+<use qlimited-Vehicle.png>
+Package pdftex.def Info: qlimited-Vehicle.png  used on input line 767.
+(pdftex.def)             Requested size: 281.85587pt x 156.22472pt.
+ [19 <./qlimited50kPa.png>] [20 <./qlimited50kPa-aero.png> <./qlimited-Vehicle.
+png>]
+<Multipleq.png, id=463, 621.07031pt x 320.69812pt>
+File: Multipleq.png Graphic file (type png)
+<use Multipleq.png>
+Package pdftex.def Info: Multipleq.png  used on input line 796.
+(pdftex.def)             Requested size: 328.82707pt x 169.79301pt.
+<MultipleqAero.png, id=464, 559.33969pt x 377.15906pt>
+File: MultipleqAero.png Graphic file (type png)
+<use MultipleqAero.png>
+Package pdftex.def Info: MultipleqAero.png  used on input line 803.
+(pdftex.def)             Requested size: 281.85587pt x 190.05809pt.
+<Multipleq-Vehicle.png, id=465, 569.87906pt x 306.39468pt>
+File: Multipleq-Vehicle.png Graphic file (type png)
+<use Multipleq-Vehicle.png>
+Package pdftex.def Info: Multipleq-Vehicle.png  used on input line 809.
+(pdftex.def)             Requested size: 281.85587pt x 151.53726pt.
+ [21 <./Multipleq.png>] [22 <./MultipleqAero.png> <./Multipleq-Vehicle.png>]
+<DragComparisonTraj.png, id=485, 608.2725pt x 314.67563pt>
+File: DragComparisonTraj.png Graphic file (type png)
+<use DragComparisonTraj.png>
+Package pdftex.def Info: DragComparisonTraj.png  used on input line 826.
+(pdftex.def)             Requested size: 328.82707pt x 170.11436pt.
+<DragComparisonOther.png, id=486, 566.115pt x 304.88907pt>
+File: DragComparisonOther.png Graphic file (type png)
+<use DragComparisonOther.png>
+Package pdftex.def Info: DragComparisonOther.png  used on input line 833.
+(pdftex.def)             Requested size: 281.85587pt x 151.80214pt.
+ [23 <./DragComparisonTraj.png> <./DragComparisonOther.png>]
+<ThirdStageConstQ.png, id=503, 978.65625pt x 526.96875pt>
+File: ThirdStageConstQ.png Graphic file (type png)
+<use ThirdStageConstQ.png>
+Package pdftex.def Info: ThirdStageConstQ.png  used on input line 857.
+(pdftex.def)             Requested size: 375.80544pt x 202.3569pt.
+<ThirdStage50kpaConstrained.png, id=504, 978.65625pt x 526.96875pt>
+File: ThirdStage50kpaConstrained.png Graphic file (type png)
+<use ThirdStage50kpaConstrained.png>
+Package pdftex.def Info: ThirdStage50kpaConstrained.png  used on input line 864
+.
+(pdftex.def)             Requested size: 375.80544pt x 202.3569pt.
+ [24 <./ThirdStageConstQ.png (PNG copy)>] [25 <./ThirdStage50kpaConstrained.png
+ (PNG copy)>]
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 8.0pt on input line 890.
+ (SholtoForbesSpyratos.bbl
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
+(Font)              scaled to size 9.0pt on input line 16.
+ [26] [27] [28] [29])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 895.
+ [30]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 895.
+
+(SholtoForbesSpyratos.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 895.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 895.
+Package rerunfilecheck Info: File `SholtoForbesSpyratos.out' has not changed.
+(rerunfilecheck)             Checksum: B3DA7E5D1DCBFAF39AB4220EDE14F528;2192.
+ ) 
+Here is how much of TeX's memory you used:
+ 25621 strings out of 493308
+ 469420 string characters out of 3138769
+ 569453 words of memory out of 3000000
+ 28432 multiletter control sequences out of 15000+200000
+ 649188 words of font info for 240 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 60i,16n,94p,10384b,969s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{C:/Program
+ Files/MiKTeX 2.9/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{C:/Program Files/MiKTe
+X 2.9/fonts/enc/dvips/base/8r.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/
+tex-gyre/q-ts1.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/tex-gyre/qtm
+b.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/tex-gyre/qtmbi.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/tex-gyre/qtmr.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/tex-gyre/qtmri.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/newtx/rntxmi.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/newtx/rntxmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/newtx/rntx
+mi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/newtx/rtxbmi-rev.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/txfonts/rtxmi.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/newtx/rtxmi5.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/newtx/rtxmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/txfonts/rtxr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/txfonts/t
+1xtt.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/newtx/txexas.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/newtx/txexs.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/newtx/txsys.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/urw/times/utmri8a.pfb>
+Output written on SholtoForbesSpyratos.pdf (30 pages, 1215081 bytes).
+PDF statistics:
+ 666 PDF objects out of 1000 (max. 8388607)
+ 166 named destinations out of 1000 (max. 500000)
+ 34626 words of extra memory for PDF output out of 35830 (max. 10000000)
+
