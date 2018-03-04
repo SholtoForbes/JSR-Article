@@ -180,6 +180,12 @@ Ranieri, C.~L., and Ocampo, C.~a., \enquote{{Optimization of Roundtrip,
   306--314.
 \newblock \doi{10.2514/1.5540}.
 
+\bibitem[{Rao(2009)}]{Rao2009}
+Rao, A., \enquote{{A survey of numerical methods for optimal control},}
+  \emph{Advances in the Astronautical Sciences}, Vol. 135, 2009, pp. 497--528.
+\newblock
+  \urlprefix\url{http://vdol.mae.ufl.edu/ConferencePublications/trajectorySurveyAAS.pdf}.
+
 \bibitem[{Fahroo and Ross(2000)}]{Fahroo2000}
 Fahroo, F., and Ross, I., \enquote{{Direct trajectory optimization by a
   Chebyshev pseudospectral method},} \emph{Proceedings of the 2000 American
@@ -191,12 +197,6 @@ Stryk, O., and Bulirsch, R., \enquote{{Direct and indirect methods for
   trajectory optimization},} \emph{Annals of Operations Research}, Vol.~37,
   1992, pp. 357--373.
 \newblock \doi{10.1007/BF02071065}.
-
-\bibitem[{Rao(2009)}]{Rao2009}
-Rao, A., \enquote{{A survey of numerical methods for optimal control},}
-  \emph{Advances in the Astronautical Sciences}, Vol. 135, 2009, pp. 497--528.
-\newblock
-  \urlprefix\url{http://vdol.mae.ufl.edu/ConferencePublications/trajectorySurveyAAS.pdf}.
 
 \bibitem[{Boggs and Tolle(2000)}]{Boggs2000}
 Boggs, P., and Tolle, J., \enquote{{Sequential quadratic programming for
@@ -218,6 +218,25 @@ Garg, D., Patterson, M., and Hager, W., \enquote{{An Overview of Three
   1--17.
 \newblock
   \urlprefix\url{http://vdol.mae.ufl.edu/ConferencePublications/unifiedFrameworkAAS.pdf}.
+
+\bibitem[{{Fahroo F. \& Ross}(1999)}]{Fahroo1999}
+{Fahroo F. \& Ross}, I., \enquote{{Computational Optimal Control By Spectral
+  Collocation With Differential Inclusion},} \emph{1999 Flight Mechanics
+  Symposium}, Greenbelt, MD, 1999, pp. 185--200.
+
+\bibitem[{Huntington and Rao(2008)}]{Huntington2008}
+Huntington, G.~T., and Rao, A.~V., \enquote{{Optimal Reconfiguration of
+  Spacecraft Formations Using the Gauss Pseudospectral Method},} \emph{Journal
+  of Guidance, Control, and Dynamics}, Vol.~31, No.~3, 2008, pp. 689--698.
+\newblock \doi{10.2514/1.31083},
+  \urlprefix\url{http://arc.aiaa.org/doi/abs/10.2514/1.31083}.
+
+\bibitem[{Yan et~al.(2007)Yan, Ross, and Alfriend}]{Yan2007}
+Yan, H., Ross, I.~M., and Alfriend, K.~T., \enquote{{Pseudospectral Feedback
+  Control for Three-Axis Magnetic Attitude Stabilization in Elliptic Orbits},}
+  \emph{Journal of Guidance, Control, and Dynamics}, Vol.~30, No.~4, 2007, pp.
+  1107--1115.
+\newblock \doi{10.2514/1.26591}.
 
 \bibitem[{Preller and Smart(2015)}]{Preller2015a}
 Preller, D., and Smart, M.~K., \enquote{{Scramjets for Reusable Launch of Small
@@ -334,30 +353,6 @@ Ross, I.~M., \emph{{A Beginners Guide to DIDO (ver 7.3): A MATLAB Application
   Package for Solving Optimal Control Problems}}, Elissar, LLC, Monterey, CA,
   2015.
 
-\bibitem[{Fasano and Pinter(2013)}]{Fasano2013}
-Fasano, G., and Pinter, J., \emph{{Modelling and Optimisation in Space
-  Engineering}}, Springer, New York, NY, 2013.
-\newblock \doi{10.1007/978-1-4614-4469-5}.
-
-\bibitem[{{Fahroo F. \& Ross}(1999)}]{Fahroo1999}
-{Fahroo F. \& Ross}, I., \enquote{{Computational Optimal Control By Spectral
-  Collocation With Differential Inclusion},} \emph{1999 Flight Mechanics
-  Symposium}, Greenbelt, MD, 1999, pp. 185--200.
-
-\bibitem[{Huntington and Rao(2008)}]{Huntington2008}
-Huntington, G.~T., and Rao, A.~V., \enquote{{Optimal Reconfiguration of
-  Spacecraft Formations Using the Gauss Pseudospectral Method},} \emph{Journal
-  of Guidance, Control, and Dynamics}, Vol.~31, No.~3, 2008, pp. 689--698.
-\newblock \doi{10.2514/1.31083},
-  \urlprefix\url{http://arc.aiaa.org/doi/abs/10.2514/1.31083}.
-
-\bibitem[{Yan et~al.(2007)Yan, Ross, and Alfriend}]{Yan2007}
-Yan, H., Ross, I.~M., and Alfriend, K.~T., \enquote{{Pseudospectral Feedback
-  Control for Three-Axis Magnetic Attitude Stabilization in Elliptic Orbits},}
-  \emph{Journal of Guidance, Control, and Dynamics}, Vol.~30, No.~4, 2007, pp.
-  1107--1115.
-\newblock \doi{10.2514/1.26591}.
-
 \bibitem[{Diehl et~al.(2006)Diehl, Bock, Diedam, and Wieber}]{Diehl2006}
 Diehl, M., Bock, H.~G., Diedam, H., and Wieber, P.~B., \enquote{{Fast direct
   multiple shooting algorithms for optimal robot control},} \emph{Lecture Notes
@@ -376,5 +371,10 @@ Gill, P.~E., Murray, W., and Saunders, M.~a., \enquote{{SNOPT: An SQP Algorithm
   Optimization}, Vol.~12, No.~4, 2002, pp. 979--1006.
 \newblock \doi{10.1137/S1052623499350013},
   \urlprefix\url{http://epubs.siam.org/doi/10.1137/S1052623499350013}.
+
+\bibitem[{{The MathWorks Inc.}(2014)}]{MATLAB}
+{The MathWorks Inc.}, \enquote{{MATLAB and Optimization Toolbox Release
+  2014b},} , 2014.
+\newblock \urlprefix\url{www.mathworks.com}.
 
 \end{thebibliography}

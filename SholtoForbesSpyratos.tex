@@ -1,7 +1,9 @@
 \documentclass[journal]{new-aiaa}
+
 \usepackage{bm}
 \usepackage{float}
 \usepackage{setspace}
+
 
 
 \usepackage[utf8]{inputenc}
@@ -138,7 +140,7 @@
 
 \begin{abstract}
 
-The integration of a reusable scramjet vehicle as one of the stages of a multi-stage space launch system has the potential to reduce the cost of small payload orbital launches. 
+The integration of a reusable scramjet vehicle as \textcolor{red}{the second} stage of a multi-stage space launch system has the potential to reduce the cost of small payload orbital launches. 
 This paper determines the maximum payload to orbit trajectory of a multi-stage rocket-scramjet-rocket system. This trajectory is calculated by formulating the problem as an optimal control problem, then solving it using the pseudospectral method. 
 Using this method, it is determined that the optimal trajectory for the scramjet stage involves an initial decrease in dynamic pressure, followed by constant dynamic pressure flight, and finally a pull-up manoeuvre. This optimal trajectory results in a \PayloadImprovement\ improvement in payload mass to orbit when compared to a constant dynamic pressure trajectory with minimum pull-up. 
 Furthermore, the optimal pull-up manoeuvre decreases the maximum dynamic pressure experienced by the final rocket stage by \qDecrease. 
@@ -315,17 +317,17 @@ Scramjets (supersonic combustion ramjets) are airbreathing engines that operate 
 Scramjet engines are a primary candidate for powering the next generation of small payload launch vehicles, producing higher specific impulse ($I_{sp}$)  than rockets within their operating range. Other benefits of scramjets include increased flexibility of launch windows and an increased range of mission capabilities\cite{Flaherty2010}. 
 Scramjets can accelerate a launch vehicle without the need to carry oxidiser on board, providing mass savings compared to rocket-powered vehicles. 
  The reduction of mass carried within the vehicle fuselage enables the integration of avionics and landing gear, allowing for the design of a reusable vehicle in the style of conventional aerospace vehicles. 
-However, a launch system must contain three stages, a first stage rocket capable of accelerating the scramjet vehicle to its operating speed and a final rocket stage for placing the payload in orbit. 
+However, a \textcolor{red}{scramjet incorporating} launch system \textcolor{red}{requires two rocket} stages, a first stage rocket capable of accelerating the scramjet vehicle to its operating speed and a final rocket stage for placing the payload in orbit. 
 
 
-This paper presents a trajectory designed using optimal control methods for a rocket-scramjet-rocket, small satellite launch system proposed by the Centre for Hypersonics at The University of Queensland\cite{Preller2017b}. 
-The trajectory profile of this rocket-scramjet-rocket system, which utilises the SPARTAN scramjet accelerator, has previously been designed around the scramjet stage flying a constant dynamic pressure trajectory\cite{Preller2017b}, in-line with similar multi-stage vehicles\cite{Kimura1999,Olds1998}.
+This paper presents a trajectory designed using optimal control methods for a rocket-scramjet-rocket, small satellite launch system proposed by the Centre for Hypersonics at The University of Queensland\cite{Preller2017b}, \textcolor{red}{incorporating the SPARTAN scramjet accelerator}. 
+The trajectory profile of this rocket-scramjet-rocket system has previously been designed around the scramjet stage flying a constant dynamic pressure trajectory\cite{Preller2017b}, in-line with similar multi-stage vehicles\cite{Kimura1999,Olds1998}.
  A constant dynamic pressure trajectory follows the maximum dynamic pressure that the scramjet-powered vehicle is able to withstand structurally, ensuring maximum thrust production from the scramjet engines. However, flying a maximum dynamic pressure trajectory also results in the release of the third stage rocket into a high dynamic pressure, at low \textcolor{red}{flight path angle}. 
 
 
  Previously, when flying a constant dynamic pressure scramjet-stage trajectory, the Pratt \& Whitney RL-10A-3A pump-fed engine was used as the propulsion system for the third stage rocket\cite{Preller2017b}. This study instead utilises a modified SpaceX Kestrel engine\cite{Vehicle2008}. This is more cost efficient than the RL-10-3A, with the trade-off of lower thrust and efficiency. Due to the reduced thrust, the Kestrel powered third stage is unable to reach orbit if released from a near horizontal flight at maximum dynamic pressure. Instead a minimal pull-up is required to release the third stage at lower dynamic pressure.
 
- A trajectory with the minimum allowable pull-up produces maximum acceleration from the scramjet stage, by maximising the dynamic pressure during flight. However, a minimum pull-up trajectory may not be optimal for the overall multi-stage system. 
+ A trajectory with the minimum \textcolor{red}{required} pull-up produces maximum acceleration from the scramjet stage, by maximising the dynamic pressure during flight. However, a minimum pull-up trajectory may not be optimal for the overall multi-stage system. 
  For example, a minimum pull-up trajectory may still release the final stage into a high dynamic pressure environment, at a potentially suboptimal \textcolor{red}{flight path angle}. This release point may result in suboptimal performance of the final stage rocket  and the inclusion of unnecessary design constraints. 
  A larger pull-up may produce an overall favourable trade-off, by allowing for the scramjet stage to be used to increase the altitude and flight path angle of the launch vehicle, enabling the final stage rocket to operate with reduced drag.
  However, as the altitude increases, the thrust of the airbreathing engine is reduced, due to a lower mass flow rate into the engine. 
@@ -347,7 +349,7 @@ The trajectory profile of this rocket-scramjet-rocket system, which utilises the
 
 
   A pull-up manoeuvre has previously been identified as having potential advantages for multi-stage airbreathing-rocket systems\cite{Tsuchiya2005,Wilhite1991,Mehta2001}. 
-  However, these pull-up manoeuvres were minimum pull-ups performed in order to decrease the dynamic pressure to the operable limit of the rocket stage\cite{Tsuchiya2005,Wilhite1991}, or were prescribed in a suboptimal trajectory with variation in dynamic pressure\cite{Mehta2001}. 
+  However, these pull-up manoeuvres were minimum pull-ups \textcolor{red}{imposed by rocket flight constraints}\cite{Tsuchiya2005,Wilhite1991}, or were prescribed in a suboptimal trajectory with variation in dynamic pressure\cite{Mehta2001}. 
    The inherent intricacies of a multi-stage, partially-airbreathing system, particularly the complexity of transition between airbreathing and rocket stages, necessitates an investigation into the optimal launch trajectory design. 
   
 
@@ -356,10 +358,12 @@ The trajectory profile of this rocket-scramjet-rocket system, which utilises the
 
 This paper utilises optimal control theory to generate the optimal trajectory path for a rocket-scramjet-rocket multi-stage vehicle.
 Optimal control theory allows a trajectory to be optimised in its entirety and has been widely used in aerospace applications for computing trajectories when there is a global objective to be optimised, such as minimum fuel\textcolor{red}{\cite{Bedrossian,Josselyn2002,Yang2017} or maximum crossrange\cite{Rizvi2015,Chai2015,Moshman2014}}. 
-Optimal control is also extremely flexible, as the optimal control problem can be modified easily to investigate a range of trajectory objectives\cite{Ranieri2005}. 
-Highly nonlinear control problems (such as a complex model of hypersonic flight) necessitate the use of direct methods such as direct single shooting, multiple shooting, or collocation.
-Direct methods discretise the \textcolor{red}{trajectory optimisation }problem, and solve the nonlinear programming \textcolor{red}{(NLP)} problem that results \textcolor{red}{computationally\cite{Fahroo2000,Stryk1992}. This solution is calculated using an NLP solving technique such as sequential quadratic programming (SQP), which is widely used for trajectory optimisation due to its high efficacy\cite{Rao2009,Boggs2000}. The most powerful methods of optimal control are arguably direct collocation methods, in which the state and control variables are approximated using specified basis functions of splines or polynomials\cite{Rao2009,Fahroo2000,Elganar}. The use of global orthogonal polynomials as basis functions, collocated at nodes obtained from a Gaussian quadrature, is referred to as the pseudospectral method, due to the resultant accuracy of the problem converging spectrally (at an exponential rate) as the number of collocation nodes increases\cite{Rao2009,Garg2009}.}
-The pseudospectral method is utilised in this study due to its accuracy, efficiency, and radius of convergence when compared to other optimal control techniques\cite{Fahroo2000,Elganar}.
+\textcolor{red}{Prescribing a trajectory to produce an optimal result, using a defined flight path or targeted controller, requires the optimal trajectory conditions to be known a priori. Optimal control allows for the calculation of a flight path which optimises the end goal, while satisfying all vehicle constraints, from few initial assumptions\cite{Rao2009}}.
+
+Highly nonlinear control problems (such as a complex model of hypersonic flight) necessitate the use of direct methods such as direct single shooting, multiple shooting, or collocation\cite{Rao2009}.
+Direct methods discretise the \textcolor{red}{trajectory optimisation }problem, and solve the nonlinear programming \textcolor{red}{(NLP)} problem that results \textcolor{red}{computationally\cite{Fahroo2000,Stryk1992}. This solution is calculated using an NLP solving technique such as sequential quadratic programming (SQP), which is widely used for trajectory optimisation due to its high efficacy\cite{Rao2009,Boggs2000}. The most powerful methods of optimal control are arguably direct collocation methods, in which the state and control variables are approximated using specified basis functions of splines or polynomials\cite{Rao2009,Fahroo2000,Elganar}. The use of global orthogonal polynomials as basis functions, collocated at nodes obtained from a Gaussian quadrature, is referred to as the pseudospectral method, due to the resultant accuracy of the problem converging spectrally (at an exponential rate) as the number of collocation nodes increases\cite{Rao2009,Garg2009}. The use of the spectral method ensures that higher order terms of the dynamic equations are solved, and facilitates solution with high accuracy, even with relatively few collocation points\cite{Fahroo1999}.}
+The pseudospectral method is utilised in this study due to its accuracy, efficiency, and radius of convergence when compared to other optimal control techniques\cite{Fahroo2000,Elganar}. \textcolor{red}{The accuracy and validity of this method has been demonstrated for a variety of aerospace applications\cite{Bedrossian,Huntington2008,Josselyn2002,Yan2007}}. 
+
 
 The remainder of the paper is as follows: Section \ref{section:system} presents the design characteristics of all three stages. Section \ref{section:aero} presents the aerodynamic modelling of the system. Section \ref{section:optimisation} presents an overview of the optimal control theory used including the problem definition and a description of the pseudospectral method. Section \ref{section:results} presents optimal trajectory results for all three stages, including results verifying the use of the pseudospectral method, optimal trajectory results for a range of maximum dynamic pressure conditions, and optimal trajectory results with variation in the vehicle's aerodynamic characteristics.
 
@@ -410,7 +414,7 @@ The SPARTAN is powered by four scramjet engines located on the bottom portion of
 The third stage rocket is initially housed within the SPARTAN fuselage, as shown in Figure \ref{fig:INTERNALS}. After separation from the SPARTAN, the third stage rocket initiates a burn, and performs an altitude increasing manoeuvre. 
 At the end of the initial burn, the third stage rocket is allowed to coast until reaching apogee, at which point it must have an altitude of at least 100km to ensure that the rocket is in an exoatmospheric orbit. The orbit is circularised using a further short burn, after which the payload delivery to heliosynchronous orbit is completed using a Hohmann transfer. The payload-to-orbit is determined by calculating the mass of the vehicle at the end of the Hohmann transfer. The structural mass is removed, and the remaining mass is taken to be the payload-to-orbit capability of the vehicle. 
 
-To achieve this, the third stage rocket (Figure \ref{fig:ThirdStage}) has a total length of 9m, diameter of 1.1m and a total initial mass of 3300kg. It is modelled to be powered by a modified SpaceX LOX-kerosene Kestrel engine\cite{Vehicle2008}, weighing 52kg. Previous studies used a LOX-LH2 upper stage based on the RL-10-3A engine\cite{Preller2017b}. In this study the pressure-fed Kestrel engine is used rather than the pump-fed RL-10-3A to reduce the cost of the disposable third stage rocket. The third stage has a structural mass of 285.7kg, equivalent to a structural mass fraction of 0.09 (calculated without heat shield), similar to the Falcon-1e second stage\cite{Vehicle2008}. The in-atmosphere, high dynamic pressure separation of the rocket stage requires the use of a heat shield that envelopes the rocket stage. The heat shield is constructed from a Tungsten nose piece, a Carbon-Carbon cone, and a phenolic cork cylinder. The heat shield weighs 130.9kg in total, and is discarded when the rocket reaches a dynamic pressure of 10Pa (atmospheric heating is assumed to be negligible at this point)\cite{Preller2015a,Preller2017b}. 
+The third stage rocket (Figure \ref{fig:ThirdStage}) has a total length of 9m, diameter of 1.1m and a total initial mass of 3300kg. It is modelled to be powered by a modified SpaceX LOX-kerosene Kestrel engine\cite{Vehicle2008}, weighing 52kg. Previous studies used a LOX-LH2 upper stage based on the RL-10-3A engine\cite{Preller2017b}. In this study the pressure-fed Kestrel engine is used rather than the pump-fed RL-10-3A to reduce the cost of the disposable third stage rocket. The third stage has a structural mass of 285.7kg, equivalent to a structural mass fraction of 0.09 (calculated without heat shield), similar to the Falcon-1e second stage\cite{Vehicle2008}. The in-atmosphere, high dynamic pressure separation of the rocket stage requires the use of a heat shield that envelopes the rocket stage. The heat shield is constructed from a Tungsten nose piece, a Carbon-Carbon cone, and a phenolic cork cylinder. The heat shield weighs 130.9kg in total, and is discarded when the rocket reaches a dynamic pressure of 10Pa (atmospheric heating is assumed to be negligible at this point)\cite{Preller2015a,Preller2017b}. 
 
 
 \section{Aerodynamics, Propulsion and Dynamic Modelling}\label{section:aero}
@@ -533,19 +537,13 @@ as well as a set of inequality constraints defining the bounds of the problem:
 \begin{eqnarray}
 \bm{\lambda}[\textbf{x}_a(t_a),\textbf{u}_a(t_a)] \leq \textbf{0}.
 \end{eqnarray}
- These inequality constraints are chosen to span the possible operating ranges of the first stage and the SPARTAN to ensure an optimal solution. 
- Solving this Bolza problem in a discrete simulation requires the use of numerical solution methods for which the pseudospectral method solver DIDO was chosen\cite{Ross}.
- 
+ These inequality constraints are chosen to span the possible operating range of the \textcolor{red}{vehicle} to ensure an optimal solution. 
+ Solving this Bolza problem in a discrete simulation requires the use of numerical solution methods. 
+ \textcolor{red}{The first and second stage trajectory solutions utilise the pseudospectral method, a form of direct spectral collocation\cite{Fahroo2000,Rao2009}. To perform this optimisation the pseudospectral method solver DIDO was chosen\cite{Ross}}.
 
-
-\subsubsection{The Pseudospectral Method for Optimal Control}
-The first and second stage trajectory solutions utilise the pseudospectral method, a form of direct spectral collocation\cite{Fahroo2000}. The pseudospectral method offers good convergence properties and relatively good computational speed, while not compromising the accuracy of the optimal solution\cite{Fasano2013}. These properties make the pseudospectral method appropriate for optimising a hypersonic vehicle system. 
-The pseudospectral method utilises a spectral collocation method to approximate the optimal control problem as a nonlinear programming problem. The use of the spectral method ensures that higher order terms of the dynamic equations are solved, and facilitates solution with high accuracy, even with relatively few collocation points\cite{Fahroo1999}. The accuracy and validity of this method has been demonstrated for a variety of aerospace applications\cite{Bedrossian,Huntington2008,Josselyn2002,Yan2007}. 
-
-\subsubsection{The Direct Single Shooting Method for Optimal Control}
 
 The third stage trajectory optimization is performed using the direct single shooting method~\cite{Diehl2006}. The direct single shooting method is selected for the third stage trajectory optimisation due to its ease of initialization, allowing it to automatically solve repeated instances of the problem with different initial conditions. 
-The direct single shooting method uses \textcolor{red}{a sequential quadratic programming} algorithm to directly solve for the optimal time-discretised control history.
+The direct single shooting method uses \textcolor{red}{a sequential quadratic programming} algorithm to directly solve for the optimal time-discretised control history\textcolor{red}{\cite{Rao2009}}.
 This control history is optimised subject to the dynamics, cost and constraints of the system, which are evaluated at each iteration using forward simulation.
 Due to the strong dependence on the control history, the direct single shooting method is highly sensitive to the initial guess for nonlinear problems, and is mostly suited to solving well-conditioned problems.
 
@@ -588,7 +586,7 @@ Due to the strong dependence on the control history, the direct single shooting 
 	 
 	  
 	  
-	  The payload mass is calculated after the Hohmann transfer to the desired orbit, by taking the remaining fuel to be the effective payload capacity. \textcolor{red}{SQP} is used to find the optimal solution, utilising MATLAB's \textit{fmincon} solver.
+	  The payload mass is calculated after the Hohmann transfer to the desired orbit, by taking the remaining fuel to be the effective payload capacity. \textcolor{red}{SQP} is used to find the optimal solution, utilising MATLAB's \textit{fmincon} solver\cite{MATLAB}.
 	    As an example, tabulated optimal payload to orbit results for a 2875m/s third stage release velocity are shown in Figure~\ref{fig:contours}. Payload increases with both altitude and release angle, however it is clear that the potential payload increase due to increasing the separation altitude lessens as release angle increases.  
 	    
 	
@@ -605,9 +603,9 @@ Due to the strong dependence on the control history, the direct single shooting 
 	 	 \begin{equation}
 	 	 C_2(\textbf{x}_{2}(t_2),\textbf{u}_{2}(t_2)) = \int_{t_{2,0}}^{t_{2,f}} \frac{(\textit{\textbf{q}}-50\times 10^3)^2+10^5}{10^5} \, dt
 	 	 \end{equation}
-	This quadratic function provides a smooth, continuous function to increase solver stability and ensure uniform dynamic pressure. \textcolor{red}{Scaling and translating constants of $10^5$ are included in this cost function to change the relative scaling of the cost function, in order to improve the accuracy and stability of the solution}. Second-third stage separation occurs when the scramjet has expended all of its fuel.  The third stage is then optimised for maximum payload from the calculated second-third stage separation point. 
+	This quadratic function provides a smooth, continuous function to increase solver stability and ensure uniform dynamic pressure. \textcolor{red}{Scaling and translating constants of $10^5$ are included to normalize the cost function, in order to improve the accuracy and stability of the solution}. Second-third stage separation occurs when the scramjet has expended all of its fuel.  The third stage is then optimised for maximum payload from the calculated second-third stage separation point. 
 	
-	\textcolor{red}{In order to ensure an optimal solution, the number of nodes which DIDO uses is manually varied between 96-105, and a solution computed for each node value. Ten solutions is observed to provide a sufficient number of node variation, with the solutions converging to similar local minima. The range of node values is chosen to produce accurate solutions, with efficient computation times. The final solution chosen corresponds to the node value which most minimises the cost function, and thus minimises the deviation from the 50kPa dynamic pressure trajectory. }
+	\textcolor{red}{In order to ensure an optimal solution, the number of nodes which DIDO uses is manually varied between 96-105, and a solution computed for each node value to ensure a distinct local minima. Ten solutions is observed to provide a sufficient number of node variation, with the solutions converging to similar local minima. The range of node values is chosen to produce accurate solutions, with efficient computation times. The final solution chosen corresponds to the node value which most minimises the cost function, and thus minimises the deviation from the 50kPa dynamic pressure trajectory. }
 	 	 
 	 	 \subsubsection{Second Stage Optimisation - Maximised Payload}
 	 For the maximum payload optimisation, the second and third stages are considered using a dynamic programming approach. First, in order to increase the computational efficiency of the optimisation, optimal third stage payloads are tabulated  over a 3 degree grid of separation conditions, $\textbf{x}_2(t_{2,f})$, as described in Section \ref{section:thirdstage}, providing the optimal payload for a range of velocity, altitude and \textcolor{red}{flight path angle}s at separation as shown in Figure \ref{fig:contours}. Then, the interpolated third stage payload is used as the terminal cost $C_{2 \rightarrow 3}(\textbf{x}_2(t_{2,f}))$ for the calculation of the second stage trajectory optimisation, which optimises both the second and third stages by setting the cost function to maximise payload:
@@ -621,7 +619,7 @@ Due to the strong dependence on the control history, the direct single shooting 
 	  \begin{equation}
 	  C_{2 \rightarrow 3}(\textbf{x}_2(t_{2,f})) = -m_{payload}.
 	  \end{equation}
-	   $C_{2}(\textbf{x}_{2}(t_2),\textbf{u}_{2}(t_2))$ is included to improve numerical stability and is \textcolor{red}{scaled by a constant, 0.01, in order} to have negligible effect on the resultant trajectory.
+	   $C_{2}(\textbf{x}_{2}(t_2),\textbf{u}_{2}(t_2))$ is included to improve numerical stability and is \textcolor{red}{weighted by a constant, 0.01, in order} to have negligible effect on the resultant trajectory.
 	 This problem is solved using the pseudospectral method\cite{Ross2004}.  \textcolor{red}{As with the constant dynamic pressure case, the number of nodes is manually varied between 96-105, and a solution computed for each node value, converging to similar local minima. The final solution chosen corresponds to the node value which most maximises the payload-to-orbit of the vehicle.} 
 	 The third stage is optimised for maximum payload from the calculated second-third stage separation point, as a check to ensure that the interpolation has provided an accurate payload-to-orbit result. 
 	 
@@ -633,8 +631,8 @@ From pitchover, the first stage is optimised for the minimum fuel mass necessary
 
 The separation velocity of 1520m/s corresponds to Mach 5.1 at 50kPa, the minimum operating point of the proposed scramjet\cite{Preller2017b}. Release at the minimum operable point is advantageous, as the scramjet specific impulse increases at low velocities\cite{Preller2017b}.
 The altitude and flight path angle at first-second stage separation is defined by the optimised second stage. This approach is used on account of the selected first stage being able to reach the required range of altitudes and flight angles at 1520m/s  with small fuel mass variations. 
-Nevertheless small variation in fuel mass can have an important effect on the capabilities of the first stage, determining the velocity achievable at first to second stage separation, as well as the rate at which the rocket is able to pitch, and consequentially, the altitude and flight path angle range of the first stage.
- The optimum (lowest fuel consumption) trajectory for the first stage stack that can reach first-second stage separation condition $\textbf{x}_1(t_{1,f})$ is found by setting a cost function to minimise fuel mass:
+Nevertheless\textcolor{red}{,} small variation in fuel mass can have an important effect on the capabilities of the first stage, \textcolor{red}{influencing} the velocity achievable at first to second stage separation, as well as the rate at which the rocket is able to pitch, and consequentially, the altitude and flight path angle range of the first stage.
+ The optimal (lowest fuel consumption) trajectory for the first stage stack that can reach first-second stage separation condition $\textbf{x}_1(t_{1,f})$ is found by setting a cost function to minimise fuel mass:
 \begin{equation}
 \min\limits_{\textbf{u}_1} \quad  C_{1 \rightarrow 2}(\textbf{x}_1(t_{1,f}))
 \end{equation}
