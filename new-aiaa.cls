@@ -1,5 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% new-aiaa.cls, v1.0, 2017/07/31
+% new-aiaa.cls, v1.2, 2018/01/10
 % Developed by Overleaf
 % 
 % This class file enables authors to prepare papers
@@ -8,7 +8,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-\ProvidesClass{new-aiaa}[2017/07/31, v1.0]
+\ProvidesClass{new-aiaa}[2018/01/10, v1.2]
 
 \newif\if@conf
 \newif\if@journal
@@ -59,26 +59,28 @@
   \@author\par
   \endgroup
   \vskip\baselineskip
-  \thispagestyle{empty}
+  \if@journal
+    \thispagestyle{empty}
+  \fi
   \setcounter{footnote}{0}
 }
 
 
 \RequirePackage[explicit]{titlesec}
 \renewcommand{\thesection}{\Roman{section}}
-\renewcommand{\thesubsection}{\Alph{subsection}}
-\renewcommand{\thesubsubsection}{\arabic{subsubsection}}
+\renewcommand{\thesubsection}{\thesection.\Alph{subsection}}
+\renewcommand{\thesubsubsection}{\thesubsection.\arabic{subsubsection}}
 \titleformat{\section}
   {\large\bfseries\singlespacing\centering}
   {\thesection.\space}{0pt}{#1}[]
 \titlespacing{\section}{0pt}{0.5\baselineskip}{0pt}
 \titleformat{\subsection}
   {\normalsize\bfseries\singlespacing}
-  {\thesubsection.\space}{0pt}{#1}[]
+  {\Alph{subsection}.\space}{0pt}{#1}[]
 \titlespacing{\subsection}{0pt}{0.5\baselineskip}{0pt}
 \titleformat{\subsubsection}
   {\normalsize\itshape\singlespacing}
-  {\thesubsubsection.\space}{0pt}{#1}[]
+  {\arabic{subsubsection}.\space}{0pt}{#1}[]
 \titlespacing{\subsubsection}{0pt}{0.5\baselineskip}{0pt}
 
 \RequirePackage{lettrine}
@@ -104,4 +106,3 @@
 
 \RequirePackage[hyphens]{url}
 \RequirePackage{hyperref}
-

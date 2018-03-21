@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.6)  2 MAR 2018 11:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.6)  21 MAR 2018 10:18
 entering extended mode
 **./SholtoForbesSpyratos.tex
 (SholtoForbesSpyratos.tex
 LaTeX2e <2017-04-15>
 Babel <3.15> and hyphenation patterns for 76 language(s) loaded.
 (new-aiaa.cls
-Document Class: new-aiaa 2017/07/31, v1.0
+Document Class: new-aiaa 2018/01/10, v1.2
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
@@ -896,7 +896,7 @@ LaTeX Info: Redefining \cite on input line 694.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
+))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
 
@@ -994,7 +994,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip60
-))
+)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\bm.sty"
 Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup8
@@ -2054,10 +2054,10 @@ Package rerunfilecheck Info: File `SholtoForbesSpyratos.out' has not changed.
 (rerunfilecheck)             Checksum: 5C091DF99836D9F52FF174B4EDE7ED45;1972.
  ) 
 Here is how much of TeX's memory you used:
- 25619 strings out of 493308
- 469364 string characters out of 3138769
- 569452 words of memory out of 3000000
- 28430 multiletter control sequences out of 15000+200000
+ 25615 strings out of 493308
+ 469291 string characters out of 3138769
+ 569490 words of memory out of 3000000
+ 28427 multiletter control sequences out of 15000+200000
  649274 words of font info for 241 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,16n,94p,10384b,969s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2079,9 +2079,9 @@ blic/txfonts/rtxr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/txfonts/t
 rogram Files/MiKTeX 2.9/fonts/type1/public/newtx/txexs.pfb><C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/newtx/txsys.pfb><C:/Program Files/MiKTeX 2.9/fonts/
 type1/urw/times/utmri8a.pfb>
-Output written on SholtoForbesSpyratos.pdf (30 pages, 1214427 bytes).
+Output written on SholtoForbesSpyratos.pdf (30 pages, 1214185 bytes).
 PDF statistics:
- 662 PDF objects out of 1000 (max. 8388607)
- 164 named destinations out of 1000 (max. 500000)
+ 661 PDF objects out of 1000 (max. 8388607)
+ 163 named destinations out of 1000 (max. 500000)
  34610 words of extra memory for PDF output out of 35830 (max. 10000000)
 

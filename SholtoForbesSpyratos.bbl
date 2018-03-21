@@ -1,4 +1,4 @@
-\begin{thebibliography}{57}
+\begin{thebibliography}{56}
 \newcommand{\enquote}[1]{``#1''}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
@@ -172,13 +172,6 @@ Moshman, N.~D., and Proulx, R.~J., \enquote{{Range Improvements in Gliding
   Rockets}, Vol.~51, No.~5, 2014, pp. 1681--1694.
 \newblock \doi{10.2514/1.A32764},
   \urlprefix\url{http://arc.aiaa.org/doi/10.2514/1.A32764}.
-
-\bibitem[{Ranieri and Ocampo(2005)}]{Ranieri2005}
-Ranieri, C.~L., and Ocampo, C.~a., \enquote{{Optimization of Roundtrip,
-  Time-Constrained, Finite Burn Trajectories via an Indirect Method},}
-  \emph{Journal of Guidance, Control, and Dynamics}, Vol.~28, No.~2, 2005, pp.
-  306--314.
-\newblock \doi{10.2514/1.5540}.
 
 \bibitem[{Rao(2009)}]{Rao2009}
 Rao, A., \enquote{{A survey of numerical methods for optimal control},}

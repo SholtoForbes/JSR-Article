@@ -543,7 +543,7 @@ as well as a set of inequality constraints defining the bounds of the problem:
 
 
 The third stage trajectory optimization is performed using the direct single shooting method~\cite{Diehl2006}. The direct single shooting method is selected for the third stage trajectory optimisation due to its ease of initialization, allowing it to automatically solve repeated instances of the problem with different initial conditions. 
-The direct single shooting method uses \textcolor{red}{a sequential quadratic programming} algorithm to directly solve for the optimal time-discretised control history\textcolor{red}{\cite{Rao2009}}.
+The direct single shooting method uses \textcolor{red}{an SQP} algorithm to directly solve for the optimal time-discretised control history\textcolor{red}{\cite{Rao2009}}.
 This control history is optimised subject to the dynamics, cost and constraints of the system, which are evaluated at each iteration using forward simulation.
 Due to the strong dependence on the control history, the direct single shooting method is highly sensitive to the initial guess for nonlinear problems, and is mostly suited to solving well-conditioned problems.
 
@@ -552,7 +552,7 @@ Due to the strong dependence on the control history, the direct single shooting 
 
 \subsection{Optimisation Methodology}
 
-\textcolor{red}{The program LODESTAR (Launch Optimisation and Data Evaluation for Scramjet Trajectory Analysis Research) has been developed to produce an optimal trajectory path for a rocket-scramjet-rocket launch vehicle. LODESTAR provides subroutines which enable the simulation of rocket and scramjet vehicles in 6 degrees of freedom, designed specifically for use within an optimisation routine, including aerodynamic and engine performance calculations as well as trim analysis. LODESTAR also adaptively provides bound and guess inputs to the optimisation routines. In this study LODESTAR utilises a direct single shooting method for the third stage, and DIDO\cite{Ross,Ross2004}, a proprietary pseudospectral method optimisation package, for the first and second stages. DIDO solves the optimisation problem at shifted Legendre-Gauss-Lobatto points, using a spetral algorithm based on an active-set method within SNOPT, an SQP solver\cite{Ross,Gill2002}.} 
+\textcolor{red}{The program LODESTAR (Launch Optimisation and Data Evaluation for Scramjet Trajectory Analysis Research) has been developed to produce an optimal trajectory path for a rocket-scramjet-rocket launch vehicle. LODESTAR provides subroutines which enable the simulation of rocket and scramjet vehicles in 6 degrees of freedom, designed specifically for use within an optimisation routine, including aerodynamic and engine performance calculations as well as trim analysis. LODESTAR also adaptively provides bound and guess inputs to the optimisation routines. In this study LODESTAR utilises a direct single shooting method for the third stage, and DIDO\cite{Ross,Ross2004}, a proprietary pseudospectral method optimisation package, for the first and second stages. DIDO solves the optimisation problem at shifted Legendre-Gauss-Lobatto points, using a spectral algorithm based on an active-set method within SNOPT, an SQP solver\cite{Ross,Gill2002}.} 
 
 
 	 The three stages are considered as separate optimisation problems, which are coupled at the stage separation points.
