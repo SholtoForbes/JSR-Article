@@ -1,0 +1,16 @@
+-dont mention personal leave
+
+-mention that we are able to fulfil the reviewers requests
+
+-we want to wait until michaels paper is done
+
+
+Dear Dr. Schwane,
+
+I am writing to ask for a stay on the paper 'Trajectory Design of a Scramjet-Rocket Multi-Stage Launch System.'. 
+Work has been progressing steadily on this manuscript and we believe that we have been able to address the concerns of the reviewers. 
+However, this manuscript relies heavily on the co-author Michael Smarts' paper 'Reusable Launch of Small Satellites using Scramjets'. the vehicle design and dynamics rely on this paper and have been changing concurrently, causing changes to the optimal trajectory results and necessary methodology.
+This unified model is necessary in order to provide a coherent vehicle model between the papers and avoid reader confusion. 
+We would like, if possible, to put a stay on the manuscript 'Trajectory Design of a Scramjet-Rocket Multi-Stage Launch System.' until the manuscript containing the general vehicle design and basic simulations is nearer to its final stages.
+Thank you for your consideration, I hope that this request is reasonable and I apologise for the inconvenience. 
+

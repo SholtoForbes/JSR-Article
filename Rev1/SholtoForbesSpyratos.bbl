@@ -1,0 +1,373 @@
+\begin{thebibliography}{56}
+\newcommand{\enquote}[1]{``#1''}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\bibitem[{{Office of Commercial Space Transportation (AST) and the Commercial
+  Space Transportation Advisory Committee
+  (COMSTAC)}(2015)}]{Faa&Ast&Comstac2015}
+{Office of Commercial Space Transportation (AST) and the Commercial Space
+  Transportation Advisory Committee (COMSTAC)}, \emph{{2015 Commercial Space
+  Transportation Forecasts}}, May, Office of Commercial Space Transportation,
+  Washington, DC, 2015.
+
+\bibitem[{Smart and Tetlow(2009)}]{Smart2009a}
+Smart, M.~K., and Tetlow, M.~R., \enquote{{Orbital Delivery of Small Payloads
+  Using Hypersonic Airbreathing Propulsion},} \emph{Journal of Spacecraft and
+  Rockets}, Vol.~46, No.~1, 2009, pp. 117--125.
+\newblock \doi{10.2514/1.38784}.
+
+\bibitem[{{Heiser H. H.} and Pratt(1994)}]{HeiserWilliamPratt1994}
+{Heiser H. H.}, and Pratt, D.~T., \emph{{Hypersonic Airbreathing Propulsion}},
+  American Institute of Aeronautics and Astronautics, Washington, D.C, 1994.
+\newblock \doi{10.2514/4.470356}.
+
+\bibitem[{Flaherty et~al.(2010)Flaherty, Andrews, and Liston}]{Flaherty2010}
+Flaherty, K.~W., Andrews, K.~M., and Liston, G.~W., \enquote{{Operability
+  Benefits of Airbreathing Hypersonic Propulsion for Flexible Access to
+  Space},} \emph{Journal of Spacecraft and Rockets}, Vol.~47, No.~2, 2010, pp.
+  280--287.
+\newblock \doi{10.2514/1.43750},
+  \urlprefix\url{http://arc.aiaa.org/doi/abs/10.2514/1.43750}.
+
+\bibitem[{Preller and Smart(2017)}]{Preller2017b}
+Preller, D., and Smart, M.~K., \enquote{{Reusable Launch of Small Satellites
+  Using Scramjets},} \emph{Journal of Spacecraft and Rockets}, Vol.~54, No.~6,
+  2017, pp. 1--13.
+\newblock \doi{10.2514/1.A33610},
+  \urlprefix\url{https://arc.aiaa.org/doi/10.2514/1.A33610}.
+
+\bibitem[{Kimura and Sawada(1999)}]{Kimura1999}
+Kimura, T., and Sawada, K., \enquote{{Three-Stage Launch System with
+  Scramjets},} \emph{Journal of Spacecraft and Rockets}, Vol.~36, No.~5, 1999,
+  pp. 675--680.
+\newblock \doi{10.2514/2.3500}.
+
+\bibitem[{Olds and Budianto(1998)}]{Olds1998}
+Olds, J., and Budianto, I., \enquote{{Constant Dynamic Pressure Trajectory
+  Simulation with POST},} \emph{Aerospace Sciences Meeting \& Exhibit}, Reno,
+  NV, 1998, pp. 1--13.
+\newblock \doi{10.2514/6.1998-302},
+  \urlprefix\url{http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.25.6506\&amp;rep=rep1\&amp;type=pdf}.
+
+\bibitem[{{Space Exploration technologies}(2008)}]{Vehicle2008}
+{Space Exploration technologies}, \enquote{{Falcon 1 Launch Vehicle Payload
+  User’s Guide},} Tech. rep., Space Exploration Technologies, Hawthorne, CA,
+  2008.
+
+\bibitem[{Powell et~al.(1991)Powell, Shaughnessy, Cruz, and
+  Naftel}]{Powell1991}
+Powell, R.~W., Shaughnessy, J.~D., Cruz, C.~I., and Naftel, J.~C.,
+  \enquote{{Ascent performance of an air-breathing horizontal-takeoff launch
+  vehicle},} \emph{Journal of Guidance, Control, and Dynamics}, Vol.~14, No.~4,
+  1991, pp. 834--839.
+\newblock \doi{10.2514/3.20719}.
+
+\bibitem[{Lu(1993)}]{Lu1993}
+Lu, P., \enquote{{Inverse dynamics approach to trajectory optimization for an
+  aerospace plane},} \emph{Journal of Guidance, Control, and Dynamics},
+  Vol.~16, No.~4, 1993, pp. 726--732.
+\newblock \doi{10.2514/3.21073},
+  \urlprefix\url{http://arc.aiaa.org/doi/abs/10.2514/3.21073}.
+
+\bibitem[{Trefny(1999)}]{Trefny1999}
+Trefny, C., \enquote{{An Air-Breathing Concept Launch Vehicle for
+  Single-Stage-to-Orbit},} \emph{35th Joint Propulsion Conference and Exhibit},
+  Los Angeles, CA, 1999.
+\newblock \doi{10.2514/6.1999-2730}.
+
+\bibitem[{Roche and Kosareo(2000)}]{Roche2000}
+Roche, J.~M., and Kosareo, D.~N., \enquote{{Structural Sizing of a 25000-Lb
+  Payload , Air-Breathing Launch Vehicle for Single-Stage-To-Orbit},} Tech.
+  Rep. January 2001, 2000.
+
+\bibitem[{Pescetelli et~al.(2012)Pescetelli, Minisci, Maddock, Taylor, and
+  Brown}]{Pescetelli2012}
+Pescetelli, F., Minisci, E., Maddock, C., Taylor, I., and Brown, R.,
+  \enquote{{Ascent Trajectory Optimisation for a Single-Stage-to-Orbit Vehicle
+  with Hybrid Propulsion},} \emph{18th AIAA/3AF International Space Planes and
+  Hypersonic Systems and Technologies Conference}, 2012, pp. 1--18.
+\newblock \doi{10.2514/6.2012-5828},
+  \urlprefix\url{http://arc.aiaa.org/doi/abs/10.2514/6.2012-5828}.
+
+\bibitem[{Young et~al.(2006)Young, Kokan, Tanner, Clark, Tanner, and
+  Wilhite}]{Young2006}
+Young, D., Kokan, T., Tanner, C., Clark, I., Tanner, C., and Wilhite, A.,
+  \enquote{{Lazarus: A SSTO Hypersonic Vehicle Concept Utilizing RBCC and HEDM
+  Propulsion Technologies},} \emph{14th AIAA/AHI Space Planes and Hypersonic
+  Systems and Technologies Conference}, 2006, pp. 1--15.
+\newblock \doi{10.2514/6.2006-8099},
+  \urlprefix\url{http://arc.aiaa.org/doi/10.2514/6.2006-8099}.
+
+\bibitem[{Bradford et~al.(2000)Bradford, Olds, Bechtel, Cormier, and
+  Messitt}]{Bradford2000}
+Bradford, J., Olds, J., Bechtel, R., Cormier, T., and Messitt, D.,
+  \enquote{{Exploration of the design space for the ABLV-GT SSTO reusable
+  launch vehicle},} \emph{Space 2000 Conference and Exposition}, , No.
+  September, 2000.
+\newblock \doi{doi:10.2514/6.2000-5136},
+  \urlprefix\url{http://dx.doi.org/10.2514/6.2000-5136}.
+
+\bibitem[{Tsuchiya and Mori(2005)}]{Tsuchiya2005}
+Tsuchiya, T., and Mori, T., \enquote{{Optimal Design of Two-Stage-To-Orbit
+  Space Planes with Airbreathing Engines},} \emph{Journal of Spacecraft and
+  Rockets}, Vol.~42, No.~1, 2005, pp. 90--97.
+\newblock \doi{10.2514/1.8012}.
+
+\bibitem[{Wilhite et~al.(1991)Wilhite, Engelund, Stanley, and
+  Naftel}]{Wilhite1991}
+Wilhite, A.~W., Engelund, W.~C., Stanley, D.~O., and Naftel, J.~C.,
+  \enquote{{Technology and staging effects on two-stage-to-orbit systems},}
+  \emph{Journal of Spacecraft and Rockets}, Vol.~31, No.~1, 1991, pp. 31--39.
+\newblock \doi{10.2514/3.26399}.
+
+\bibitem[{Mehta and Bowles(2001)}]{Mehta2001}
+Mehta, U.~B., and Bowles, J.~V., \enquote{{Two-Stage-to-Orbit Spaceplane
+  Concept with Growth Potential},} \emph{Journal of Propulsion and Power},
+  Vol.~17, No.~6, 2001, pp. 1149--1161.
+\newblock \doi{10.2514/2.5886}.
+
+\bibitem[{Bedrossian et~al.(2007)Bedrossian, Technologies, and
+  Nasa}]{Bedrossian}
+Bedrossian, N., Technologies, B., and Nasa, L.~N., \enquote{{Zero Propellant
+  Maneuvre Flight Results For 180 Degree ISS Rotation},} \emph{20th
+  International Symposium on Space Flight Dynamics}, Annapolis, MD, 2007.
+
+\bibitem[{Josselyn and Ross(2002)}]{Josselyn2002}
+Josselyn, S., and Ross, I.~M., \enquote{{Rapid Verification Method for the
+  Trajectory Optimization of Reentry Vehicles},} \emph{Journal of Guidance,
+  Control, and Dynamics}, Vol.~26, No.~3, 2002, pp. 505--508.
+\newblock \doi{10.2514/2.5074}.
+
+\bibitem[{Yang et~al.(2017)Yang, Cui, Hao, and Yu}]{Yang2017}
+Yang, S., Cui, T., Hao, X., and Yu, D., \enquote{{Trajectory optimization for a
+  ramjet-powered vehicle in ascent phase via the Gauss pseudospectral method},}
+  \emph{Aerospace Science and Technology}, Vol.~67, 2017, pp. 88--95.
+\newblock \doi{10.1016/j.ast.2017.04.001},
+  \urlprefix\url{http://dx.doi.org/10.1016/j.ast.2017.04.001}.
+
+\bibitem[{Rizvi et~al.(2015)Rizvi, He, and Xu}]{Rizvi2015}
+Rizvi, S. T. U.~I., He, L.~S., and Xu, D.~J., \enquote{{Optimal trajectory and
+  heat load analysis of different shape lifting reentry vehicles for medium
+  range application},} \emph{Defence Technology}, Vol.~11, No.~4, 2015, pp.
+  350--361.
+\newblock \doi{10.1016/j.dt.2015.06.003},
+  \urlprefix\url{http://dx.doi.org/10.1016/j.dt.2015.06.003}.
+
+\bibitem[{Chai et~al.(2015)Chai, Fang, Wu, and Xu}]{Chai2015}
+Chai, D., Fang, Y.~W., Wu, Y.~L., and Xu, S.~H., \enquote{{Boost-skipping
+  trajectory optimization for air-breathing hypersonic missile},}
+  \emph{Aerospace Science and Technology}, Vol.~46, 2015, pp. 506--513.
+\newblock \doi{10.1016/j.ast.2015.09.004},
+  \urlprefix\url{http://dx.doi.org/10.1016/j.ast.2015.09.004}.
+
+\bibitem[{Moshman and Proulx(2014)}]{Moshman2014}
+Moshman, N.~D., and Proulx, R.~J., \enquote{{Range Improvements in Gliding
+  Reentry Vehicles from Thrust Capability},} \emph{Journal of Spacecraft and
+  Rockets}, Vol.~51, No.~5, 2014, pp. 1681--1694.
+\newblock \doi{10.2514/1.A32764},
+  \urlprefix\url{http://arc.aiaa.org/doi/10.2514/1.A32764}.
+
+\bibitem[{Rao(2009)}]{Rao2009}
+Rao, A., \enquote{{A survey of numerical methods for optimal control},}
+  \emph{Advances in the Astronautical Sciences}, Vol. 135, 2009, pp. 497--528.
+\newblock
+  \urlprefix\url{http://vdol.mae.ufl.edu/ConferencePublications/trajectorySurveyAAS.pdf}.
+
+\bibitem[{Fahroo and Ross(2000)}]{Fahroo2000}
+Fahroo, F., and Ross, I., \enquote{{Direct trajectory optimization by a
+  Chebyshev pseudospectral method},} \emph{Proceedings of the 2000 American
+  Control Conference.}, Chicago, IL, 2000, pp. 3860--3864.
+\newblock \doi{10.1109/ACC.2000.876945}.
+
+\bibitem[{Stryk and Bulirsch(1992)}]{Stryk1992}
+Stryk, O., and Bulirsch, R., \enquote{{Direct and indirect methods for
+  trajectory optimization},} \emph{Annals of Operations Research}, Vol.~37,
+  1992, pp. 357--373.
+\newblock \doi{10.1007/BF02071065}.
+
+\bibitem[{Boggs and Tolle(2000)}]{Boggs2000}
+Boggs, P., and Tolle, J., \enquote{{Sequential quadratic programming for
+  large-scale nonlinear optimization},} \emph{Journal of Computational and
+  Applied Mathematics}, Vol. 124, No. 1-2, 2000, pp. 123--137.
+\newblock \doi{10.1016/S0377-0427(00)00429-5},
+  \urlprefix\url{http://linkinghub.elsevier.com/retrieve/pii/S0377042700004295$\backslash$nhttp://www.sciencedirect.com/science/article/pii/S0377042700004295}.
+
+\bibitem[{Elnagar et~al.(1995)Elnagar, Kazemi, and Razzaghi}]{Elganar}
+Elnagar, G., Kazemi, M.~a., and Razzaghi, M., \enquote{{The Pseudospectral
+  Legendre Method for Discetizing Optimal Control Problems},} \emph{IEEE
+  Transactions on Automatic Control}, Vol.~40, No.~10, 1995, pp. 1793--1796.
+\newblock \doi{10.1109/9.467672}.
+
+\bibitem[{Garg et~al.(2009)Garg, Patterson, and Hager}]{Garg2009}
+Garg, D., Patterson, M., and Hager, W., \enquote{{An Overview of Three
+  Pseudospectral Methods for the Numerical Solution of Optimal Control
+  Problems},} \emph{Advances in thAstronautical Sciences}, Vol. 135, 2009, pp.
+  1--17.
+\newblock
+  \urlprefix\url{http://vdol.mae.ufl.edu/ConferencePublications/unifiedFrameworkAAS.pdf}.
+
+\bibitem[{{Fahroo F. \& Ross}(1999)}]{Fahroo1999}
+{Fahroo F. \& Ross}, I., \enquote{{Computational Optimal Control By Spectral
+  Collocation With Differential Inclusion},} \emph{1999 Flight Mechanics
+  Symposium}, Greenbelt, MD, 1999, pp. 185--200.
+
+\bibitem[{Huntington and Rao(2008)}]{Huntington2008}
+Huntington, G.~T., and Rao, A.~V., \enquote{{Optimal Reconfiguration of
+  Spacecraft Formations Using the Gauss Pseudospectral Method},} \emph{Journal
+  of Guidance, Control, and Dynamics}, Vol.~31, No.~3, 2008, pp. 689--698.
+\newblock \doi{10.2514/1.31083},
+  \urlprefix\url{http://arc.aiaa.org/doi/abs/10.2514/1.31083}.
+
+\bibitem[{Yan et~al.(2007)Yan, Ross, and Alfriend}]{Yan2007}
+Yan, H., Ross, I.~M., and Alfriend, K.~T., \enquote{{Pseudospectral Feedback
+  Control for Three-Axis Magnetic Attitude Stabilization in Elliptic Orbits},}
+  \emph{Journal of Guidance, Control, and Dynamics}, Vol.~30, No.~4, 2007, pp.
+  1107--1115.
+\newblock \doi{10.2514/1.26591}.
+
+\bibitem[{Preller and Smart(2015)}]{Preller2015a}
+Preller, D., and Smart, M.~K., \enquote{{Scramjets for Reusable Launch of Small
+  Satellites},} \emph{20th AIAA International Space Planes and Hypersonic
+  Systems and Technologies Conference}, Glasgow, Scotland, 2015, pp. 1--23.
+\newblock \doi{10.2514/6.2015-3586}.
+
+\bibitem[{Jazra et~al.(2013)Jazra, Preller, and Smart}]{Jazra2013}
+Jazra, T., Preller, D., and Smart, M.~K., \enquote{{Design of an Airbreathing
+  Second Stage for a Rocket-Scramjet-Rocket Launch Vehicle},} \emph{Journal of
+  Spacecraft and Rockets}, Vol.~50, No.~2, 2013, pp. 411--422.
+\newblock \doi{10.2514/1.A32381},
+  \urlprefix\url{http://arc.aiaa.org/doi/abs/10.2514/1.A32381}.
+
+\bibitem[{Suraweera and Smart(2009)}]{Suraweera2009}
+Suraweera, M., and Smart, M.~K., \enquote{{Shock Tunnel Experiments with a Mach
+  12 \{REST\} Scramjet at Off-Design Conditions},} \emph{Journal of Propulsion
+  and Power}, Vol.~25, No.~3, 2009, pp. 555--564.
+\newblock \doi{10.2514/1.37946}.
+
+\bibitem[{Gollan and Smart(2013)}]{Gollan2010}
+Gollan, R.~J., and Smart, M.~K., \enquote{{Design of Modular ,
+  Shape-transitioning Inlets for a Conical Hypersonic Vehicle},}
+  \emph{Aerospace, AIAA}, Vol.~29, No.~4, 2013, pp. 832--838.
+\newblock \doi{10.2514/6.2010-940}.
+
+\bibitem[{{Aftosmis, M. J., Berger} and Adomavicius(2000)}]{CART3D}
+{Aftosmis, M. J., Berger}, M.~J., and Adomavicius, G., \enquote{{A Parallel
+  Multilevel Method for Adaptively Refined Cartesian Grids with Embedded
+  Boundaries},} \emph{38th Aerospace Sciences Meeting and Exhibit}, Reno NV,
+  2000.
+\newblock \doi{10.2514/6.2000-808}.
+
+\bibitem[{Aftosmis et~al.(1998)Aftosmis, Berger, and Melton}]{Aftosmis1998}
+Aftosmis, M.~J., Berger, M.~J., and Melton, J.~E., \enquote{{Robust and
+  Efficient Cartesian Mesh Generation for Component-Based Geometry},}
+  \emph{AIAA Journal}, Vol.~36, No.~6, 1998, pp. 952--960.
+\newblock \doi{10.2514/2.464},
+  \urlprefix\url{https://arc.aiaa.org/doi/pdfplus/10.2514/2.464$\backslash$nhttp://arc.aiaa.org/doi/10.2514/2.464}.
+
+\bibitem[{Mehta et~al.(2015)Mehta, Aftosmis, Bowles, and Pandya}]{Mehta2015}
+Mehta, U., Aftosmis, M., Bowles, J., and Pandya, S., \enquote{{Skylon
+  Aerodynamics and SABRE Plumes},} \emph{20th AIAA International Space Planes
+  and Hypersonic Systems and Technologies Conference}, Glasgow, Scotland, 2015,
+  pp. 1--21.
+\newblock \doi{10.2514/6.2015-3605}.
+
+\bibitem[{Sagerman et~al.(2017)Sagerman, Rumpfkeil, Hellman, and
+  Dasque}]{Sagerman2017}
+Sagerman, D.~G., Rumpfkeil, M.~P., Hellman, B.~M., and Dasque, N.,
+  \enquote{{Comparisons of Measured and Modeled Aero-thermal Distributions for
+  Complex Hypersonic Configurations},} \emph{55th AIAA Aerospace Sciences
+  Meeting}, , No. January, 2017, pp. 1--22.
+\newblock \doi{10.2514/6.2017-0264},
+  \urlprefix\url{http://arc.aiaa.org/doi/10.2514/6.2017-0264}.
+
+\bibitem[{Abeynayake and Agon(2013)}]{Abeynayake}
+Abeynayake, D., and Agon, A., \enquote{{Comparison of computational and
+  semi-empirical aerodynamics tools for making fit-for-purpose modelling
+  decisions},} \emph{20th International Congress on Modelling and Simulation},
+  Adelaide, Australia, 2013, pp. 1--6.
+
+\bibitem[{Aftosmis et~al.(2011)Aftosmis, Nemec, and Cliff}]{Aftosmis2011}
+Aftosmis, M.~J., Nemec, M., and Cliff, S.~E., \enquote{{Adjoint-based low-boom
+  design with Cart3D},} \emph{29th AIAA Applied Aerodynamics Conference 2011},
+  2011, pp. 1--17.
+\newblock \doi{doi:10.2514/6.2011-3500},
+  \urlprefix\url{http://www.scopus.com/inward/record.url?eid=2-s2.0-84872373928\&partnerID=tZOtx3y1}.
+
+\bibitem[{PTC(2017)}]{CREO}
+PTC, \enquote{www.ptc.com,} , 2017.
+\newblock \urlprefix\url{http://www.ptc.com/cad/creo/parametric}.
+
+\bibitem[{Pointwise(2017)}]{Pointwise}
+Pointwise, \enquote{www.pointwise.com,} , 2017.
+\newblock \urlprefix\url{http://www.pointwise.com/}.
+
+\bibitem[{Jazra and Smart(2009)}]{Jazra2009}
+Jazra, T., and Smart, M., \enquote{{Development of an Aerodynamics Code for the
+  Optimisation of Hypersonic Vehicles},} \emph{47th AIAA Aerospace Sciences
+  Meeting Including The New Horizons Forum and Aerospace Exposition}, Orlando,
+  Florida, 2009.
+\newblock \doi{10.2514/6.2009-1475}.
+
+\bibitem[{Rosema et~al.(2011)Rosema, Doyle, Auman, Underwood, and
+  Blake}]{Rosema2011}
+Rosema, C., Doyle, J., Auman, L., Underwood, M., and Blake, W.~B.,
+  \enquote{{Missile DATCOM User's Manual - 2011 Revision.}} Tech. rep., Army
+  Aviation and Missile Research Development, 2011.
+\newblock \doi{10.21236/ad1000581}.
+
+\bibitem[{Zandbergen(2000)}]{Zandbergen}
+Zandbergen, B., \enquote{{Modern Liquid Propellant Rocket Engines , 2000
+  Outlook},} Tech. Rep. October, Delft university of Technology, 2000.
+\newblock \doi{10.13140/2.1.4640.0003}.
+
+\bibitem[{NASA(1976)}]{Administration1976}
+NASA, \emph{{U.S. Standard Atmosphere, 1976}}, U.S. Government Printing Office,
+  Washington, D.C., 1976.
+\newblock
+  \urlprefix\url{http://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19770009539.pdf}.
+
+\bibitem[{Sutton and Biblarz(2010)}]{RPE}
+Sutton, G., and Biblarz, O., \emph{{Rocket propulsion Elements}},
+  8\textsuperscript{th} ed., John Wiley \& Sons, 2010.
+\newblock \doi{10.1017/S0001924000034308}.
+
+\bibitem[{Bertsekas(2005)}]{Bertsekas2005}
+Bertsekas, D.~P., \emph{{Dynamic Programming and Optimal Control, Volume I}},
+  Athena Scientific, Belmont, MA, 2005.
+
+\bibitem[{Ross(2015)}]{Ross}
+Ross, I.~M., \emph{{A Beginners Guide to DIDO (ver 7.3): A MATLAB Application
+  Package for Solving Optimal Control Problems}}, Elissar, LLC, Monterey, CA,
+  2015.
+
+\bibitem[{Diehl et~al.(2006)Diehl, Bock, Diedam, and Wieber}]{Diehl2006}
+Diehl, M., Bock, H.~G., Diedam, H., and Wieber, P.~B., \enquote{{Fast direct
+  multiple shooting algorithms for optimal robot control},} \emph{Lecture Notes
+  in Control and Information Sciences}, Vol. 340, 2006, pp. 65--93.
+\newblock \doi{10.1007/978-3-540-36119-0\_4}.
+
+\bibitem[{Ross and Fahroo(2004)}]{Ross2004}
+Ross, I.~M., and Fahroo, F., \enquote{{Pseudospectral Knotting Methods for
+  Solving Nonsmooth Optimal Control Problems},} \emph{Journal of Guidance,
+  Control, and Dynamics}, Vol.~27, No.~3, 2004, pp. 397--405.
+\newblock \doi{10.2514/1.3426}.
+
+\bibitem[{Gill et~al.(2002)Gill, Murray, and Saunders}]{Gill2002}
+Gill, P.~E., Murray, W., and Saunders, M.~a., \enquote{{SNOPT: An SQP Algorithm
+  for Large-Scale Constrained Optimization},} \emph{SIAM Journal on
+  Optimization}, Vol.~12, No.~4, 2002, pp. 979--1006.
+\newblock \doi{10.1137/S1052623499350013},
+  \urlprefix\url{http://epubs.siam.org/doi/10.1137/S1052623499350013}.
+
+\bibitem[{{The MathWorks Inc.}(2014)}]{MATLAB}
+{The MathWorks Inc.}, \enquote{{MATLAB and Optimization Toolbox Release
+  2014b},} , 2014.
+\newblock \urlprefix\url{www.mathworks.com}.
+
+\end{thebibliography}

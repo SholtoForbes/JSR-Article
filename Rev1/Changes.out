@@ -1,0 +1,11 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{The SPARTAN System}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{The First Stage Rocket}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{The Scramjet Accelerator}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{The Third Stage Rocket}{section.2}% 5
+\BOOKMARK [1][-]{section.3}{Aerodynamics, Propulsion and Dynamic Modelling}{}% 6
+\BOOKMARK [2][-]{subsection.3.1}{Aerodynamics}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.2}{Propulsion}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.3}{Dynamic Model}{section.3}% 9
+\BOOKMARK [1][-]{section.4}{Trajectory Optimisation}{}% 10
+\BOOKMARK [2][-]{subsection.4.1}{Trajectory Planning as an Optimal Control Problem}{section.4}% 11
